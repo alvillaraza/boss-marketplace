@@ -1,6 +1,6 @@
-import Hats from './Hats'
-import Wigs from './Wigs'
-import Clothing from './Clothing'
+import Hats from './Hats/Hats'
+import Wigs from './Wigs/Wigs'
+import Clothing from './Clothing/Clothing'
 import './App.css';
 
 function App() {
