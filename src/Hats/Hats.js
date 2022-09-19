@@ -13,6 +13,7 @@ import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
 import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
 import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
+// "black curly wig" red rose headpiece
 
 
 function Hats() {
