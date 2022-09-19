@@ -28,6 +28,21 @@ import harley_quinn_OG from "./assets/harley_quinn_OG.jpeg";
 import hooded_fur from "./assets/hooded_fur.jpeg";
 import hot_pink_strappy from "./assets/hot_pink_strappy.jpeg";
 import hula_girl from "./assets/hula_girl.jpeg";
+import incredibles from "./assets/incredibles.jpeg";
+import james_bond from "./assets/james_bond.jpeg";
+import latina_fluff_3 from "./assets/latina_fluff_3.jpeg";
+import latina_mariachi from "./assets/latina_mariachi.jpeg";
+import lisa_frank from "./assets/lisa_frank.jpeg";
+import lisa_frank2 from "./assets/lisa_frank2.jpeg";
+import mardi_gras from "./assets/mardi_gras.jpeg";
+import marie_antoinette from "./assets/marie_antoinette.jpeg";
+import mermaids from "./assets/mermaids.jpeg";
+import olive_gold_spikes from "./assets/olive_gold_spikes.jpeg";
+import pikachu from "./assets/pikachu.jpeg";
+import pirate_captain from "./assets/pirate_captain.jpeg";
+import pirates from "./assets/pirates.jpeg";
+import popsicles from "./assets/popsicles.jpeg";
+import race_car from "./assets/race_car.jpeg";
 
 
 // data set should be name, image, number in Storage (count), items for sale, price?
@@ -151,6 +166,66 @@ const clothingData = [
   {
       name: "Hula Girl",
       image: hula_girl,
+    },
+  {
+      name: "Incredibles Superhero",
+      image: incredibles,
+    },
+  {
+      name: "Bond Girls",
+      image: james_bond,
+    },
+  {
+      name: "Ruffles",
+      image: latina_fluff_3,
+    },
+  {
+      name: "Mariachi Inspired",
+      image: latina_mariachi,
+    },
+  {
+      name: "Lisa Frank Inspired",
+      image: lisa_frank,
+    },
+  {
+      name: "Lisa Frank Inspired",
+      image: lisa_frank2,
+    },
+  {
+      name: "Mardi Gras",
+      image: mardi_gras,
+    },
+  {
+      name: "Marie Antoinette",
+      image: marie_antoinette,
+    },
+  {
+      name: "Mermaids",
+      image: mermaids,
+    },
+  {
+      name: "Olive Gold Spikey 2 piece",
+      image: olive_gold_spikes,
+    },
+  {
+      name: "Pikachu",
+      image: pikachu,
+    },
+  {
+      name: "Pirate Captain",
+      image: pirate_captain,
+    },
+  {
+      name: "Pirates",
+      image: pirates,
+    },
+  {
+      name: "The Bomb Pop Popsicles",
+      image: popsicles,
+    },
+  {
+      name: "Racing Leotard",
+      image: race_car,
     },
 
 ];
