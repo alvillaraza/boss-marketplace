@@ -2,7 +2,7 @@ import hatsData from './data'
 
 function Hats() {
   return (
-    <div>
+    <div className='category-wrapper'>
       Hats
       {hatsData.map((hats) => {
         console.log(hats);

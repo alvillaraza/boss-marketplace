@@ -12,9 +12,8 @@ function App() {
   return (
     <div className="Marketplace">
       <header className="App-header">
-        <Header />
-      </header>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route exact path="/" element={<LandingPage />}></Route>
 
@@ -26,6 +25,7 @@ function App() {
           <Route exact path="/wigs" element={<Wigs />}></Route>
         </Routes>
       </BrowserRouter>
+      </header>
     </div>
   );
 }
