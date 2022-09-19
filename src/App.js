@@ -1,15 +1,12 @@
-import Hats from './Hats/Hats'
-import Wigs from './Wigs/Wigs'
-import Clothing from './Clothing/Clothing'
+import Header from './Header/Header'
 import './App.css';
 
 function App() {
   return (
     <div className="Marketplace">
       <header className="App-header">
-        <Hats />
-        <Clothing />
-        <Wigs />
+        <Header />
+       
       </header>
     </div>
   );
