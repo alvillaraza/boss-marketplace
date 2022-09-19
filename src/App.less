@@ -1,8 +1,39 @@
-.Marketplace {
-  background-color: black;
-  color: white;
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 
+.Marketplace {
   a {
     color: white;
+    text-decoration: none;
+  }
+
+  img {
+    height: auto;
+    max-height: 250px;
+    width: auto;
+    max-width: 250px;
+    padding: 10px;
+  }
+
+  .header-wrapper {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+
+      h2 {
+        font-family: "Prata", serif;
+      }
+
+      h2:hover {
+        text-shadow: 2px 2px 8px #ffffff;
+      }
+    }
+  }
+
+  .category-wrapper {
+    background-color: white;
   }
 }
