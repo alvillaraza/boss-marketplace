@@ -21,6 +21,13 @@ import gold_retro from "./assets/gold_retro.jpeg";
 import green_mesh from "./assets/green_mesh.jpeg";
 import green_robe from "./assets/green_robe.jpeg";
 import green_school_girl_golf from "./assets/green_school_girl_golf.jpeg";
+import green_shamrock from "./assets/green_shamrock.jpeg";
+import halloween_candy from "./assets/halloween_candy.jpeg";
+import halloween_geisha from "./assets/halloween_geisha.jpeg";
+import harley_quinn_OG from "./assets/harley_quinn_OG.jpeg";
+import hooded_fur from "./assets/hooded_fur.jpeg";
+import hot_pink_strappy from "./assets/hot_pink_strappy.jpeg";
+import hula_girl from "./assets/hula_girl.jpeg";
 
 
 // data set should be name, image, number in Storage (count), items for sale, price?
@@ -116,6 +123,34 @@ const clothingData = [
   {
       name: "Green School Girl Golf Outfit",
       image: green_school_girl_golf,
+    },
+  {
+      name: "Green St Patrick's Shamrock Leotard",
+      image: green_shamrock,
+    },
+  {
+      name: "Halloween Candy",
+      image: halloween_candy,
+    },
+  {
+      name: "Zombie Geisha",
+      image: halloween_geisha,
+    },
+  {
+      name: "OG Harley Quinn",
+      image: harley_quinn_OG,
+    },
+  {
+      name: "Hooded Fur Leotard",
+      image: hooded_fur,
+    },
+  {
+      name: "Strappy Hot Pink",
+      image: hot_pink_strappy,
+    },
+  {
+      name: "Hula Girl",
+      image: hula_girl,
     },
 
 ];
