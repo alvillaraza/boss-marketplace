@@ -14,3 +14,68 @@ import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
 import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 
+const hatsData = [
+    {
+        name: 'Sailor Captain Hat',
+        image: captain_hat_front
+    },
+    {
+        name: 'Freddy Kreuger Hat and Gloves',
+        image: freddy_with_hands
+    },
+    {
+        name: 'Green Shamrock Bowler Hat',
+        image: greenbowlerhat_side
+    },
+    {
+        name: 'Green Tophat',
+        image: greentophat_side
+    },
+    {
+        name: 'Leopard Fur Hood',
+        image: leopard_fur_front2
+    },
+    {
+        name: 'Mariachi Hat',
+        image: mariachi_front
+    },
+    {
+        name: 'Patriotic Flowers Summer Hat',
+        image: patriotic_summer_front
+    },
+    {
+        name: 'Patriotic Feathers Tophat',
+        image: patriotic_tophat_front
+    },
+    {
+        name: 'Patriotic Visor',
+        image: patriotic_visor_side
+    },
+    {
+        name: 'Sailor Hat',
+        image: sailor_front
+    },
+    {
+        name: 'Sailor Stripe Hat',
+        image: sailor_stripe_front
+    },
+    {
+        name: 'Green Tophat with Buckle',
+        image: tophatwithbuckle
+    },
+    {
+        name: 'White Fur Hood with Ears',
+        image: white_fur_ears_front
+    },
+    {
+        name: 'White Fur Hat',
+        image: white_fur_hat
+    },
+    {
+        name: 'White Sailor',
+        image: white_sailor_side
+    },
+
+]
+
+export default hatsData;
