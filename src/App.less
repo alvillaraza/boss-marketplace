@@ -27,8 +27,12 @@
     padding: 20px;
 
     nav {
-      display: flex;
-      justify-content: space-evenly;
+      display: grid;
+      // grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    a {
+      grid-row: 1/2;
+    }
 
       h2:hover {
         text-shadow: 2px 2px 8px #ffffff;
@@ -112,9 +116,10 @@
   }
 
   @media screen and (max-width: 414px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    nav {
+      grid-template-columns: 1fr 1fr;
+    }
+
     .category-wrapper {
       grid-template-columns: 1fr;
     }

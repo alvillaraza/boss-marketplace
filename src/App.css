@@ -35,8 +35,10 @@
   padding: 20px;
 }
 .Marketplace .header-wrapper nav {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+}
+.Marketplace .header-wrapper nav a {
+  grid-row: 1/2;
 }
 .Marketplace .header-wrapper nav h2:hover {
   text-shadow: 2px 2px 8px #ffffff;
@@ -101,8 +103,7 @@
   padding: 1px;
 }
 @media screen and (max-width: 414px) {
-  .Marketplace {
-    display: grid;
+  .Marketplace nav {
     grid-template-columns: 1fr 1fr;
   }
   .Marketplace .category-wrapper {
