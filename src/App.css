@@ -27,6 +27,7 @@
   max-width: 300px;
   border-radius: 10%;
   box-shadow: 5px 6px 6px -1px rgba(0, 0, 0, 0.21);
+  margin-block: 10px;
 }
 .Marketplace .header-wrapper {
   background-color: black;
@@ -98,8 +99,5 @@
   }
   .Marketplace .category-wrapper {
     grid-template-columns: 1fr;
-  }
-  .Marketplace .category-wrapper img {
-    margin-block: 10px;
   }
 }

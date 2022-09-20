@@ -5,7 +5,7 @@ function Wigs() {
   return (
     // todo: add marie antoinette wig
     <div className="category-wrapper">
-      wigs
+      {/* wigs */}
       {wigsData.map((wigs) => {
         return (
           <div className="photo">

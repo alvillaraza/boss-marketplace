@@ -4,7 +4,7 @@ import Description from "../Description";
 function Accessories() {
   return (
     <div className="category-wrapper">
-      Accessories
+      {/* Accessories */}
       {accessoriesData.map((accessories) => {
         return (
           <div className="photo">
