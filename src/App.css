@@ -13,7 +13,6 @@
   src: url(https://fonts.gstatic.com/s/prata/v18/6xKhdSpbNNCT-vWI.ttf) format('truetype');
 }
 .Marketplace a {
-  color: white;
   text-decoration: none;
 }
 .Marketplace h2,
@@ -34,13 +33,14 @@
   color: white;
   padding: 20px;
 }
+.Marketplace .header-wrapper a {
+  color: white;
+  grid-row: 1/2;
+}
 .Marketplace .header-wrapper nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-.Marketplace .header-wrapper nav a {
-  grid-row: 1/2;
 }
 .Marketplace .header-wrapper nav h2:hover {
   text-shadow: 2px 2px 8px #ffffff;
