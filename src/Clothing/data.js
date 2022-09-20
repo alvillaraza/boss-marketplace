@@ -474,6 +474,16 @@ const clothingData = [
         price: 5,
         count: 3,
       },
+      {
+        item: "short red satin gloves",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "short black satin gloves",
+        price: 5,
+        count: 3,
+      },
     ],
   },
   {
@@ -772,6 +782,11 @@ const clothingData = [
         price: 10,
         count: 2,
       },
+      {
+        item: "short red satin gloves",
+        price: 5,
+        count: 3,
+      },
     ],
   },
   {
@@ -783,83 +798,323 @@ const clothingData = [
         price: 10,
         count: 1,
       },
+      {
+        item: "short red satin gloves",
+        price: 5,
+        count: 3,
+      },
     ],
   },
   {
     name: "Red Feather Tutu",
     image: red_feather_tutu,
+    available: [
+      {
+        item: "bra and feather half tutu",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Red Mesh Top",
     image: red_mesh,
+    available: [
+      {
+        item: "red mesh crop top",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Red Ninja",
     image: red_ninaj,
+    available: [
+      {
+        item: "ninja top with mask and bottoms",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "pair of red, braided hair extensions",
+        price: 8,
+        count: 4,
+      },
+    ],
   },
   {
     name: "Retro Leopard Leotard",
     image: retro_leopard,
+    available: [
+      {
+        item: "leopard leotard and a pair of fur leg garters",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "red retro sunglasses",
+        price: 8,
+        count: 2,
+      },
+      {
+        item: "short red satin gloves",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Ring Leader",
     image: ring_leader,
+    available: [
+      {
+        item: "red half jacket and black high waisted bottoms",
+        price: 10,
+        count: 1,
+      },
+      {
+        item: "short black satin gloves",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Rose Gold Leotard",
     image: rose_gold_leo,
+    available: [
+      {
+        item: "rose gold sequin leotard and ribbon neck piece",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "curly retro betty boop blonde wig",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "butterfly fascinator hair clip",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Ruffley Rose Ensemble",
     image: salsa_latina,
+    available: [
+      {
+        item: "red sequin bra with attached ruffley sleeves",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "red sequin bottoms",
+        price: 8,
+        count: 4,
+      },
+      {
+        item: "black flapper headwrap hat",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "fringe earrings (2 different styles)",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Purple and Blue Samba Girls",
     image: samba_girls_purple_blue,
+    available: [
+      {
+        item: "bra (purple or blue) with bottoms and arm bands",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "peacock feather shoulder pieces",
+        price: 25,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Purple and Blue Samba Girls",
     image: samba_girls_purple_blue2,
+    available: [
+      {
+        item: "bra (purple or blue) with bottoms and arm bands",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "peacock feather shoulder pieces",
+        price: 25,
+        count: 2,
+      },
+      {
+        item: "silver necklace",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "silver head decor",
+        price: 5,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Samba Girls",
     image: samba_girls,
+    available: [
+      {
+        item: "bra (purple or blue) with bottoms and arm bands",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "peacock feather shoulder pieces",
+        price: 25,
+        count: 2,
+      },
+      {
+        item: "neon green leotard",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "green, pink, yellow shoulder piece with matching leg feather bands",
+        price: 28,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Green and Pink Samba Girls",
     image: samba_girls2,
+    available: [
+      {
+        item: "neon green leotard",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "green, pink, yellow shoulder piece with matching leg feather bands",
+        price: 28,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Santa Hoodie Leotard",
     image: santa_hoodie,
+    available: [
+      {
+        item: "santa fur hoodie leotard",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Shark",
     image: shark,
+    available: [
+      {
+        item: "silver shark top with hood and arm bands",
+        price: 20,
+        count: 3,
+      },
+      {
+        item: "silver bottoms",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Silver and Black Ensemble",
     image: silver_black_raw_fashion,
+    available: [
+      {
+        item: "silver with black lace top and bottoms and black lace wrap",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Silver Disco Leotard",
     image: silver_disco_leo,
+    available: [
+      {
+        item: "silver sequin leotard",
+        price: 15,
+        count: 3,
+      },
+      {
+        item: "white fur jacket",
+        price: 25,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Silver Fringe Belt",
     image: silver_fringe_belt,
+    available: [
+      {
+        item: "silver fringe belt",
+        price: 8,
+        count: 5,
+      },
+    ],
   },
   {
     name: "Sporty Football Outfit",
     image: sporty_football,
+    available: [
+      {
+        item: "pink and black half top shoulder pads, top, and bottoms",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "St Patricks Outfit",
     image: st_patricks,
+    available: [
+      {
+        item: "green vest and green bowtie",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gold high waist bottoms",
+        price: 5,
+        count: 3,
+      },
+      { item: "green hat with gold shamrocks", price: 15, count: 3 },
+      { item: "gold sequin baton", price: 5, count: 3 },
+    ],
   },
   {
     name: "Teenage Mutant Ninja Turtle Leonardo",
     image: tmnt,
+    available: [
+      {
+        item: "top, wristbands, waist wrap, and shell backpack",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Trapfest 2 Pieces",
