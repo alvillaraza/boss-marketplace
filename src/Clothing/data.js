@@ -71,144 +71,517 @@ import winter_white_leo from "./assets/winter_white_leo.jpeg";
 import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
 
-
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
   {
     name: "apocalypse gold costume 2",
     image: apocalypse_gold_2,
+    available: [
+      {
+        item: "bra",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gas mask",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gold studded belt",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "apocalypse costume",
     image: apocalypse_gold,
+    available: [
+      {
+        item: "bra",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gas mask",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "audrey hepburn leotard",
     image: audrey_hepburn,
+    available: [
+      {
+        item: "leotard",
+        price: 10,
+        count: 2,
+      },
+
+      {
+        item: "cigarette holder",
+        price: 3,
+        count: 1,
+      },
+    ],
   },
   {
-    name: "autumn babes outfit",
+    name: "Autumn Babes Outfit",
     image: autumn_babes,
+    available: [
+      {
+        item: "Bra, wrap, and floral clips",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
-    name: "autumn glitter",
+    name: "Autumn Glitter",
     image: autumn_full_piece,
+    available: [
+      {
+        item: "Bra, bottoms, and flowy back skirt",
+        price: 20,
+        count: 1,
+      },
+    ],
   },
   {
     name: "white lace full leotard",
     image: white_lace_suit,
+    available: [
+      {
+        item: "White lace full body leotard",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "White metal mask",
+        price: 12,
+        count: 1,
+      },
+    ],
   },
   {
-    name: "autumn babes outfit",
+    name: "black lace leotard",
     image: black_lacey_leo,
+    available: [
+      {
+        item: "black lace leotard",
+        price: 5,
+        count: 4,
+      },
+      {
+        item: "black lace bunny mask",
+        price: 15,
+        count: 3,
+      },
+      {
+        item: "long black lace gloves",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "bloody bunnies outfit",
     image: bloody_bunnies,
+    available: [
+      {
+        item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
+        price: 20,
+        count: 1,
+      },
+    ],
   },
   {
     name: "bloody bunnies outfit",
     image: bloody_bunnies2,
+    available: [
+      {
+        item: "floppy hoodie, leotard, gloves, and bunny tail",
+        price: 20,
+        count: 1,
+      },
+    ],
   },
   {
-    name: "bloody bunnies outfit",
+    name: "blue sequin leotard",
     image: blue_sequin,
+    available: [
+      {
+        item: "blue sequin leotard",
+        price: 15,
+        count: 3,
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+      {
+        item: "white wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "bride of frankenstein",
     image: bride_frankenstein,
+    available: [
+      {
+        item: "bra, long skirt, wig",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "camo 2pc",
     image: camo_2pc,
+    available: [
+      {
+        item: "bra and bottoms",
+        price: 8,
+        count: 3,
+      },
+      {
+        item: "gold studded belt",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "christmas tartan plaid leotard",
     image: christmas_tartan,
+    available: [
+      {
+        item: "tartan plaid leotard",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "poinsettia headband",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "comic book top",
     image: comic_book,
+    available: [
+      {
+        item: "half top",
+        price: 5,
+        count: 2,
+      },
+    ],
   },
   {
     name: "retro sailor outfit",
     image: cute_sailor_retro,
+    available: [
+      {
+        item: "bra and bottoms",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "red and white striped bra",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "sailor headband",
+        price: 8,
+        count: 3,
+      },
+    ],
   },
   {
     name: "futuristic silver",
     image: dancetronauts,
-  },
-  {
-    name: "fembots",
-    image: fembots,
+    available: [
+      {
+        item: "neckpiece, bra, bottoms, arm bands",
+        price: 15,
+        count: 1,
+      },
+    ],
   },
   {
     name: "futuristic silver 2pc",
     image: futuristic_silver,
+    available: [
+      {
+        item: "top, bottoms, gloves",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "fembots",
+    image: fembots,
+    available: [
+      {
+        item: "wig",
+        price: 15,
+        count: 3,
+      },
+      {
+        item: "dress, bottoms, gloves, and poof for shoes",
+        price: 25,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Oktoberfest",
     image: german_oktoberfest_2,
+    available: [
+      {
+        item: "bra, skirt jumper, arm bands",
+        price: 15,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Gold Disco Outfit",
     image: gold_retro,
+    available: [
+      {
+        item: "gold top",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "gold pants",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Green Mesh Leotard",
     image: green_mesh,
+    available: [
+      {
+        item: "green mesh leotard",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Green Robe",
     image: green_robe,
+    available: [
+      {
+        item: "green robe",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Green School Girl Golf Outfit",
     image: green_school_girl_golf,
+    available: [
+      {
+        item: "hat",
+        price: 8,
+        count: 3,
+      },
+      {
+        item: "strappy black bra",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "skirt",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Green St Patrick's Shamrock Leotard",
     image: green_shamrock,
+    available: [
+      {
+        item: "mesh shamrock leotard",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "green tophat with buckle",
+        price: 15,
+        count: 2,
+      },
+    ],
   },
   {
-    name: "Halloween Candy",
+    name: "Halloween Candy Corn",
     image: halloween_candy,
+    available: [
+      {
+        item: "Candy Corn",
+        price: 5,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Zombie Geisha",
     image: halloween_geisha,
+    available: [
+      {
+        item: "bone hairclip, fan, robe, and robe wrap",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "OG Harley Quinn",
     image: harley_quinn_OG,
+    available: [
+      {
+        item: "leotard, headband, neck piece, and wristpieces",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "checkered bra",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "black and white checkered thigh high stockings",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "black and red striped thigh high stockings",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Hooded Fur Leotard",
     image: hooded_fur,
+    available: [
+      {
+        item: "hooded fur leotard",
+        price: 12,
+        count: 1,
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+      {
+        item: "silver necklace",
+        price: 5,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Strappy Hot Pink",
     image: hot_pink_strappy,
+    available: [
+      {
+        item: "facemask, strappy bra, bottoms, whip",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "white wig",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Hula Girl",
     image: hula_girl,
+    available: [
+      {
+        item: "bra, grass skirt, hairpiece, wrist flowers, and flower hair clip",
+        price: 15,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Incredibles Superhero",
     image: incredibles,
+    available: [
+      {
+        item: "red top with logo",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Bond Girls",
     image: james_bond,
+    available: [
+      {
+        item: "red dress",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "nude dress",
+        price: 15,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Ruffles",
     image: latina_fluff_3,
+    available: [
+      {
+        item: "ruffle top and skirt",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "flower hair clip",
+        price: 3,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Mariachi Inspired",
     image: latina_mariachi,
+    available: [
+      {
+        item: "half leather jacket and bottoms with gold lace",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "bra",
+        price: 3,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Lisa Frank Inspired",

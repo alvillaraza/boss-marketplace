@@ -14,8 +14,13 @@ import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
 import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
+import leather_hat from "./assets/leather_hat.jpeg";
 
 const hatsData = [
+  {
+    name: "Black Leather Hat",
+    image: leather_hat,
+  },
   {
     name: "Red Military Hat",
     image: red_military,
