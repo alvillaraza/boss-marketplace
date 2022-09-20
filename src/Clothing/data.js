@@ -70,6 +70,7 @@ import white_mesh from "./assets/white_mesh.jpeg";
 import winter_white_leo from "./assets/winter_white_leo.jpeg";
 import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
+import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
 
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
@@ -350,6 +351,22 @@ const clothingData = [
         item: "bra, skirt jumper, arm bands",
         price: 15,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Showgirl Feather Headpiece",
+    image: feather_headpieces,
+    available: [
+      {
+        item: "feather headpieces (black or white)",
+        price: 25,
+        count: 2,
+      },
+      {
+        item: "bra (black or white)",
+        price: 10,
+        count: 2,
       },
     ],
   },

@@ -32,16 +32,16 @@ const wigsData = [
         image: blonde_curly
     },
     {
+        name: 'Grey Wavy Wig',
+        image: grey_curly
+    },
+    {
         name: 'Short Blonde Wig',
         image: blonde_wig
     },
     {
         name: 'Cindy Lauper Wig',
         image: cindy_lauper
-    },
-    {
-        name: 'Grey Wavy Wig',
-        image: grey_curly
     },
     {
         name: 'Long Red Wig',
@@ -54,10 +54,6 @@ const wigsData = [
     {
         name: 'Orange Lilu Wig',
         image: orange_wig
-    },
-    {
-        name: 'Red Queen Wig',
-        image: red_queen
     },
     {
         name: 'Short Red Wig',
@@ -74,6 +70,10 @@ const wigsData = [
     {
         name: 'Short Yellow Blue Wig',
         image: yellow_blue_wig
+    },
+    {
+        name: 'Red Queen Wig',
+        image: red_queen
     },
 
 ]
