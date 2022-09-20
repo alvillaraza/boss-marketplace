@@ -8,9 +8,9 @@
 
   img {
     height: auto;
-    max-height: 250px;
+    max-height: 300px;
     width: auto;
-    max-width: 250px;
+    max-width: 300px;
     padding: 10px;
   }
 
@@ -35,5 +35,39 @@
 
   .category-wrapper {
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photo {
+    display: grid;
+    //creates 1 block
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+    img,
+    // > selects all div elements under the a
+    > div {
+      //puts the button and the clothing on top of each other, start at block 1, end at block 1
+      grid-column: ~"1 / -1";
+      grid-row: ~"1 / -1";
+    }
+    
+    > div {
+      z-index: 1;
+    }
+  }
+
+  .description {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+  }
+
+  &:hover {
+    .description {
+      opacity: 1;
+    }
   }
 }

@@ -1,16 +1,20 @@
 import clothingData from "./data.js";
+import Description from "./Description.js";
 
 function Clothing() {
-  // console.log(clothingData)
   return (
-    <div>
+    <div className="category-wrapper">
       Clothing
       {clothingData.map((clothing) => {
         console.log(clothing);
         return (
-          <>
+          <div className="photo">
             <img src={clothing.image} alt={clothing.name} />
-          </>
+            <Description
+              clothingName={clothing.name}
+              itemized={clothing.available}
+            />
+          </div>
         );
       })}
     </div>
@@ -18,4 +22,3 @@ function Clothing() {
 }
 
 export default Clothing;
-

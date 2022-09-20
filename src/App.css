@@ -11,9 +11,9 @@
 }
 .Marketplace img {
   height: auto;
-  max-height: 250px;
+  max-height: 300px;
   width: auto;
-  max-width: 250px;
+  max-width: 300px;
   padding: 10px;
 }
 .Marketplace .header-wrapper {
@@ -33,4 +33,28 @@
 }
 .Marketplace .category-wrapper {
   background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Marketplace .photo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+.Marketplace .photo img,
+.Marketplace .photo > div {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+.Marketplace .photo > div {
+  z-index: 1;
+}
+.Marketplace .description {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+.Marketplace:hover .description {
+  opacity: 1;
 }
