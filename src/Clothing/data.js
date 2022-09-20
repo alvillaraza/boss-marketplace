@@ -76,6 +76,7 @@ import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
 const clothingData = [
   {
     name: "apocalypse gold costume 2",
+    category: 'clothing',
     image: apocalypse_gold_2,
     available: [
       {
@@ -97,6 +98,7 @@ const clothingData = [
   },
   {
     name: "apocalypse costume",
+    category: 'clothing',
     image: apocalypse_gold,
     available: [
       {
@@ -113,6 +115,7 @@ const clothingData = [
   },
   {
     name: "audrey hepburn leotard",
+    category: 'clothing',
     image: audrey_hepburn,
     available: [
       {
@@ -130,6 +133,7 @@ const clothingData = [
   },
   {
     name: "Autumn Babes Outfit",
+    category: 'clothing',
     image: autumn_babes,
     available: [
       {
@@ -141,6 +145,7 @@ const clothingData = [
   },
   {
     name: "Autumn Glitter",
+    category: 'clothing',
     image: autumn_full_piece,
     available: [
       {
@@ -152,6 +157,7 @@ const clothingData = [
   },
   {
     name: "white lace full leotard",
+    category: 'clothing',
     image: white_lace_suit,
     available: [
       {
@@ -168,6 +174,7 @@ const clothingData = [
   },
   {
     name: "black lace leotard",
+    category: 'clothing',
     image: black_lacey_leo,
     available: [
       {
@@ -189,6 +196,7 @@ const clothingData = [
   },
   {
     name: "bloody bunnies outfit",
+    category: 'clothing',
     image: bloody_bunnies,
     available: [
       {
@@ -200,6 +208,7 @@ const clothingData = [
   },
   {
     name: "bloody bunnies outfit",
+    category: 'clothing',
     image: bloody_bunnies2,
     available: [
       {
@@ -211,6 +220,7 @@ const clothingData = [
   },
   {
     name: "blue sequin leotard",
+    category: 'clothing',
     image: blue_sequin,
     available: [
       {
@@ -232,6 +242,7 @@ const clothingData = [
   },
   {
     name: "bride of frankenstein",
+    category: 'clothing',
     image: bride_frankenstein,
     available: [
       {
@@ -243,6 +254,7 @@ const clothingData = [
   },
   {
     name: "camo 2pc",
+    category: 'clothing',
     image: camo_2pc,
     available: [
       {
@@ -259,6 +271,7 @@ const clothingData = [
   },
   {
     name: "christmas tartan plaid leotard",
+    category: 'clothing',
     image: christmas_tartan,
     available: [
       {
@@ -275,6 +288,7 @@ const clothingData = [
   },
   {
     name: "comic book top",
+    category: 'clothing',
     image: comic_book,
     available: [
       {
@@ -286,10 +300,11 @@ const clothingData = [
   },
   {
     name: "retro sailor outfit",
+    category: 'clothing',
     image: cute_sailor_retro,
     available: [
       {
-        item: "bra and bottoms",
+        item: "blue and white striped half top and bottoms",
         price: 10,
         count: 3,
       },
@@ -307,6 +322,7 @@ const clothingData = [
   },
   {
     name: "futuristic silver",
+    category: 'clothing',
     image: dancetronauts,
     available: [
       {
@@ -318,6 +334,7 @@ const clothingData = [
   },
   {
     name: "futuristic silver 2pc",
+    category: 'clothing',
     image: futuristic_silver,
     available: [
       {
@@ -329,6 +346,7 @@ const clothingData = [
   },
   {
     name: "fembots",
+    category: 'clothing',
     image: fembots,
     available: [
       {
@@ -345,6 +363,7 @@ const clothingData = [
   },
   {
     name: "Oktoberfest",
+    category: 'clothing',
     image: german_oktoberfest_2,
     available: [
       {
@@ -356,6 +375,7 @@ const clothingData = [
   },
   {
     name: "Showgirl Feather Headpiece",
+    category: 'clothing',
     image: feather_headpieces,
     available: [
       {
@@ -372,6 +392,7 @@ const clothingData = [
   },
   {
     name: "Gold Disco Outfit",
+    category: 'clothing',
     image: gold_retro,
     available: [
       {
@@ -388,6 +409,7 @@ const clothingData = [
   },
   {
     name: "Green Mesh Leotard",
+    category: 'clothing',
     image: green_mesh,
     available: [
       {
@@ -399,6 +421,7 @@ const clothingData = [
   },
   {
     name: "Green Robe",
+    category: 'clothing',
     image: green_robe,
     available: [
       {
@@ -420,6 +443,7 @@ const clothingData = [
   },
   {
     name: "Green School Girl Golf Outfit",
+    category: 'clothing',
     image: green_school_girl_golf,
     available: [
       {
@@ -441,6 +465,7 @@ const clothingData = [
   },
   {
     name: "Yellow School Girl Outfit",
+    category: 'clothing',
     image: yellow_school_girl,
     available: [
       {
@@ -457,6 +482,7 @@ const clothingData = [
   },
   {
     name: "Green St Patrick's Shamrock Leotard",
+    category: 'clothing',
     image: green_shamrock,
     available: [
       {
@@ -473,6 +499,7 @@ const clothingData = [
   },
   {
     name: "Halloween Candy Corn",
+    category: 'clothing',
     image: halloween_candy,
     available: [
       {
@@ -484,6 +511,7 @@ const clothingData = [
   },
   {
     name: "Zombie Geisha",
+    category: 'clothing',
     image: halloween_geisha,
     available: [
       {
@@ -495,6 +523,7 @@ const clothingData = [
   },
   {
     name: "OG Harley Quinn",
+    category: 'clothing',
     image: harley_quinn_OG,
     available: [
       {
@@ -531,6 +560,7 @@ const clothingData = [
   },
   {
     name: "Hooded Fur Leotard",
+    category: 'clothing',
     image: hooded_fur,
     available: [
       {
@@ -552,6 +582,7 @@ const clothingData = [
   },
   {
     name: "Strappy Hot Pink",
+    category: 'clothing',
     image: hot_pink_strappy,
     available: [
       {
@@ -568,6 +599,7 @@ const clothingData = [
   },
   {
     name: "Hula Girl",
+    category: 'clothing',
     image: hula_girl,
     available: [
       {
@@ -579,6 +611,7 @@ const clothingData = [
   },
   {
     name: "Incredibles Superhero",
+    category: 'clothing',
     image: incredibles,
     available: [
       {
@@ -590,6 +623,7 @@ const clothingData = [
   },
   {
     name: "Bond Girls",
+    category: 'clothing',
     image: james_bond,
     available: [
       {
@@ -606,6 +640,7 @@ const clothingData = [
   },
   {
     name: "Ruffles",
+    category: 'clothing',
     image: latina_fluff_3,
     available: [
       {
@@ -622,6 +657,7 @@ const clothingData = [
   },
   {
     name: "Mariachi Inspired",
+    category: 'clothing',
     image: latina_mariachi,
     available: [
       {
@@ -638,6 +674,7 @@ const clothingData = [
   },
   {
     name: "Lisa Frank Inspired",
+    category: 'clothing',
     image: lisa_frank,
     available: [
       {
@@ -669,6 +706,7 @@ const clothingData = [
   },
   {
     name: "Lisa Frank Inspired",
+    category: 'clothing',
     image: lisa_frank2,
     available: [
       {
@@ -700,6 +738,7 @@ const clothingData = [
   },
   {
     name: "Mardi Gras",
+    category: 'clothing',
     image: mardi_gras,
     available: [
       {
@@ -716,6 +755,7 @@ const clothingData = [
   },
   {
     name: "Marie Antoinette",
+    category: 'clothing',
     image: marie_antoinette,
     available: [
       {
@@ -732,6 +772,7 @@ const clothingData = [
   },
   {
     name: "Mermaids",
+    category: 'clothing',
     image: mermaids,
     available: [
       {
@@ -748,6 +789,7 @@ const clothingData = [
   },
   {
     name: "Olive Gold Spikey 2 piece",
+    category: 'clothing',
     image: olive_gold_spikes,
     available: [
       {
@@ -759,6 +801,7 @@ const clothingData = [
   },
   {
     name: "Pikachu",
+    category: 'clothing',
     image: pikachu,
     available: [
       {
@@ -770,6 +813,7 @@ const clothingData = [
   },
   {
     name: "Pirate Captain",
+    category: 'clothing',
     image: pirate_captain,
     available: [
       {
@@ -786,6 +830,7 @@ const clothingData = [
   },
   {
     name: "Pirates",
+    category: 'clothing',
     image: pirates,
     available: [
       {
@@ -802,6 +847,7 @@ const clothingData = [
   },
   {
     name: "The Bomb Pop Popsicles",
+    category: 'clothing',
     image: popsicles,
     available: [
       {
@@ -818,6 +864,7 @@ const clothingData = [
   },
   {
     name: "Racing Leotard",
+    category: 'clothing',
     image: race_car,
     available: [
       {
@@ -834,6 +881,7 @@ const clothingData = [
   },
   {
     name: "Black Red Lace Mesh Leotard",
+    category: 'clothing',
     image: red_black_lace_leo,
     available: [
       {
@@ -850,6 +898,7 @@ const clothingData = [
   },
   {
     name: "Red Feather Tutu",
+    category: 'clothing',
     image: red_feather_tutu,
     available: [
       {
@@ -861,6 +910,7 @@ const clothingData = [
   },
   {
     name: "Red Mesh Top",
+    category: 'clothing',
     image: red_mesh,
     available: [
       {
@@ -872,6 +922,7 @@ const clothingData = [
   },
   {
     name: "Red Ninja",
+    category: 'clothing',
     image: red_ninaj,
     available: [
       {
@@ -888,6 +939,7 @@ const clothingData = [
   },
   {
     name: "Retro Leopard Leotard",
+    category: 'clothing',
     image: retro_leopard,
     available: [
       {
@@ -909,6 +961,7 @@ const clothingData = [
   },
   {
     name: "Ring Leader",
+    category: 'clothing',
     image: ring_leader,
     available: [
       {
@@ -925,6 +978,7 @@ const clothingData = [
   },
   {
     name: "Rose Gold Leotard",
+    category: 'clothing',
     image: rose_gold_leo,
     available: [
       {
@@ -946,6 +1000,7 @@ const clothingData = [
   },
   {
     name: "Ruffley Rose Ensemble",
+    category: 'clothing',
     image: salsa_latina,
     available: [
       {
@@ -972,6 +1027,7 @@ const clothingData = [
   },
   {
     name: "Purple and Blue Samba Girls",
+    category: 'clothing',
     image: samba_girls_purple_blue,
     available: [
       {
@@ -988,6 +1044,7 @@ const clothingData = [
   },
   {
     name: "Purple and Blue Samba Girls",
+    category: 'clothing',
     image: samba_girls_purple_blue2,
     available: [
       {
@@ -1014,6 +1071,7 @@ const clothingData = [
   },
   {
     name: "Samba Girls",
+    category: 'clothing',
     image: samba_girls,
     available: [
       {
@@ -1040,6 +1098,7 @@ const clothingData = [
   },
   {
     name: "Green and Pink Samba Girls",
+    category: 'clothing',
     image: samba_girls2,
     available: [
       {
@@ -1056,6 +1115,7 @@ const clothingData = [
   },
   {
     name: "Santa Hoodie Leotard",
+    category: 'clothing',
     image: santa_hoodie,
     available: [
       {
@@ -1067,6 +1127,7 @@ const clothingData = [
   },
   {
     name: "Shark",
+    category: 'clothing',
     image: shark,
     available: [
       {
@@ -1083,6 +1144,7 @@ const clothingData = [
   },
   {
     name: "Silver and Black Ensemble",
+    category: 'clothing',
     image: silver_black_raw_fashion,
     available: [
       {
@@ -1094,6 +1156,7 @@ const clothingData = [
   },
   {
     name: "Silver Disco Leotard",
+    category: 'clothing',
     image: silver_disco_leo,
     available: [
       {
@@ -1110,6 +1173,7 @@ const clothingData = [
   },
   {
     name: "Silver Fringe Belt",
+    category: 'clothing',
     image: silver_fringe_belt,
     available: [
       {
@@ -1121,6 +1185,7 @@ const clothingData = [
   },
   {
     name: "Sporty Football Outfit",
+    category: 'clothing',
     image: sporty_football,
     available: [
       {
@@ -1132,6 +1197,7 @@ const clothingData = [
   },
   {
     name: "St Patricks Outfit",
+    category: 'clothing',
     image: st_patricks,
     available: [
       {
@@ -1150,6 +1216,7 @@ const clothingData = [
   },
   {
     name: "Teenage Mutant Ninja Turtle Leonardo",
+    category: 'clothing',
     image: tmnt,
     available: [
       {
@@ -1161,6 +1228,7 @@ const clothingData = [
   },
   {
     name: "Trapfest 2 Pieces",
+    category: 'clothing',
     image: trapfest_cute,
     available: [
       {
@@ -1177,6 +1245,7 @@ const clothingData = [
   },
   {
     name: "White Crisscross 2 Pieces",
+    category: 'clothing',
     image: white_crisscross,
     available: [
       {
@@ -1188,6 +1257,7 @@ const clothingData = [
   },
   {
     name: "White lace Straps",
+    category: 'clothing',
     image: white_lace_fashion,
     available: [
       {
@@ -1199,6 +1269,7 @@ const clothingData = [
   },
   {
     name: "White Mesh Leotard",
+    category: 'clothing',
     image: white_mesh,
     available: [
       {
@@ -1210,6 +1281,7 @@ const clothingData = [
   },
   {
     name: "Winter White Leotard",
+    category: 'clothing',
     image: winter_white_leo,
     available: [
       {
@@ -1231,6 +1303,7 @@ const clothingData = [
   },
   {
     name: "Silver Winter Skirt",
+    category: 'clothing',
     image: xmas_winter_silver_skirt,
     available: [
       {

@@ -72,6 +72,10 @@
   transition-property: opacity;
   transition-duration: 0.5s;
   padding: 10px;
+  height: auto;
+  max-height: 300px;
+  width: auto;
+  max-width: 300px;
 }
 .Marketplace .description-wrapper h4,
 .Marketplace .description-wrapper span {
