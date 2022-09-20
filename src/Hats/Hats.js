@@ -1,5 +1,5 @@
 import hatsData from './data'
-import Description from '../Hats/Description';
+import Description from '../Description';
 
 function Hats() {
   return (
@@ -10,7 +10,7 @@ function Hats() {
           <div className="photo">
             <img src={hats.image} alt={hats.name} />
             <Description
-              hatName={hats.name}
+              name={hats.name}
               itemized={hats.available}
             />
           </div>

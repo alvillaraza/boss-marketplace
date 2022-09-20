@@ -58,30 +58,31 @@
 .Marketplace .photo > div {
   z-index: 1;
 }
-.description-wrapper {
+.Marketplace .photo:hover img {
+  opacity: 0.2;
+}
+.Marketplace .photo:hover .description-wrapper {
+  opacity: 1;
+}
+.Marketplace .description-wrapper {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;
   padding: 10px;
 }
-.description-wrapper h4,
-.description-wrapper .item-title {
+.Marketplace .description-wrapper h4,
+.Marketplace .description-wrapper .item-title {
   text-transform: capitalize;
   line-height: 1;
   font-weight: 700;
   margin-block: 3px;
 }
-.description-wrapper p {
-  font-family: 'Lato', sans-serif;
+.Marketplace .description-wrapper p {
+  font-family: "Lato", sans-serif;
   line-height: 0.5;
   padding-left: 20px;
+  font-weight: 500;
 }
-.description-wrapper .description {
+.Marketplace .description-wrapper .description {
   padding: 5px;
-}
-:hover img {
-  opacity: 0.2;
-}
-:hover .description-wrapper {
-  opacity: 1;
 }

@@ -1,5 +1,5 @@
 import wigsData from "./data";
-import Description from "./Description";
+import Description from "../Description";
 
 function Wigs() {
   return (

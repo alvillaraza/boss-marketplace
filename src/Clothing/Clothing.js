@@ -1,5 +1,5 @@
 import clothingData from "./data.js";
-import Description from "./Description.js";
+import Description from "../Description.js";
 
 function Clothing() {
   return (
@@ -10,7 +10,7 @@ function Clothing() {
           <div className="photo">
             <img src={clothing.image} alt={clothing.name} />
             <Description
-              clothingName={clothing.name}
+              name={clothing.name}
               itemized={clothing.available}
             />
           </div>

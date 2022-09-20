@@ -1,5 +1,5 @@
 import accessoriesData from "./data";
-import Description from "./Description";
+import Description from "../Description";
 
 function Accessories() {
   return (
@@ -9,7 +9,7 @@ function Accessories() {
         return (
           <div className="photo">
             <img src={accessories.image} alt={accessories.name} />
-            <Description accessoriesName={accessories.name} itemized={accessories.available} />
+            <Description name={accessories.name} itemized={accessories.available} />
           </div>
         );
       })}
