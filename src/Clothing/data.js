@@ -527,7 +527,7 @@ const clothingData = [
     image: harley_quinn_OG,
     available: [
       {
-        item: "leotard, headband, neck piece, and wristpieces",
+        item: "leotard, headband, neck and wristpieces",
         price: 10,
         count: 3,
       },
@@ -537,22 +537,12 @@ const clothingData = [
         count: 3,
       },
       {
-        item: "black and white checkered thigh high stockings",
+        item: "Thigh high stockings",
         price: 5,
         count: 3,
       },
       {
-        item: "black and red striped thigh high stockings",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "short red satin gloves",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "short black satin gloves",
+        item: "short satin gloves (red or black)",
         price: 5,
         count: 3,
       },
@@ -683,7 +673,7 @@ const clothingData = [
         count: 2,
       },
       {
-        item: "short jumper shorts (light denim or dark denim)",
+        item: "overall shorts (light or dark denim)",
         price: 5,
         count: 2,
       },
@@ -715,7 +705,7 @@ const clothingData = [
         count: 2,
       },
       {
-        item: "short jumper shorts (light denim or dark denim)",
+        item: "overall shorts (light or dark denim)",
         price: 5,
         count: 2,
       },
@@ -817,7 +807,7 @@ const clothingData = [
     image: pirate_captain,
     available: [
       {
-        item: "jacket (has no lining) and ruffley chest piece",
+        item: "jacket (no lining) and ruffley chest",
         price: 5,
         count: 1,
       },
@@ -868,7 +858,7 @@ const clothingData = [
     image: race_car,
     available: [
       {
-        item: "red acing leather leotard",
+        item: "red leather leotard",
         price: 10,
         count: 2,
       },

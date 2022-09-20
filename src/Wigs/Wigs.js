@@ -11,7 +11,7 @@ function Wigs() {
           <div className="photo">
             <img src={wigs.image} alt={wigs.name} />
             <Description
-              wigsName={wigs.name}
+              name={wigs.name}
               itemized={wigs.available}
             />
           </div>

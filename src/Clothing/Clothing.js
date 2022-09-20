@@ -2,6 +2,10 @@ import clothingData from "./data.js";
 import Description from "../Description.js";
 
 function Clothing() {
+  // setCurrentCategory useState('welcome page')
+  //if a certain category is clicked set that as the current category
+
+
   return (
     <div className="category-wrapper">
       {/* Clothing */}

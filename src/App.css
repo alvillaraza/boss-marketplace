@@ -22,9 +22,9 @@
 }
 .Marketplace img {
   height: auto;
-  max-height: 300px;
+  max-height: 350px;
   width: auto;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 10%;
   box-shadow: 5px 6px 6px -1px rgba(0, 0, 0, 0.21);
   margin-block: 10px;
@@ -52,6 +52,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   align-items: center;
+  justify-items: center;
 }
 .Marketplace .photo img,
 .Marketplace .photo > div {
@@ -73,33 +74,36 @@
   transition-duration: 0.5s;
   padding: 10px;
   height: auto;
-  max-height: 300px;
+  max-height: 350px;
   width: auto;
-  max-width: 300px;
+  max-width: 350px;
 }
 .Marketplace .description-wrapper h4,
 .Marketplace .description-wrapper span {
   text-transform: capitalize;
-  line-height: 1;
   font-weight: 700;
-  margin-block: 3px;
+  margin-block: -11px;
+}
+.Marketplace .description-wrapper .item-title {
+  line-height: 1;
 }
 .Marketplace .description-wrapper span {
   font-weight: bold;
 }
 .Marketplace .description-wrapper p {
   font-family: "Lato", sans-serif;
-  line-height: 0.8;
+  line-height: 0.2;
   padding-left: 20px;
   font-weight: 500;
+  font-size: 15px;
 }
 .Marketplace .description-wrapper .description {
-  padding: 5px;
+  padding: 1px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 414px) {
   .Marketplace {
-    text-align: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .Marketplace .category-wrapper {
     grid-template-columns: 1fr;
