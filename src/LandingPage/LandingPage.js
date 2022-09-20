@@ -19,8 +19,9 @@ function LandingPage() {
         I will mail certain items as long as they're not fragile or too big!
       </p>
       <p>
-        I'm sure you have a lot of questions! DM me on instagram:
-        @lovemissalexis or email me at{" "}
+        If I personally know you, visiting me in person is best as some items are not listed here!
+        For questions, DM me on instagram:
+        <a href="https://www.instagram.com/lovemissalexis/">@lovemissalexis</a> or email me at{" "}
         <a href="mailto:someone@yoursite.com">alexis.borja@gmail.com</a>.
       </p>
       <p> Thank you, and happy shopping!</p>
