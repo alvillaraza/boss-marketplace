@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USew8.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Prata';
   font-style: normal;
   font-weight: 400;
@@ -8,6 +15,10 @@
 .Marketplace a {
   color: white;
   text-decoration: none;
+}
+.Marketplace h2,
+.Marketplace h4 {
+  font-family: "Prata", serif;
 }
 .Marketplace img {
   height: auto;
@@ -24,9 +35,6 @@
 .Marketplace .header-wrapper nav {
   display: flex;
   justify-content: space-evenly;
-}
-.Marketplace .header-wrapper nav h2 {
-  font-family: "Prata", serif;
 }
 .Marketplace .header-wrapper nav h2:hover {
   text-shadow: 2px 2px 8px #ffffff;
@@ -50,11 +58,30 @@
 .Marketplace .photo > div {
   z-index: 1;
 }
-.Marketplace .description {
+.Marketplace .description-wrapper {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;
+  padding: 10px;
 }
-.Marketplace:hover .description {
+.Marketplace .description-wrapper h4,
+.Marketplace .description-wrapper .item-title {
+  text-transform: capitalize;
+  line-height: 1;
+  font-weight: 700;
+  margin-block: 3px;
+}
+.Marketplace .description-wrapper p {
+  font-family: 'Lato', sans-serif;
+  line-height: 0.5;
+  padding-left: 20px;
+}
+.Marketplace .description-wrapper .description {
+  padding: 5px;
+}
+.Marketplace:hover img {
+  opacity: 0.2;
+}
+.Marketplace:hover .description-wrapper {
   opacity: 1;
 }

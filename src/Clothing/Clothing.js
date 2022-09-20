@@ -6,7 +6,6 @@ function Clothing() {
     <div className="category-wrapper">
       Clothing
       {clothingData.map((clothing) => {
-        console.log(clothing);
         return (
           <div className="photo">
             <img src={clothing.image} alt={clothing.name} />
