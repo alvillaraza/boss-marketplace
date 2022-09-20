@@ -192,7 +192,7 @@ const clothingData = [
     image: bloody_bunnies,
     available: [
       {
-        item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
+        item: "floppy hoodie, leotard, gloves, and bunny tail",
         price: 20,
         count: 1,
       },
@@ -203,7 +203,7 @@ const clothingData = [
     image: bloody_bunnies2,
     available: [
       {
-        item: "floppy hoodie, leotard, gloves, and bunny tail",
+        item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
         price: 20,
         count: 1,
       },
