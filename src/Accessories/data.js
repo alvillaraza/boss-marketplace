@@ -15,6 +15,7 @@ import white_fringe_epaulette from './assets/white_fringe_epaulette.jpeg'
 const accessoriesData = [
   {
     name: "White Fringe Epaulette",
+    category: 'accessories',
     image: white_fringe_epaulette,
     available: [
       {
@@ -26,6 +27,7 @@ const accessoriesData = [
   },
   {
     name: "Red and Gold Leopard Epaulette",
+    category: 'accessories',
     image: red_gold_epaulette,
     available: [
       {
@@ -37,6 +39,7 @@ const accessoriesData = [
   },
   {
     name: "Gold Fringe Strappy Epaulette",
+    category: 'accessories',
     image: gold_fringe_epaulette,
     available: [
       {
@@ -48,6 +51,7 @@ const accessoriesData = [
   },
   {
     name: "Rose Headpiece",
+    category: 'accessories',
     image: rose_headpiece,
     available: [
       {
@@ -59,6 +63,7 @@ const accessoriesData = [
   },
   {
     name: "Pink Fringe",
+    category: 'accessories',
     image: pink_fringe_for_bra,
     available: [
       {
@@ -70,6 +75,7 @@ const accessoriesData = [
   },
   {
     name: "Palm Tree Headpiece",
+    category: 'accessories',
     image: palm_tree_hair,
     available: [
       {
@@ -81,6 +87,7 @@ const accessoriesData = [
   },
   {
     name: "Showgirl Feather Headpiece",
+    category: 'accessories',
     image: feather_headpieces,
     available: [
       {
@@ -97,6 +104,7 @@ const accessoriesData = [
   },
   {
     name: "Cupid Feathery Headband and Arrow",
+    category: 'accessories',
     image: cupids,
     available: [
       {
@@ -108,6 +116,7 @@ const accessoriesData = [
   },
   {
     name: "Short Black Cape",
+    category: 'accessories',
     image: count_dracula,
     available: [
       {
@@ -119,6 +128,7 @@ const accessoriesData = [
   },
   {
     name: "Neck and Wrist Clown Accessories",
+    category: 'accessories',
     image: clown_stuff,
     available: [
       {
@@ -130,6 +140,7 @@ const accessoriesData = [
   },
   {
     name: "Gold and Purple Clown Neck Ruffle",
+    category: 'accessories',
     image: clown_neck,
     available: [
       {
@@ -141,6 +152,7 @@ const accessoriesData = [
   },
   {
     name: "Leather Shoulder Piece",
+    category: 'accessories',
     image: camo_2pc_2,
     available: [
       {
