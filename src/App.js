@@ -7,11 +7,12 @@ import LandingPage from "./LandingPage/LandingPage";
 import Wigs from "./Wigs/Wigs";
 
 import "./App.css";
+import './Normalize.css';
 
 function App() {
   return (
     <div className="Marketplace">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
       <BrowserRouter>
         <Header />
         <Routes>
@@ -25,7 +26,7 @@ function App() {
           <Route exact path="/wigs" element={<Wigs />}></Route>
         </Routes>
       </BrowserRouter>
-      </header>
+      {/* </header> */}
     </div>
   );
 }
