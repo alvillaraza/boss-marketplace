@@ -15,7 +15,7 @@ import comic_book from "./assets/comic_book.jpeg";
 import cute_sailor_retro from "./assets/cute_sailor_retro.jpeg";
 import dancetronauts from "./assets/dancetronauts.jpeg";
 import fembots from "./assets/fembots.jpeg";
-import futuristic_silver from "./assets/futuristic_silver.png";
+import futuristic_silver from "./assets/futuristic_silver.jpeg";
 import german_oktoberfest_2 from "./assets/german_oktoberfest_2.jpeg";
 import gold_retro from "./assets/gold_retro.jpeg";
 import green_mesh from "./assets/green_mesh.jpeg";
