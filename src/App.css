@@ -45,6 +45,13 @@
 .Marketplace .header-wrapper nav h2:hover {
   text-shadow: 2px 2px 8px #ffffff;
 }
+.Marketplace .landing-page {
+  margin: 10px;
+  margin: 5% 15%;
+}
+.Marketplace .landing-page h4 {
+  margin-bottom: -14px;
+}
 .Marketplace .category-wrapper {
   background-color: white;
   display: flex;
@@ -83,13 +90,19 @@
   width: auto;
   max-width: 350px;
 }
+.Marketplace .description-wrapper .item-title a {
+  color: black;
+}
+.Marketplace .description-wrapper .item-title:hover {
+  text-shadow: 2px 2px 8px #595555;
+}
 .Marketplace .description-wrapper h4,
 .Marketplace .description-wrapper span {
   text-transform: capitalize;
   font-weight: 700;
   margin-block: -11px;
 }
-.Marketplace .description-wrapper .item-title {
+.Marketplace .description-wrapper .items {
   line-height: 1;
 }
 .Marketplace .description-wrapper span {

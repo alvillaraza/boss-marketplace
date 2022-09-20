@@ -1,11 +1,11 @@
 function Description({ name, itemized }) {
   return (
     <div className="description-wrapper">
-      <h4><a href={`mailto:someone@yoursite.com?subject=BOSS Marketplace ${name}`}>{name}</a></h4>
+      <h4 className="item-title"><a href={`mailto:someone@yoursite.com?subject=BOSS Marketplace ${name}`}>{name}</a></h4>
       {itemized.map((item, idx) => {
         return (
           <div className="description" key={idx}>
-            <p className="item-title">
+            <p className="items">
               Items: <span> {item.item}</span>
             </p>
             <p>
