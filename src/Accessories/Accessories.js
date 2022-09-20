@@ -1,15 +1,16 @@
 import accessoriesData from "./data";
+import Description from "./Description";
 
 function Accessories() {
   return (
-    <div>
+    <div className="category-wrapper">
       Accessories
       {accessoriesData.map((accessories) => {
-        console.log(accessories);
         return (
-          <>
+          <div className="photo">
             <img src={accessories.image} alt={accessories.name} />
-          </>
+            <Description accessoriesName={accessories.name} itemized={accessories.available} />
+          </div>
         );
       })}
     </div>

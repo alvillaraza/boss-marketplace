@@ -15,67 +15,171 @@ import white_wigs from './assets/white_wigs.png'
 import yellow_blue_wig from './assets/yellow_blue_wig.jpeg'
 
 const wigsData = [
-    {
-        name: 'Black Curly Betty Boop Wig',
-        image: black_curly_betty_boop
-    },
-    {
-        name: 'Blonde Curly Betty Boop Wig',
-        image: blonde_betty_boop
-    },
-    {
-        name: 'Black Wavy Wig',
-        image: black_curly
-    },
-    {
-        name: 'Blonde Wavy Wig',
-        image: blonde_curly
-    },
-    {
-        name: 'Grey Wavy Wig',
-        image: grey_curly
-    },
-    {
-        name: 'Short Blonde Wig',
-        image: blonde_wig
-    },
-    {
-        name: 'Cindy Lauper Wig',
-        image: cindy_lauper
-    },
-    {
-        name: 'Long Red Wig',
-        image: long_red_wig
-    },
-    {
-        name: 'Neon Blue Wig',
-        image: neon_blue
-    },
-    {
-        name: 'Orange Lilu Wig',
-        image: orange_wig
-    },
-    {
-        name: 'Short Red Wig',
-        image: red_wig
-    },
-    {
-        name: 'Short White Wig',
-        image: short_white_wig
-    },
-    {
-        name: 'White Wig',
-        image: white_wigs
-    },
-    {
-        name: 'Short Yellow Blue Wig',
-        image: yellow_blue_wig
-    },
-    {
-        name: 'Red Queen Wig',
-        image: red_queen
-    },
-
-]
+  {
+    name: "Black Curly Betty Boop Wig",
+    image: black_curly_betty_boop,
+    available: [
+      {
+        item: "curly retro betty boop black wig",
+        price: 15,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Blonde Curly Betty Boop Wig",
+    image: blonde_betty_boop,
+    available: [
+      {
+        item: "curly retro betty boop blonde wig",
+        price: 15,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Black Wavy Wig",
+    image: black_curly,
+    available: [
+      {
+        item: "black wavy wig",
+        price: 12,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Blonde Wavy Wig",
+    image: blonde_curly,
+    available: [
+      {
+        item: "blonde wavy wig",
+        price: 12,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Grey Wavy Wig",
+    image: grey_curly,
+    available: [
+      {
+        item: "grey wavy wig",
+        price: 12,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Short Blonde Wig",
+    image: blonde_wig,
+    available: [
+      {
+        item: "short blonde wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Cindy Lauper Wig",
+    image: cindy_lauper,
+    available: [
+      {
+        item: "cindy lauper wig",
+        price: 10,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Long Red Wig",
+    image: long_red_wig,
+    available: [
+      {
+        item: "long red wig",
+        price: 12,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Neon Blue Wig",
+    image: neon_blue,
+    available: [
+      {
+        item: "neon blue wig",
+        price: 12,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Orange Lilu Wig",
+    image: orange_wig,
+    available: [
+      {
+        item: "orange lilu wig",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Short Red Wig",
+    image: red_wig,
+    available: [
+      {
+        item: "short red wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Short White Wig",
+    image: short_white_wig,
+    available: [
+      {
+        item: "short white wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "White Wig",
+    image: white_wigs,
+    available: [
+      {
+        item: "white wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Short Yellow or Blue Wig",
+    image: yellow_blue_wig,
+    available: [
+      {
+        item: "short wig (yellow or blue)",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Red Queen Wig",
+    image: red_queen,
+    available: [
+      {
+        item: "Red queen wig",
+        price: 15,
+        count: 2,
+      },
+    ],
+  },
+];
 
 export default wigsData
