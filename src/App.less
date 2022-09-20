@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap");
 
 .Marketplace {
+
   a {
     color: white;
     text-decoration: none;
@@ -16,7 +17,8 @@
     max-height: 300px;
     width: auto;
     max-width: 300px;
-    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 5px 6px 6px -1px rgba(0, 0, 0, 0.21);
   }
 
   .header-wrapper {
@@ -38,6 +40,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
   }
 
   .photo {
@@ -75,22 +78,39 @@
     padding: 10px;
 
     h4,
-    .item-title {
+    span {
       text-transform: capitalize;
       line-height: 1;
       font-weight: 700;
       margin-block: 3px;
     }
 
+    span {
+      font-weight: bold;
+    }
+
     p {
       font-family: "Lato", sans-serif;
-      line-height: 0.5;
+      line-height: 0.8;
       padding-left: 20px;
       font-weight: 500;
     }
 
     .description {
       padding: 5px;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    text-align: center;
+    align-items: center;
+
+    .category-wrapper {
+      img {
+      margin-block: 10px;
+      }
+
+      grid-template-columns: 1fr;
     }
   }
 }

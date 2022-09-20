@@ -406,6 +406,16 @@ const clothingData = [
         price: 10,
         count: 3,
       },
+      {
+        item: "statement necklace",
+        price: 8,
+        count: 2,
+      },
+      {
+        item: "black strappy bra",
+        price: 5,
+        count: 2,
+      },
     ],
   },
   {
@@ -418,7 +428,7 @@ const clothingData = [
         count: 3,
       },
       {
-        item: "strappy black bra",
+        item: "black strappy bra",
         price: 5,
         count: 3,
       },

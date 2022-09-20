@@ -4,7 +4,7 @@ import Description from "../Description.js";
 function Clothing() {
   return (
     <div className="category-wrapper">
-      Clothing
+      {/* Clothing */}
       {clothingData.map((clothing) => {
         return (
           <div className="photo">

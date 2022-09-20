@@ -5,9 +5,15 @@ function Description({ name, itemized }) {
       {itemized.map((item, idx) => {
         return (
           <div className="description" key={idx}>
-            <p className="item-title">Items: {item.item}</p>
-            <p><span>Price per item or set:</span> ${item.price}</p>
-            <p><span># available:</span> {item.count}</p>
+            <p>
+              Items: <span> {item.item}</span>
+            </p>
+            <p>
+              Price per item or set: <span>${item.price}</span>
+            </p>
+            <p>
+              # available: <span>{item.count}</span>
+            </p>
           </div>
         );
       })}
