@@ -2,6 +2,7 @@ import wigsData from "./data";
 
 function Wigs() {
   return (
+    // todo: add marie antoinette wig
     <div>
       wigs
       {wigsData.map((wigs) => {

@@ -586,50 +586,204 @@ const clothingData = [
   {
     name: "Lisa Frank Inspired",
     image: lisa_frank,
+    available: [
+      {
+        item: "colorful tube leotard and half top",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "short jumper shorts (light denim or dark denim)",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "blonde wavy wig",
+        price: 12,
+        count: 3,
+      },
+      {
+        item: "cat ears sequin headband",
+        price: 8,
+        count: 1,
+      },
+      {
+        item: "pink beanie with black star",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Lisa Frank Inspired",
     image: lisa_frank2,
+    available: [
+      {
+        item: "colorful tube leotard and half top",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "short jumper shorts (light denim or dark denim)",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "blonde wavy wig",
+        price: 12,
+        count: 3,
+      },
+      {
+        item: "cat ears sequin headband",
+        price: 8,
+        count: 1,
+      },
+      {
+        item: "pink beanie with black star",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Mardi Gras",
     image: mardi_gras,
+    available: [
+      {
+        item: "feather mask, leotard, skirt",
+        price: 20,
+        count: 2,
+      },
+      {
+        item: "long black lace gloves",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Marie Antoinette",
     image: marie_antoinette,
+    available: [
+      {
+        item: "leotard (no ruffley wrist)",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "pink marie antoinette wig",
+        price: 20,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Mermaids",
     image: mermaids,
+    available: [
+      {
+        item: "pink sequin bra and skirt",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "starfish hairclip",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Olive Gold Spikey 2 piece",
     image: olive_gold_spikes,
+    available: [
+      {
+        item: "olive top and bottom",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Pikachu",
     image: pikachu,
+    available: [
+      {
+        item: "pikachu yellow top and headband",
+        price: 8,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Pirate Captain",
     image: pirate_captain,
+    available: [
+      {
+        item: "jacket (has no lining) and ruffley chest piece",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "pirate captain hat",
+        price: 8,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Pirates",
     image: pirates,
+    available: [
+      {
+        item: "headwrap, dress, corset",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "headwrap, bra, ruffley arms",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "The Bomb Pop Popsicles",
     image: popsicles,
+    available: [
+      {
+        item: "bomb popsicle leotard",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "bomb popsicle headband",
+        price: 8,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Racing Leotard",
     image: race_car,
+    available: [
+      {
+        item: "red acing leather leotard",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "Black Red Lace Mesh Leotard",
     image: red_black_lace_leo,
+    available: [
+      {
+        item: "black mesh leotard with red lace appliques",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
     name: "Red Feather Tutu",
