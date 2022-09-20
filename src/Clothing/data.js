@@ -503,7 +503,7 @@ const clothingData = [
     image: halloween_candy,
     available: [
       {
-        item: "Candy Corn",
+        item: "Candy Corn Leotard",
         price: 5,
         count: 2,
       },

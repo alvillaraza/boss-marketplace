@@ -17,6 +17,7 @@ import yellow_blue_wig from './assets/yellow_blue_wig.jpeg'
 const wigsData = [
   {
     name: "Black Curly Betty Boop Wig",
+    category: 'wigs',
     image: black_curly_betty_boop,
     available: [
       {
@@ -28,6 +29,7 @@ const wigsData = [
   },
   {
     name: "Blonde Curly Betty Boop Wig",
+    category: 'wigs',
     image: blonde_betty_boop,
     available: [
       {
@@ -39,6 +41,7 @@ const wigsData = [
   },
   {
     name: "Black Wavy Wig",
+    category: 'wigs',
     image: black_curly,
     available: [
       {
@@ -50,6 +53,7 @@ const wigsData = [
   },
   {
     name: "Blonde Wavy Wig",
+    category: 'wigs',
     image: blonde_curly,
     available: [
       {
@@ -61,6 +65,7 @@ const wigsData = [
   },
   {
     name: "Grey Wavy Wig",
+    category: 'wigs',
     image: grey_curly,
     available: [
       {
@@ -72,6 +77,7 @@ const wigsData = [
   },
   {
     name: "Short Blonde Wig",
+    category: 'wigs',
     image: blonde_wig,
     available: [
       {
@@ -83,6 +89,7 @@ const wigsData = [
   },
   {
     name: "Cindy Lauper Wig",
+    category: 'wigs',
     image: cindy_lauper,
     available: [
       {
@@ -94,6 +101,7 @@ const wigsData = [
   },
   {
     name: "Long Red Wig",
+    category: 'wigs',
     image: long_red_wig,
     available: [
       {
@@ -105,6 +113,7 @@ const wigsData = [
   },
   {
     name: "Neon Blue Wig",
+    category: 'wigs',
     image: neon_blue,
     available: [
       {
@@ -116,6 +125,7 @@ const wigsData = [
   },
   {
     name: "Orange Lilu Wig",
+    category: 'wigs',
     image: orange_wig,
     available: [
       {
@@ -127,6 +137,7 @@ const wigsData = [
   },
   {
     name: "Short Red Wig",
+    category: 'wigs',
     image: red_wig,
     available: [
       {
@@ -138,6 +149,7 @@ const wigsData = [
   },
   {
     name: "Short White Wig",
+    category: 'wigs',
     image: short_white_wig,
     available: [
       {
@@ -149,6 +161,7 @@ const wigsData = [
   },
   {
     name: "White Wig",
+    category: 'wigs',
     image: white_wigs,
     available: [
       {
@@ -160,6 +173,7 @@ const wigsData = [
   },
   {
     name: "Short Yellow or Blue Wig",
+    category: 'wigs',
     image: yellow_blue_wig,
     available: [
       {
@@ -171,6 +185,7 @@ const wigsData = [
   },
   {
     name: "Red Queen Wig",
+    category: 'wigs',
     image: red_queen,
     available: [
       {
