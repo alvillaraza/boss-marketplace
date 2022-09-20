@@ -413,6 +413,22 @@ const clothingData = [
     ],
   },
   {
+    name: "Yellow School Girl Outfit",
+    image: yellow_school_girl,
+    available: [
+      {
+        item: "yellow half top and plaid skirt",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "yellow visor",
+        price: 5,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "Green St Patrick's Shamrock Leotard",
     image: green_shamrock,
     available: [
@@ -1119,30 +1135,98 @@ const clothingData = [
   {
     name: "Trapfest 2 Pieces",
     image: trapfest_cute,
+    available: [
+      {
+        item: "top and bottom (yellow or red)",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "visor (yellow or red)",
+        price: 5,
+        count: 4,
+      },
+    ],
   },
   {
     name: "White Crisscross 2 Pieces",
     image: white_crisscross,
+    available: [
+      {
+        item: "crisscross top, bottoms, and arm gloves",
+        price: 10,
+        count: 2,
+      },
+    ],
   },
   {
     name: "White lace Straps",
     image: white_lace_fashion,
+    available: [
+      {
+        item: "white lacey strappy top (bra not included) and strappy leg garter 5",
+        price: 10,
+        count: 1,
+      },
+    ],
   },
   {
     name: "White Mesh Leotard",
     image: white_mesh,
+    available: [
+      {
+        item: "white mesh leotard",
+        price: 5,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Winter White Leotard",
     image: winter_white_leo,
+    available: [
+      {
+        item: "winter white leotard and arm bands",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "light up ice headband",
+        price: 25,
+        count: 2,
+      },
+      {
+        item: "short blonde wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
   {
     name: "Silver Winter Skirt",
     image: xmas_winter_silver_skirt,
-  },
-  {
-    name: "Yellow School Girl Outfit",
-    image: yellow_school_girl,
+    available: [
+      {
+        item: "silver winter fur skirt",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "white poinsettia headband",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "white long satin gloves",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "short blonde wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
   },
 ];
 
