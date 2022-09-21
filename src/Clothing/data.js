@@ -1,7 +1,7 @@
 import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
 import apocalypse_gold from "./assets/apocalypse_gold.jpeg";
 import audrey_hepburn from "./assets/audrey_hepburn.jpeg";
-import autumn_babes from "./assets/autumn_babes.jpeg";
+// import autumn_babes from "./assets/autumn_babes.jpeg";
 import autumn_full_piece from "./assets/autumn_full_piece.jpeg";
 import white_lace_suit from "./assets/white_lace_suit.jpeg";
 import black_lacey_leo from "./assets/black_lacey_leo.jpeg";
@@ -10,7 +10,7 @@ import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
 import blue_sequin from "./assets/blue_sequin.jpeg";
 import bride_frankenstein from "./assets/bride_frankenstein.jpeg";
 import camo_2pc from "./assets/camo_2pc.jpeg";
-import christmas_tartan from "./assets/christmas_tartan.jpeg";
+// import christmas_tartan from "./assets/christmas_tartan.jpeg";
 import comic_book from "./assets/comic_book.jpeg";
 import cute_sailor_retro from "./assets/cute_sailor_retro.jpeg";
 import dancetronauts from "./assets/dancetronauts.jpeg";
@@ -34,7 +34,7 @@ import latina_fluff_3 from "./assets/latina_fluff_3.jpeg";
 import latina_mariachi from "./assets/latina_mariachi.jpeg";
 import lisa_frank from "./assets/lisa_frank.jpeg";
 import lisa_frank2 from "./assets/lisa_frank2.jpeg";
-import mardi_gras from "./assets/mardi_gras.jpeg";
+// import mardi_gras from "./assets/mardi_gras.jpeg";
 import marie_antoinette from "./assets/marie_antoinette.jpeg";
 import mermaids from "./assets/mermaids.jpeg";
 import olive_gold_spikes from "./assets/olive_gold_spikes.jpeg";
@@ -68,7 +68,7 @@ import white_crisscross from "./assets/white_crisscross.jpeg";
 import white_lace_fashion from "./assets/white_lace_fashion.jpeg";
 import white_mesh from "./assets/white_mesh.jpeg";
 import winter_white_leo from "./assets/winter_white_leo.jpeg";
-import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
+// import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
 import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
 
@@ -131,30 +131,30 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Autumn Babes Outfit",
-    category: 'clothing',
-    image: autumn_babes,
-    available: [
-      {
-        item: "Bra, wrap, and floral clips",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Autumn Glitter",
-    category: 'clothing',
-    image: autumn_full_piece,
-    available: [
-      {
-        item: "Bra, bottoms, and flowy back skirt",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Autumn Babes Outfit",
+  //   category: 'clothing',
+  //   image: autumn_babes,
+  //   available: [
+  //     {
+  //       item: "Bra, wrap, and floral clips",
+  //       price: 10,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Autumn Glitter",
+  //   category: 'clothing',
+  //   image: autumn_full_piece,
+  //   available: [
+  //     {
+  //       item: "Bra, bottoms, and flowy back skirt",
+  //       price: 20,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "white lace full leotard",
     category: 'clothing',
@@ -218,28 +218,28 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "blue sequin leotard",
-    category: 'clothing',
-    image: blue_sequin,
-    available: [
-      {
-        item: "blue sequin leotard",
-        price: 15,
-        count: 3,
-      },
-      {
-        item: "silver sequin bra",
-        price: 10,
-        count: 4,
-      },
-      {
-        item: "white wigs",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "blue sequin leotard",
+  //   category: 'clothing',
+  //   image: blue_sequin,
+  //   available: [
+  //     {
+  //       item: "blue sequin leotard",
+  //       price: 15,
+  //       count: 3,
+  //     },
+  //     {
+  //       item: "silver sequin bra",
+  //       price: 10,
+  //       count: 4,
+  //     },
+  //     {
+  //       item: "white wigs",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "bride of frankenstein",
     category: 'clothing',
@@ -269,23 +269,23 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "christmas tartan plaid leotard",
-    category: 'clothing',
-    image: christmas_tartan,
-    available: [
-      {
-        item: "tartan plaid leotard",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "poinsettia headband",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "christmas tartan plaid leotard",
+  //   category: 'clothing',
+  //   image: christmas_tartan,
+  //   available: [
+  //     {
+  //       item: "tartan plaid leotard",
+  //       price: 10,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "poinsettia headband",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "comic book top",
     category: 'clothing',
@@ -415,7 +415,7 @@ const clothingData = [
       {
         item: "green mesh leotard",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -480,23 +480,23 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Green St Patrick's Shamrock Leotard",
-    category: 'clothing',
-    image: green_shamrock,
-    available: [
-      {
-        item: "mesh shamrock leotard",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "green tophat with buckle",
-        price: 15,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Green St Patrick's Shamrock Leotard",
+  //   category: 'clothing',
+  //   image: green_shamrock,
+  //   available: [
+  //     {
+  //       item: "mesh shamrock leotard",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "green tophat with buckle",
+  //       price: 15,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Halloween Candy Corn",
     category: 'clothing',
@@ -726,23 +726,23 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Mardi Gras",
-    category: 'clothing',
-    image: mardi_gras,
-    available: [
-      {
-        item: "feather mask, leotard, skirt",
-        price: 20,
-        count: 2,
-      },
-      {
-        item: "long black lace gloves",
-        price: 8,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Mardi Gras",
+  //   category: 'clothing',
+  //   image: mardi_gras,
+  //   available: [
+  //     {
+  //       item: "feather mask, leotard, skirt",
+  //       price: 20,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "long black lace gloves",
+  //       price: 8,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Marie Antoinette",
     category: 'clothing',
@@ -1291,33 +1291,33 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Silver Winter Skirt",
-    category: 'clothing',
-    image: xmas_winter_silver_skirt,
-    available: [
-      {
-        item: "silver winter fur skirt",
-        price: 15,
-        count: 2,
-      },
-      {
-        item: "white poinsettia headband",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "white long satin gloves",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "short blonde wigs",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Silver Winter Skirt",
+  //   category: 'clothing',
+  //   image: xmas_winter_silver_skirt,
+  //   available: [
+  //     {
+  //       item: "silver winter fur skirt",
+  //       price: 15,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "white poinsettia headband",
+  //       price: 10,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "white long satin gloves",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "short blonde wigs",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
 ];
 
 export default clothingData;
