@@ -2,7 +2,7 @@ import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
 import apocalypse_gold from "./assets/apocalypse_gold.jpeg";
 import audrey_hepburn from "./assets/audrey_hepburn.jpeg";
 // import autumn_babes from "./assets/autumn_babes.jpeg";
-import autumn_full_piece from "./assets/autumn_full_piece.jpeg";
+// import autumn_full_piece from "./assets/autumn_full_piece.jpeg";
 import white_lace_suit from "./assets/white_lace_suit.jpeg";
 import black_lacey_leo from "./assets/black_lacey_leo.jpeg";
 import bloody_bunnies from "./assets/bloody_bunnies.jpeg";
@@ -21,7 +21,7 @@ import gold_retro from "./assets/gold_retro.jpeg";
 import green_mesh from "./assets/green_mesh.jpeg";
 import green_robe from "./assets/green_robe.jpeg";
 import green_school_girl_golf from "./assets/green_school_girl_golf.jpeg";
-import green_shamrock from "./assets/green_shamrock.jpeg";
+// import green_shamrock from "./assets/green_shamrock.jpeg";
 import halloween_candy from "./assets/halloween_candy.jpeg";
 import halloween_geisha from "./assets/halloween_geisha.jpeg";
 import harley_quinn_OG from "./assets/harley_quinn_OG.jpeg";
@@ -218,28 +218,28 @@ const clothingData = [
       },
     ],
   },
-  // {
-  //   name: "blue sequin leotard",
-  //   category: 'clothing',
-  //   image: blue_sequin,
-  //   available: [
-  //     {
-  //       item: "blue sequin leotard",
-  //       price: 15,
-  //       count: 3,
-  //     },
-  //     {
-  //       item: "silver sequin bra",
-  //       price: 10,
-  //       count: 4,
-  //     },
-  //     {
-  //       item: "white wigs",
-  //       price: 10,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
+  {
+    name: "blue sequin leotard",
+    category: 'clothing',
+    image: blue_sequin,
+    available: [
+      {
+        item: "blue sequin leotard",
+        price: 15,
+        count: 1
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+      {
+        item: "white wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
   {
     name: "bride of frankenstein",
     category: 'clothing',
