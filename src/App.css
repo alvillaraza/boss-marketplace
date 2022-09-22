@@ -74,6 +74,9 @@
 .Marketplace .photo > div {
   z-index: 1;
 }
+.Marketplace .photo i {
+  align-self: flex-end;
+}
 .Marketplace .photo:hover img {
   opacity: 0.2;
 }
@@ -88,6 +91,9 @@
   max-height: 350px;
   width: auto;
   max-width: 350px;
+}
+.Marketplace .description-wrapper i {
+  padding-left: 3px;
 }
 .Marketplace .description-wrapper .item-title a {
   color: black;

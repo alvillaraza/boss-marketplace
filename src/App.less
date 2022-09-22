@@ -65,6 +65,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
+    // display: flex;
 
     img,
     // > selects all div elements under the a
@@ -76,6 +77,10 @@
 
     > div {
       z-index: 1;
+    }
+
+    i {
+      align-self: flex-end;
     }
 
     &:hover {
@@ -96,6 +101,10 @@
     max-height: 350px;
     width: auto;
     max-width: 350px;
+
+    i {
+      padding-left: 3px;
+    }
 
     .item-title {
       a {

@@ -13,13 +13,12 @@ function Clothing() {
         return (
           <div className="photo">
             <img src={clothing.image} alt={clothing.name} />
-            <Description
-              name={clothing.name}
-              itemized={clothing.available}
-            />
+            {/* <i class="fas fa-plus-circle"></i>{" "} */}
+            <Description name={clothing.name} itemized={clothing.available} />
           </div>
         );
       })}
+      <i class="fa-solid fa-circle-plus"></i>
     </div>
   );
 }
