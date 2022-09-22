@@ -75,47 +75,8 @@ import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
   {
-    name: "apocalypse gold costume 2",
-    category: 'clothing',
-    image: apocalypse_gold_2,
-    available: [
-      {
-        item: "bra",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gas mask",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gold studded belt",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "apocalypse costume",
-    category: 'clothing',
-    image: apocalypse_gold,
-    available: [
-      {
-        item: "bra",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gas mask",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
-  {
     name: "audrey hepburn leotard",
-    category: 'clothing',
+    category: "clothing",
     image: audrey_hepburn,
     available: [
       {
@@ -157,7 +118,7 @@ const clothingData = [
   // },
   {
     name: "white lace full leotard",
-    category: 'clothing',
+    category: "clothing",
     image: white_lace_suit,
     available: [
       {
@@ -174,7 +135,7 @@ const clothingData = [
   },
   {
     name: "black lace leotard",
-    category: 'clothing',
+    category: "clothing",
     image: black_lacey_leo,
     available: [
       {
@@ -195,80 +156,69 @@ const clothingData = [
     ],
   },
   {
-    name: "bloody bunnies outfit",
-    category: 'clothing',
-    image: bloody_bunnies,
+    name: "Showgirl Feather Headpiece",
+    category: "clothing",
+    image: feather_headpieces,
     available: [
       {
-        item: "floppy hoodie, leotard, gloves, and bunny tail",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "bloody bunnies outfit",
-    category: 'clothing',
-    image: bloody_bunnies2,
-    available: [
-      {
-        item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "blue sequin leotard",
-    category: 'clothing',
-    image: blue_sequin,
-    available: [
-      {
-        item: "blue sequin leotard",
-        price: 15,
-        count: 1
+        item: "feather headpieces (black or white)",
+        price: 25,
+        count: 2,
       },
       {
-        item: "silver sequin bra",
-        price: 10,
-        count: 4,
-      },
-      {
-        item: "white wigs",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "bride of frankenstein",
-    category: 'clothing',
-    image: bride_frankenstein,
-    available: [
-      {
-        item: "bra, long skirt, wig",
+        item: "bra (black or white)",
         price: 10,
         count: 2,
       },
     ],
   },
   {
-    name: "camo 2pc",
-    category: 'clothing',
-    image: camo_2pc,
+    name: "Silver and Black Ensemble",
+    category: "clothing",
+    image: silver_black_raw_fashion,
     available: [
       {
-        item: "bra and bottoms",
-        price: 8,
+        item: "silver with black lace top and bottoms and black lace wrap",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Bond Girls",
+    category: "clothing",
+    image: james_bond,
+    available: [
+      {
+        item: "red dress",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "nude dress",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "fembots",
+    category: "clothing",
+    image: fembots,
+    available: [
+      {
+        item: "wig",
+        price: 15,
         count: 3,
       },
       {
-        item: "gold studded belt",
-        price: 5,
+        item: "dress, bottoms, gloves, and poof for shoes",
+        price: 25,
         count: 3,
       },
     ],
   },
+
   // {
   //   name: "christmas tartan plaid leotard",
   //   category: 'clothing',
@@ -287,42 +237,70 @@ const clothingData = [
   //   ],
   // },
   {
-    name: "comic book top",
-    category: 'clothing',
-    image: comic_book,
+    name: "Marie Antoinette",
+    category: "clothing",
+    image: marie_antoinette,
     available: [
       {
-        item: "half top",
-        price: 5,
+        item: "leotard (no ruffley wrist)",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "pink marie antoinette wig",
+        price: 20,
         count: 2,
       },
     ],
   },
   {
-    name: "retro sailor outfit",
-    category: 'clothing',
-    image: cute_sailor_retro,
+    name: "Rose Gold Leotard",
+    category: "clothing",
+    image: rose_gold_leo,
     available: [
       {
-        item: "blue and white striped half top and bottoms",
+        item: "rose gold sequin leotard and ribbon neck piece",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "curly retro betty boop blonde wig",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "butterfly fascinator hair clip",
         price: 10,
-        count: 3,
+        count: 2,
+      },
+    ],
+  },
+
+  {
+    name: "blue sequin leotard",
+    category: "clothing",
+    image: blue_sequin,
+    available: [
+      {
+        item: "blue sequin leotard",
+        price: 15,
+        count: 1,
       },
       {
-        item: "red and white striped bra",
-        price: 5,
-        count: 3,
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
       },
       {
-        item: "sailor headband",
-        price: 8,
+        item: "white wigs",
+        price: 10,
         count: 3,
       },
     ],
   },
   {
     name: "futuristic silver",
-    category: 'clothing',
+    category: "clothing",
     image: dancetronauts,
     available: [
       {
@@ -334,7 +312,7 @@ const clothingData = [
   },
   {
     name: "futuristic silver 2pc",
-    category: 'clothing',
+    category: "clothing",
     image: futuristic_silver,
     available: [
       {
@@ -344,55 +322,10 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "fembots",
-    category: 'clothing',
-    image: fembots,
-    available: [
-      {
-        item: "wig",
-        price: 15,
-        count: 3,
-      },
-      {
-        item: "dress, bottoms, gloves, and poof for shoes",
-        price: 25,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Oktoberfest",
-    category: 'clothing',
-    image: german_oktoberfest_2,
-    available: [
-      {
-        item: "bra, skirt jumper, arm bands",
-        price: 15,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Showgirl Feather Headpiece",
-    category: 'clothing',
-    image: feather_headpieces,
-    available: [
-      {
-        item: "feather headpieces (black or white)",
-        price: 25,
-        count: 2,
-      },
-      {
-        item: "bra (black or white)",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
+
   {
     name: "Gold Disco Outfit",
-    category: 'clothing',
+    category: "clothing",
     image: gold_retro,
     available: [
       {
@@ -408,8 +341,39 @@ const clothingData = [
     ],
   },
   {
+    name: "Oktoberfest",
+    category: "clothing",
+    image: german_oktoberfest_2,
+    available: [
+      {
+        item: "bra, skirt jumper, arm bands",
+        price: 15,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "St Patricks Outfit",
+    category: "clothing",
+    image: st_patricks,
+    available: [
+      {
+        item: "green vest and green bowtie",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gold high waist bottoms",
+        price: 5,
+        count: 3,
+      },
+      { item: "green hat with gold shamrocks", price: 15, count: 3 },
+      { item: "gold sequin baton", price: 5, count: 3 },
+    ],
+  },
+  {
     name: "Green Mesh Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: green_mesh,
     available: [
       {
@@ -421,7 +385,7 @@ const clothingData = [
   },
   {
     name: "Green Robe",
-    category: 'clothing',
+    category: "clothing",
     image: green_robe,
     available: [
       {
@@ -441,45 +405,60 @@ const clothingData = [
       },
     ],
   },
+
   {
-    name: "Green School Girl Golf Outfit",
-    category: 'clothing',
-    image: green_school_girl_golf,
+    name: "retro sailor outfit",
+    category: "clothing",
+    image: cute_sailor_retro,
     available: [
       {
-        item: "hat",
-        price: 8,
+        item: "blue and white striped half top and bottoms",
+        price: 10,
         count: 3,
       },
       {
-        item: "black strappy bra",
+        item: "red and white striped bra",
         price: 5,
         count: 3,
       },
       {
-        item: "skirt",
+        item: "sailor headband",
         price: 8,
-        count: 2,
+        count: 3,
+      },
+    ],
+  },
+
+  {
+    name: "Hula Girl",
+    category: "clothing",
+    image: hula_girl,
+    available: [
+      {
+        item: "bra, grass skirt, hairpiece, wrist flowers, and flower hair clip",
+        price: 15,
+        count: 3,
       },
     ],
   },
   {
-    name: "Yellow School Girl Outfit",
-    category: 'clothing',
-    image: yellow_school_girl,
+    name: "Mermaids",
+    category: "clothing",
+    image: mermaids,
     available: [
       {
-        item: "yellow half top and plaid skirt",
+        item: "pink sequin bra and skirt",
         price: 10,
         count: 2,
       },
       {
-        item: "yellow visor",
-        price: 5,
+        item: "starfish hairclip",
+        price: 8,
         count: 2,
       },
     ],
   },
+
   // {
   //   name: "Green St Patrick's Shamrock Leotard",
   //   category: 'clothing',
@@ -497,33 +476,10 @@ const clothingData = [
   //     },
   //   ],
   // },
-  {
-    name: "Halloween Candy Corn",
-    category: 'clothing',
-    image: halloween_candy,
-    available: [
-      {
-        item: "Candy Corn Leotard",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Zombie Geisha",
-    category: 'clothing',
-    image: halloween_geisha,
-    available: [
-      {
-        item: "bone hairclip, fan, robe, and robe wrap",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
+
   {
     name: "OG Harley Quinn",
-    category: 'clothing',
+    category: "clothing",
     image: harley_quinn_OG,
     available: [
       {
@@ -549,30 +505,21 @@ const clothingData = [
     ],
   },
   {
-    name: "Hooded Fur Leotard",
-    category: 'clothing',
-    image: hooded_fur,
+    name: "Incredibles Superhero",
+    category: "clothing",
+    image: incredibles,
     available: [
       {
-        item: "hooded fur leotard",
-        price: 12,
-        count: 1,
-      },
-      {
-        item: "silver sequin bra",
-        price: 10,
-        count: 4,
-      },
-      {
-        item: "silver necklace",
+        item: "red top with logo",
         price: 5,
-        count: 2,
+        count: 3,
       },
     ],
   },
+
   {
     name: "Strappy Hot Pink",
-    category: 'clothing',
+    category: "clothing",
     image: hot_pink_strappy,
     available: [
       {
@@ -588,83 +535,20 @@ const clothingData = [
     ],
   },
   {
-    name: "Hula Girl",
-    category: 'clothing',
-    image: hula_girl,
+    name: "comic book top",
+    category: "clothing",
+    image: comic_book,
     available: [
       {
-        item: "bra, grass skirt, hairpiece, wrist flowers, and flower hair clip",
-        price: 15,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Incredibles Superhero",
-    category: 'clothing',
-    image: incredibles,
-    available: [
-      {
-        item: "red top with logo",
+        item: "half top",
         price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Bond Girls",
-    category: 'clothing',
-    image: james_bond,
-    available: [
-      {
-        item: "red dress",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "nude dress",
-        price: 15,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Ruffles",
-    category: 'clothing',
-    image: latina_fluff_3,
-    available: [
-      {
-        item: "ruffle top and skirt",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "flower hair clip",
-        price: 3,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Mariachi Inspired",
-    category: 'clothing',
-    image: latina_mariachi,
-    available: [
-      {
-        item: "half leather jacket and bottoms with gold lace",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "bra",
-        price: 3,
         count: 2,
       },
     ],
   },
   {
     name: "Lisa Frank Inspired",
-    category: 'clothing',
+    category: "clothing",
     image: lisa_frank,
     available: [
       {
@@ -696,7 +580,7 @@ const clothingData = [
   },
   {
     name: "Lisa Frank Inspired",
-    category: 'clothing',
+    category: "clothing",
     image: lisa_frank2,
     available: [
       {
@@ -743,43 +627,10 @@ const clothingData = [
   //     },
   //   ],
   // },
-  {
-    name: "Marie Antoinette",
-    category: 'clothing',
-    image: marie_antoinette,
-    available: [
-      {
-        item: "leotard (no ruffley wrist)",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "pink marie antoinette wig",
-        price: 20,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Mermaids",
-    category: 'clothing',
-    image: mermaids,
-    available: [
-      {
-        item: "pink sequin bra and skirt",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "starfish hairclip",
-        price: 8,
-        count: 2,
-      },
-    ],
-  },
+
   {
     name: "Olive Gold Spikey 2 piece",
-    category: 'clothing',
+    category: "clothing",
     image: olive_gold_spikes,
     available: [
       {
@@ -790,8 +641,105 @@ const clothingData = [
     ],
   },
   {
+    name: "Teenage Mutant Ninja Turtle Leonardo",
+    category: "clothing",
+    image: tmnt,
+    available: [
+      {
+        item: "top, wristbands, waist wrap, and shell backpack",
+        price: 10,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "camo 2pc",
+    category: "clothing",
+    image: camo_2pc,
+    available: [
+      {
+        item: "bra and bottoms",
+        price: 8,
+        count: 3,
+      },
+      {
+        item: "gold studded belt",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Green School Girl Golf Outfit",
+    category: "clothing",
+    image: green_school_girl_golf,
+    available: [
+      {
+        item: "hat",
+        price: 8,
+        count: 3,
+      },
+      {
+        item: "black strappy bra",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "skirt",
+        price: 8,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Yellow School Girl Outfit",
+    category: "clothing",
+    image: yellow_school_girl,
+    available: [
+      {
+        item: "yellow half top and plaid skirt",
+        price: 10,
+        count: 2,
+      },
+      {
+        item: "yellow visor",
+        price: 5,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Trapfest 2 Pieces",
+    category: "clothing",
+    image: trapfest_cute,
+    available: [
+      {
+        item: "top and bottom (yellow or red)",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "visor (yellow or red)",
+        price: 5,
+        count: 4,
+      },
+    ],
+  },
+  {
+    name: "Sporty Football Outfit",
+    category: "clothing",
+    image: sporty_football,
+    available: [
+      {
+        item: "pink and black half top shoulder pads, top, and bottoms",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "Pikachu",
-    category: 'clothing',
+    category: "clothing",
     image: pikachu,
     available: [
       {
@@ -802,8 +750,47 @@ const clothingData = [
     ],
   },
   {
+    name: "apocalypse gold costume 2",
+    category: "clothing",
+    image: apocalypse_gold_2,
+    available: [
+      {
+        item: "bra",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gas mask",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gold studded belt",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "apocalypse costume",
+    category: "clothing",
+    image: apocalypse_gold,
+    available: [
+      {
+        item: "bra",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "gas mask",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
     name: "Pirate Captain",
-    category: 'clothing',
+    category: "clothing",
     image: pirate_captain,
     available: [
       {
@@ -820,7 +807,7 @@ const clothingData = [
   },
   {
     name: "Pirates",
-    category: 'clothing',
+    category: "clothing",
     image: pirates,
     available: [
       {
@@ -836,8 +823,97 @@ const clothingData = [
     ],
   },
   {
+    name: "bloody bunnies outfit",
+    category: "clothing",
+    image: bloody_bunnies,
+    available: [
+      {
+        item: "floppy hoodie, leotard, gloves, and bunny tail",
+        price: 20,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "bloody bunnies outfit",
+    category: "clothing",
+    image: bloody_bunnies2,
+    available: [
+      {
+        item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
+        price: 20,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Halloween Candy Corn",
+    category: "clothing",
+    image: halloween_candy,
+    available: [
+      {
+        item: "Candy Corn Leotard",
+        price: 5,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Zombie Geisha",
+    category: "clothing",
+    image: halloween_geisha,
+    available: [
+      {
+        item: "bone hairclip, fan, robe, and robe wrap",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Silver Fringe Belt",
+    category: "clothing",
+    image: silver_fringe_belt,
+    available: [
+      {
+        item: "silver fringe belt",
+        price: 8,
+        count: 5,
+      },
+    ],
+  },
+  {
+    name: "bride of frankenstein",
+    category: "clothing",
+    image: bride_frankenstein,
+    available: [
+      {
+        item: "bra, long skirt, wig",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Shark",
+    category: "clothing",
+    image: shark,
+    available: [
+      {
+        item: "silver shark top with hood and arm bands",
+        price: 20,
+        count: 3,
+      },
+      {
+        item: "silver bottoms",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
     name: "The Bomb Pop Popsicles",
-    category: 'clothing',
+    category: "clothing",
     image: popsicles,
     available: [
       {
@@ -854,7 +930,7 @@ const clothingData = [
   },
   {
     name: "Racing Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: race_car,
     available: [
       {
@@ -871,7 +947,7 @@ const clothingData = [
   },
   {
     name: "Black Red Lace Mesh Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: red_black_lace_leo,
     available: [
       {
@@ -888,7 +964,7 @@ const clothingData = [
   },
   {
     name: "Red Feather Tutu",
-    category: 'clothing',
+    category: "clothing",
     image: red_feather_tutu,
     available: [
       {
@@ -900,7 +976,7 @@ const clothingData = [
   },
   {
     name: "Red Mesh Top",
-    category: 'clothing',
+    category: "clothing",
     image: red_mesh,
     available: [
       {
@@ -912,7 +988,7 @@ const clothingData = [
   },
   {
     name: "Red Ninja",
-    category: 'clothing',
+    category: "clothing",
     image: red_ninaj,
     available: [
       {
@@ -929,7 +1005,7 @@ const clothingData = [
   },
   {
     name: "Retro Leopard Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: retro_leopard,
     available: [
       {
@@ -951,7 +1027,7 @@ const clothingData = [
   },
   {
     name: "Ring Leader",
-    category: 'clothing',
+    category: "clothing",
     image: ring_leader,
     available: [
       {
@@ -966,31 +1042,44 @@ const clothingData = [
       },
     ],
   },
+
   {
-    name: "Rose Gold Leotard",
-    category: 'clothing',
-    image: rose_gold_leo,
+    name: "Ruffles",
+    category: "clothing",
+    image: latina_fluff_3,
     available: [
       {
-        item: "rose gold sequin leotard and ribbon neck piece",
-        price: 15,
-        count: 2,
+        item: "ruffle top and skirt",
+        price: 5,
+        count: 3,
       },
       {
-        item: "curly retro betty boop blonde wig",
-        price: 15,
-        count: 2,
+        item: "flower hair clip",
+        price: 3,
+        count: 3,
       },
+    ],
+  },
+  {
+    name: "Mariachi Inspired",
+    category: "clothing",
+    image: latina_mariachi,
+    available: [
       {
-        item: "butterfly fascinator hair clip",
+        item: "half leather jacket and bottoms with gold lace",
         price: 10,
+        count: 2,
+      },
+      {
+        item: "bra",
+        price: 3,
         count: 2,
       },
     ],
   },
   {
     name: "Ruffley Rose Ensemble",
-    category: 'clothing',
+    category: "clothing",
     image: salsa_latina,
     available: [
       {
@@ -1017,7 +1106,7 @@ const clothingData = [
   },
   {
     name: "Purple and Blue Samba Girls",
-    category: 'clothing',
+    category: "clothing",
     image: samba_girls_purple_blue,
     available: [
       {
@@ -1034,7 +1123,7 @@ const clothingData = [
   },
   {
     name: "Purple and Blue Samba Girls",
-    category: 'clothing',
+    category: "clothing",
     image: samba_girls_purple_blue2,
     available: [
       {
@@ -1061,7 +1150,7 @@ const clothingData = [
   },
   {
     name: "Samba Girls",
-    category: 'clothing',
+    category: "clothing",
     image: samba_girls,
     available: [
       {
@@ -1088,7 +1177,7 @@ const clothingData = [
   },
   {
     name: "Green and Pink Samba Girls",
-    category: 'clothing',
+    category: "clothing",
     image: samba_girls2,
     available: [
       {
@@ -1105,7 +1194,7 @@ const clothingData = [
   },
   {
     name: "Santa Hoodie Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: santa_hoodie,
     available: [
       {
@@ -1115,127 +1204,28 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Shark",
-    category: 'clothing',
-    image: shark,
-    available: [
-      {
-        item: "silver shark top with hood and arm bands",
-        price: 20,
-        count: 3,
-      },
-      {
-        item: "silver bottoms",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Silver and Black Ensemble",
-    category: 'clothing',
-    image: silver_black_raw_fashion,
-    available: [
-      {
-        item: "silver with black lace top and bottoms and black lace wrap",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Silver Disco Leotard",
-    category: 'clothing',
-    image: silver_disco_leo,
-    available: [
-      {
-        item: "silver sequin leotard",
-        price: 15,
-        count: 3,
-      },
-      {
-        item: "white fur jacket",
-        price: 25,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Silver Fringe Belt",
-    category: 'clothing',
-    image: silver_fringe_belt,
-    available: [
-      {
-        item: "silver fringe belt",
-        price: 8,
-        count: 5,
-      },
-    ],
-  },
-  {
-    name: "Sporty Football Outfit",
-    category: 'clothing',
-    image: sporty_football,
-    available: [
-      {
-        item: "pink and black half top shoulder pads, top, and bottoms",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "St Patricks Outfit",
-    category: 'clothing',
-    image: st_patricks,
-    available: [
-      {
-        item: "green vest and green bowtie",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gold high waist bottoms",
-        price: 5,
-        count: 3,
-      },
-      { item: "green hat with gold shamrocks", price: 15, count: 3 },
-      { item: "gold sequin baton", price: 5, count: 3 },
-    ],
-  },
-  {
-    name: "Teenage Mutant Ninja Turtle Leonardo",
-    category: 'clothing',
-    image: tmnt,
-    available: [
-      {
-        item: "top, wristbands, waist wrap, and shell backpack",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Trapfest 2 Pieces",
-    category: 'clothing',
-    image: trapfest_cute,
-    available: [
-      {
-        item: "top and bottom (yellow or red)",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "visor (yellow or red)",
-        price: 5,
-        count: 4,
-      },
-    ],
-  },
+
+  // {
+  //   name: "Silver Disco Leotard",
+  //   category: "clothing",
+  //   image: silver_disco_leo,
+  //   available: [
+  //     {
+  //       item: "silver sequin leotard",
+  //       price: 15,
+  //       count: 3,
+  //     },
+  //     {
+  //       item: "white fur jacket",
+  //       price: 25,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
+
   {
     name: "White Crisscross 2 Pieces",
-    category: 'clothing',
+    category: "clothing",
     image: white_crisscross,
     available: [
       {
@@ -1247,7 +1237,7 @@ const clothingData = [
   },
   {
     name: "White lace Straps",
-    category: 'clothing',
+    category: "clothing",
     image: white_lace_fashion,
     available: [
       {
@@ -1259,7 +1249,7 @@ const clothingData = [
   },
   {
     name: "White Mesh Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: white_mesh,
     available: [
       {
@@ -1271,7 +1261,7 @@ const clothingData = [
   },
   {
     name: "Winter White Leotard",
-    category: 'clothing',
+    category: "clothing",
     image: winter_white_leo,
     available: [
       {
@@ -1288,6 +1278,28 @@ const clothingData = [
         item: "short blonde wigs",
         price: 10,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Hooded Fur Leotard",
+    category: "clothing",
+    image: hooded_fur,
+    available: [
+      {
+        item: "hooded fur leotard",
+        price: 12,
+        count: 1,
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+      {
+        item: "silver necklace",
+        price: 5,
+        count: 2,
       },
     ],
   },
