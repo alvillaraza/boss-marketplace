@@ -15,13 +15,12 @@ import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
 import leather_hat from "./assets/leather_hat.jpeg";
-import gold_spiked_hat from "./assets/gold_spiked_hat.jpeg";
-
+import gold_spiked_side from "./assets/gold_spiked_side.jpeg";
 
 const hatsData = [
   {
     name: "Black Leather Hat",
-    category: 'hats',
+    category: "hats",
     image: leather_hat,
     available: [
       {
@@ -33,8 +32,8 @@ const hatsData = [
   },
   {
     name: "Gold Spiked Hat",
-    category: 'hats',
-    image: gold_spiked_hat,
+    category: "hats",
+    image: gold_spiked_side,
     available: [
       {
         item: "white hat with gold spikes",
@@ -45,7 +44,7 @@ const hatsData = [
   },
   {
     name: "Red Military Hat",
-    category: 'hats',
+    category: "hats",
     image: red_military,
     available: [
       {
@@ -57,7 +56,7 @@ const hatsData = [
   },
   {
     name: "Freddy Kreuger Hat and Glove",
-    category: 'hats',
+    category: "hats",
     image: freddy_with_hands,
     available: [
       {
@@ -70,7 +69,7 @@ const hatsData = [
 
   {
     name: "Mariachi Hat",
-    category: 'hats',
+    category: "hats",
     image: mariachi_front,
     available: [
       {
@@ -82,7 +81,7 @@ const hatsData = [
   },
   {
     name: "Patriotic Flowers Summer Hat",
-    category: 'hats',
+    category: "hats",
     image: patriotic_summer_front,
     available: [
       {
@@ -94,7 +93,7 @@ const hatsData = [
   },
   {
     name: "Patriotic Feathers Tophat",
-    category: 'hats',
+    category: "hats",
     image: patriotic_tophat_front,
     available: [
       {
@@ -106,7 +105,7 @@ const hatsData = [
   },
   {
     name: "Patriotic Visor",
-    category: 'hats',
+    category: "hats",
     image: patriotic_visor_side,
     available: [
       {
@@ -118,7 +117,7 @@ const hatsData = [
   },
   {
     name: "Sailor Captain Hat",
-    category: 'hats',
+    category: "hats",
     image: captain_hat_front,
     available: [
       {
@@ -130,7 +129,7 @@ const hatsData = [
   },
   {
     name: "Sailor Hat",
-    category: 'hats',
+    category: "hats",
     image: sailor_front,
     available: [
       {
@@ -142,7 +141,7 @@ const hatsData = [
   },
   {
     name: "Sailor Stripe Headband",
-    category: 'hats',
+    category: "hats",
     image: sailor_stripe_front,
     available: [
       {
@@ -154,7 +153,7 @@ const hatsData = [
   },
   {
     name: "White Sailor",
-    category: 'hats',
+    category: "hats",
     image: white_sailor_side,
     available: [
       {
@@ -166,7 +165,7 @@ const hatsData = [
   },
   {
     name: "Green Shamrock Bowler Hat",
-    category: 'hats',
+    category: "hats",
     image: greenbowlerhat_side,
     available: [
       {
@@ -178,7 +177,7 @@ const hatsData = [
   },
   {
     name: "Green Tophat",
-    category: 'hats',
+    category: "hats",
     image: greentophat_side,
     available: [
       {
@@ -190,7 +189,7 @@ const hatsData = [
   },
   {
     name: "Green Tophat with Buckle",
-    category: 'hats',
+    category: "hats",
     image: tophatwithbuckle,
     available: [
       {
@@ -202,7 +201,7 @@ const hatsData = [
   },
   {
     name: "White Fur Hood with Ears",
-    category: 'hats',
+    category: "hats",
     image: white_fur_ears_front,
     available: [
       {
@@ -214,7 +213,7 @@ const hatsData = [
   },
   {
     name: "White Fur Hat",
-    category: 'hats',
+    category: "hats",
     image: white_fur_hat,
     available: [
       {
@@ -226,7 +225,7 @@ const hatsData = [
   },
   {
     name: "Leopard Fur Hood",
-    category: 'hats',
+    category: "hats",
     image: leopard_fur_front2,
     available: [
       {
