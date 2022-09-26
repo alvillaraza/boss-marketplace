@@ -3,8 +3,8 @@ function LandingPage() {
     <section className="landing-page">
       Hey guys!
       <p>
-        Welcome to the BOSS Marketplace! It's Miss Alexis, and I'm currently
-        cleaning out my costume room! I'm selling most of my costumes at
+        Welcome to the BOSS Marketplace! It's Miss Alexis, and we're currently
+        cleaning out our costume room! We're selling most of our costumes at
         discounted rates just in time for Halloween!
       </p>
       <h4>How to browse this site</h4>

@@ -123,6 +123,9 @@
 .Marketplace .description-wrapper .description {
   padding: 1px;
 }
+.Marketplace .description-wrapper .description i {
+  padding-right: 3px;
+}
 @media screen and (max-width: 414px) {
   .Marketplace nav {
     font-size: 14px;

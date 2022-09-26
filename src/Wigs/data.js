@@ -10,7 +10,7 @@ import neon_blue from './assets/neon_blue.jpeg'
 import orange_wig from './assets/orange_wig.png'
 import red_queen from './assets/red_queen.jpeg'
 import red_wig from './assets/red_wig.png'
-import short_white_wig from './assets/short_white_wig.jpeg'
+// import short_white_wig from './assets/short_white_wig.jpeg'
 import white_wigs from './assets/white_wigs.png'
 import yellow_blue_wig from './assets/yellow_blue_wig.jpeg'
 
@@ -71,7 +71,7 @@ const wigsData = [
       {
         item: "grey wavy wig",
         price: 12,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -147,18 +147,18 @@ const wigsData = [
       },
     ],
   },
-  {
-    name: "Short White Wig",
-    category: 'wigs',
-    image: short_white_wig,
-    available: [
-      {
-        item: "short white wigs",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Short White Wig",
+  //   category: 'wigs',
+  //   image: short_white_wig,
+  //   available: [
+  //     {
+  //       item: "short white wigs",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "White Wig",
     category: 'wigs',
@@ -167,7 +167,7 @@ const wigsData = [
       {
         item: "white wigs",
         price: 10,
-        count: 3,
+        count: 1,
       },
     ],
   },

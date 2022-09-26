@@ -18,7 +18,7 @@ import fembots from "./assets/fembots.jpeg";
 import futuristic_silver from "./assets/futuristic_silver.jpeg";
 import german_oktoberfest_2 from "./assets/german_oktoberfest_2.jpeg";
 import gold_retro from "./assets/gold_retro.jpeg";
-import green_mesh from "./assets/green_mesh.jpeg";
+// import green_mesh from "./assets/green_mesh.jpeg";
 import green_robe from "./assets/green_robe.jpeg";
 import green_school_girl_golf from "./assets/green_school_girl_golf.jpeg";
 // import green_shamrock from "./assets/green_shamrock.jpeg";
@@ -44,7 +44,7 @@ import pirates from "./assets/pirates.jpeg";
 import popsicles from "./assets/popsicles.jpeg";
 import race_car from "./assets/race_car.jpeg";
 import red_black_lace_leo from "./assets/red_black_lace_leo.jpeg";
-import red_feather_tutu from "./assets/red_feather_tutu.png";
+// import red_feather_tutu from "./assets/red_feather_tutu.png";
 import red_mesh from "./assets/red_mesh.jpeg";
 import red_ninaj from "./assets/red_ninaj.jpeg";
 import retro_leopard from "./assets/retro_leopard.jpeg";
@@ -209,12 +209,12 @@ const clothingData = [
       {
         item: "wig",
         price: 15,
-        count: 3,
+        count: 2,
       },
       {
         item: "dress, bottoms, gloves, and poof for shoes",
         price: 25,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -294,7 +294,7 @@ const clothingData = [
       {
         item: "white wigs",
         price: 10,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -371,18 +371,18 @@ const clothingData = [
       { item: "gold sequin baton", price: 5, count: 3 },
     ],
   },
-  {
-    name: "Green Mesh Leotard",
-    category: "clothing",
-    image: green_mesh,
-    available: [
-      {
-        item: "green mesh leotard",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Green Mesh Leotard",
+  //   category: "clothing",
+  //   image: green_mesh,
+  //   available: [
+  //     {
+  //       item: "green mesh leotard",
+  //       price: 10,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Green Robe",
     category: "clothing",
@@ -878,7 +878,7 @@ const clothingData = [
       {
         item: "silver fringe belt",
         price: 8,
-        count: 5,
+        count: 4,
       },
     ],
   },
@@ -962,18 +962,18 @@ const clothingData = [
       },
     ],
   },
-  {
-    name: "Red Feather Tutu",
-    category: "clothing",
-    image: red_feather_tutu,
-    available: [
-      {
-        item: "bra and feather half tutu",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Red Feather Tutu",
+  //   category: "clothing",
+  //   image: red_feather_tutu,
+  //   available: [
+  //     {
+  //       item: "bra and feather half tutu",
+  //       price: 10,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Red Mesh Top",
     category: "clothing",
@@ -994,12 +994,12 @@ const clothingData = [
       {
         item: "ninja top with mask and bottoms",
         price: 15,
-        count: 2,
+        count: 1,
       },
       {
         item: "pair of red, braided hair extensions",
         price: 8,
-        count: 4,
+        count: 3,
       },
     ],
   },
@@ -1267,7 +1267,7 @@ const clothingData = [
       {
         item: "winter white leotard and arm bands",
         price: 10,
-        count: 2,
+        count: 1,
       },
       {
         item: "light up ice headband",
@@ -1277,7 +1277,7 @@ const clothingData = [
       {
         item: "short blonde wigs",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },

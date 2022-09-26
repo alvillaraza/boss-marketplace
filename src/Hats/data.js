@@ -15,6 +15,8 @@ import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
 import leather_hat from "./assets/leather_hat.jpeg";
+import gold_spiked_hat from "./assets/gold_spiked_hat.jpeg";
+
 
 const hatsData = [
   {
@@ -26,6 +28,18 @@ const hatsData = [
         item: "black leather biker hat with silver chain",
         price: 8,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Gold Spiked Hat",
+    category: 'hats',
+    image: gold_spiked_hat,
+    available: [
+      {
+        item: "white hat with gold spikes",
+        price: 20,
+        count: 1,
       },
     ],
   },
@@ -48,8 +62,8 @@ const hatsData = [
     available: [
       {
         item: "freddy kreuger hat and glove",
-        price: 12,
-        count: 2,
+        price: 20,
+        count: 1,
       },
     ],
   },
