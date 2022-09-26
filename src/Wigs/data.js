@@ -13,6 +13,7 @@ import red_wig from './assets/red_wig.png'
 // import short_white_wig from './assets/short_white_wig.jpeg'
 import white_wigs from './assets/white_wigs.png'
 import yellow_blue_wig from './assets/yellow_blue_wig.jpeg'
+import marie_antoinette_front from './assets/marie_antoinette_front.jpeg'
 
 const wigsData = [
   {
@@ -95,6 +96,18 @@ const wigsData = [
       {
         item: "cindy lauper wig",
         price: 10,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Marie Antoinette",
+    category: 'wigs',
+    image: marie_antoinette_front,
+    available: [
+      {
+        item: "Marie Antoinette",
+        price: 20,
         count: 1,
       },
     ],

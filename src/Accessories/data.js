@@ -10,6 +10,7 @@ import pink_fringe_for_bra from './assets/pink_fringe_for_bra.jpeg'
 import red_gold_epaulette from './assets/red_gold_epaulette.jpeg'
 import rose_headpiece from './assets/rose_headpiece.jpeg'
 import white_fringe_epaulette from './assets/white_fringe_epaulette.jpeg'
+import reindeer_led from './assets/reindeer_led.jpeg'
 
 
 const accessoriesData = [
@@ -82,6 +83,18 @@ const accessoriesData = [
         item: "Palm Tree Headpiece",
         price: 8,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Light Up Reindeer Headband",
+    category: 'accessories',
+    image: reindeer_led,
+    available: [
+      {
+        item: "Light-up Reindeer Headband",
+        price: 28,
+        count: 1,
       },
     ],
   },
