@@ -70,13 +70,15 @@ import white_mesh from "./assets/white_mesh.jpeg";
 import winter_white_leo from "./assets/winter_white_leo.jpeg";
 // import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
-import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
-import asian_dress from './assets/asian_dress.jpeg'
-import princess_leia from './assets/princess_leia.jpeg'
-import redblack_halterdress from './assets/redblack_halterdress.jpeg'
-import redblack_robe from './assets/redblack_robe.jpeg'
-import white_bunny from './assets/white_bunny.jpeg'
-import white_tops from './assets/white_tops.jpeg'
+import feather_headpieces from "../Accessories/assets/feather_headpieces.jpeg";
+import asian_dress from "./assets/asian_dress.jpeg";
+import princess_leia from "./assets/princess_leia.jpeg";
+import redblack_halterdress from "./assets/redblack_halterdress.jpeg";
+import redblack_robe from "./assets/redblack_robe.jpeg";
+import white_bunny from "./assets/white_bunny.jpeg";
+import white_tops from "./assets/white_tops.jpeg";
+import marching_band from "./assets/marching_band.jpeg";
+import fuschia_leotard from "./assets/fuschia_leotard.png";
 
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
@@ -1097,6 +1099,33 @@ const clothingData = [
     ],
   },
   {
+    name: "Marching Band",
+    category: "clothing",
+    image: marching_band,
+    available: [
+      {
+        item: "marching band red leotard",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "marching band hat",
+        price: 28,
+        count: 3,
+      },
+      {
+        item: "white fringe shoulder pads",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "short white satin gloves",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
     name: "Ring Leader",
     category: "clothing",
     image: ring_leader,
@@ -1264,6 +1293,23 @@ const clothingData = [
     ],
   },
   {
+    name: "Fuschia Leotard",
+    category: "clothing",
+    image: fuschia_leotard,
+    available: [
+      {
+        item: "fuschia leotard",
+        price: 5,
+        count: 2,
+      },
+      {
+        item: "long white gloves",
+        price: 8,
+        count: 1,
+      },
+    ],
+  },
+  {
     name: "Santa Hoodie Leotard",
     category: "clothing",
     image: santa_hoodie,
@@ -1385,8 +1431,8 @@ const clothingData = [
         count: 1,
       },
       {
-        item: "feather neckpiece",
-        price: 5,
+        item: "bunny mask with feather neckpiece",
+        price: 10,
         count: 1,
       },
       {
