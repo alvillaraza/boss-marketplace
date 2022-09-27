@@ -14,8 +14,9 @@ import "./Normalize.css";
 function App() {
   const [list, setList] = useState([]);
   console.log('final list', list);
-
+  
   const handleAdd = (item) => {
+    // TODO: need to make it so that it updates the quantity and stops when quantity is 0
     setList((list) => [...list, item]);
   };
   return (

@@ -1,19 +1,30 @@
-function Description({ name, itemized }) {
+
+
+function Description({ name, itemized, handleAdd }) {
+
+  
   return (
     <div className="description-wrapper">
       <h4 className="item-title">
         <a
           href={`mailto:someone@yoursite.com?subject=BOSS Marketplace ${name}`}
         >
-         {name}  <i class="fas fa-envelope"></i>
+          {name} <i className="fas fa-envelope"></i>
         </a>
       </h4>
       {itemized.map((item, idx) => {
         return (
           <div className="description" key={idx}>
-            <p className="items">
-              Items: <span> {item.item}</span>
-            </p>
+            <div className="items">
+              <div
+                onClick={() => {
+                  handleAdd(item);
+                }}
+              >
+                <i className="fas fa-plus"></i>
+              </div>
+              <span> {item.item}</span>
+            </div>
             <p>
               Price: <span>${item.price}</span>
             </p>

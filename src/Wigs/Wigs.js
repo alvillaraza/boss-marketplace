@@ -1,7 +1,7 @@
 import wigsData from "./data";
 import Description from "../Description";
 
-function Wigs() {
+function Wigs({ handleAdd }) {
   return (
     // todo: add marie antoinette wig
     <div className="category-wrapper">
@@ -13,6 +13,7 @@ function Wigs() {
             <Description
               name={wigs.name}
               itemized={wigs.available}
+              handleAdd={handleAdd}
             />
           </div>
         );

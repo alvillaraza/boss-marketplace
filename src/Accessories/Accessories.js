@@ -1,7 +1,7 @@
 import accessoriesData from "./data";
 import Description from "../Description";
 
-function Accessories() {
+function Accessories({ handleAdd }) {
   return (
     <div className="category-wrapper">
       {/* Accessories */}
@@ -9,7 +9,11 @@ function Accessories() {
         return (
           <div className="photo">
             <img src={accessories.image} alt={accessories.name} />
-            <Description name={accessories.name} itemized={accessories.available} />
+            <Description
+              name={accessories.name}
+              itemized={accessories.available}
+              handleAdd={handleAdd}
+            />
           </div>
         );
       })}
