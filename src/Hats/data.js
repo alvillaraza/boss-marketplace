@@ -19,6 +19,7 @@ import gold_spiked_side from "./assets/gold_spiked_side.jpeg";
 import bluered_beanie from "./assets/bluered_beanie.png";
 import boss_hats from "./assets/boss_hats.jpeg";
 import marching_band_hat from "./assets/marching_band_hat.png";
+import pink_ski_mask from './assets/pink_ski_mask.jpeg'
 
 const hatsData = [
   {
@@ -150,6 +151,18 @@ const hatsData = [
       {
         item: "blue and red poof beanie",
         price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Pink Studded Ski Mask",
+    category: "hats",
+    image: pink_ski_mask,
+    available: [
+      {
+        item: "Pink Ski Mask",
+        price: 5,
         count: 3,
       },
     ],

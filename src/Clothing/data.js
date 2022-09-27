@@ -71,6 +71,12 @@ import winter_white_leo from "./assets/winter_white_leo.jpeg";
 // import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
 import feather_headpieces from '../Accessories/assets/feather_headpieces.jpeg'
+import asian_dress from './assets/asian_dress.jpeg'
+import princess_leia from './assets/princess_leia.jpeg'
+import redblack_halterdress from './assets/redblack_halterdress.jpeg'
+import redblack_robe from './assets/redblack_robe.jpeg'
+import white_bunny from './assets/white_bunny.jpeg'
+import white_tops from './assets/white_tops.jpeg'
 
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
@@ -181,6 +187,42 @@ const clothingData = [
         item: "silver with black lace top and bottoms and black lace wrap",
         price: 15,
         count: 1,
+      },
+    ],
+  },
+  {
+    name: "Red and Black Floral Dress",
+    category: "clothing",
+    image: asian_dress,
+    available: [
+      {
+        item: "floral dress",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Red and Black Halter Dress",
+    category: "clothing",
+    image: redblack_halterdress,
+    available: [
+      {
+        item: "halter dress",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Red and Black Robe",
+    category: "clothing",
+    image: redblack_robe,
+    available: [
+      {
+        item: "robe",
+        price: 10,
+        count: 2,
       },
     ],
   },
@@ -516,6 +558,18 @@ const clothingData = [
       },
     ],
   },
+  {
+    name: "Princess Leia",
+    category: "clothing",
+    image: princess_leia,
+    available: [
+      {
+        item: "bra, necklace, arm bands, skirt",
+        price: 15,
+        count: 2,
+      },
+    ],
+  },
 
   {
     name: "Strappy Hot Pink",
@@ -722,6 +776,23 @@ const clothingData = [
         item: "visor (yellow or red)",
         price: 5,
         count: 4,
+      },
+    ],
+  },
+  {
+    name: "White Tops",
+    category: "clothing",
+    image: white_tops,
+    available: [
+      {
+        item: "white halter top",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "vwhite bralette",
+        price: 5,
+        count: 2,
       },
     ],
   },
@@ -1300,6 +1371,38 @@ const clothingData = [
         item: "silver necklace",
         price: 5,
         count: 2,
+      },
+    ],
+  },
+  {
+    name: "Alice in White Wonderland",
+    category: "clothing",
+    image: white_bunny,
+    available: [
+      {
+        item: "lace one piece suit",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "feather neckpiece",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "white leotard",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "white hat with wig",
+        price: 20,
+        count: 1,
+      },
+      {
+        item: "ruffle bottoms",
+        price: 8,
+        count: 1,
       },
     ],
   },
