@@ -57,7 +57,7 @@ const accessoriesData = [
     available: [
       {
         item: "rose headpiece",
-        price: 12,
+        price: 15,
         count: 3,
       },
     ],
