@@ -1396,7 +1396,7 @@ const clothingData = [
       },
       {
         item: "white hat with wig",
-        price: 20,
+        price: 15,
         count: 1,
       },
       {
