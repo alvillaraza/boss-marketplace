@@ -16,20 +16,11 @@ import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
 import leather_hat from "./assets/leather_hat.jpeg";
 import gold_spiked_side from "./assets/gold_spiked_side.jpeg";
+import bluered_beanie from "./assets/bluered_beanie.png";
+import boss_hats from "./assets/boss_hats.jpeg";
+import marching_band_hat from "./assets/marching_band_hat.png";
 
 const hatsData = [
-  {
-    name: "Black Leather Hat",
-    category: "hats",
-    image: leather_hat,
-    available: [
-      {
-        item: "black leather biker hat with silver chain",
-        price: 8,
-        count: 3,
-      },
-    ],
-  },
   {
     name: "Gold Spiked Hat",
     category: "hats",
@@ -39,6 +30,30 @@ const hatsData = [
         item: "white hat with gold spikes",
         price: 20,
         count: 1,
+      },
+    ],
+  },
+  {
+    name: "Gold BOSS Statement Hat",
+    category: "hats",
+    image: boss_hats,
+    available: [
+      {
+        item: "BOSS Statement Hat",
+        price: 15,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Black Leather Hat",
+    category: "hats",
+    image: leather_hat,
+    available: [
+      {
+        item: "black leather biker hat with silver chain",
+        price: 8,
+        count: 3,
       },
     ],
   },
@@ -78,7 +93,19 @@ const hatsData = [
         count: 3,
       },
     ],
-  },
+},
+  {
+    name: "Marching Band Hat",
+    category: "hats",
+    image: marching_band_hat,
+    available: [
+      {
+        item: "marching band hat",
+        price: 28,
+        count: 3,
+      },
+    ],
+},
   {
     name: "Patriotic Flowers Summer Hat",
     category: "hats",
@@ -111,6 +138,18 @@ const hatsData = [
       {
         item: "red, white, blue visor",
         price: 8,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Blue and Red Poof Beanie",
+    category: "hats",
+    image: bluered_beanie,
+    available: [
+      {
+        item: "blue and red poof beanie",
+        price: 10,
         count: 3,
       },
     ],
