@@ -149,7 +149,7 @@ const clothingData = [
       {
         item: "black lace leotard",
         price: 5,
-        count: 4,
+        count: 3,
       },
       {
         item: "black lace bunny mask",
@@ -692,7 +692,7 @@ const clothingData = [
       {
         item: "olive top and bottom",
         price: 5,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -980,23 +980,6 @@ const clothingData = [
       {
         item: "silver bottoms",
         price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "The Bomb Pop Popsicles",
-    category: "clothing",
-    image: popsicles,
-    available: [
-      {
-        item: "bomb popsicle leotard",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "bomb popsicle headband",
-        price: 8,
         count: 3,
       },
     ],
