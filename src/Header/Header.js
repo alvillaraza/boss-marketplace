@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <section className="header-wrapper">
-      <Link to="/">BOSS Marketplace</Link>
+      <Link to="/">BOSS Marketplace</Link> | 
+      <Link to="/my-list">My List</Link>
       <nav>
         <Link to="/clothing">
           <h2>Clothing</h2>
