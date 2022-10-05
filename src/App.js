@@ -7,33 +7,46 @@ import Clothing from "./Clothing/Clothing";
 import LandingPage from "./LandingPage/LandingPage";
 import Wigs from "./Wigs/Wigs";
 import MyList from "./MyList";
+import data from "./Clothing/data";
 
 import "./App.css";
 import "./Normalize.css";
 
 function App() {
-  const [list, setList] = useState([]);
-  console.log("this list", {list});
+  const [list, setList] = useState(data);
+  console.log("this list", { list });
 
-  const handleAdd = (item) => {
-    item.count = item.count - 1;
-    item.inCart = true;
-    setList((list) => [...list, item]);
+  const handleAdd = (selectedItem) => {
+    console.log("this iten", { selectedItem });
+
+    // item.count = item.count - 1;
+    // item.inCart = item.inCart + 1;
+
+    setList((prev) => {
+      return prev.map((section) => {
+        return section.available.map((item) => {
+          if (selectedItem.item === item.item) {
+            console.log("item", item);
+
+            return { ...item, count: item.count - 1, inCart: item.inCart + 1 };
+          }
+
+          return { ...item };
+        });
+      });
+    });
   };
 
   const handleRemove = (item) => {
-    // item.count = item.count + 1;
-//
-    // if (item.count <= 0) {
-      item.inCart = false;
-    // }
+    item.count = item.count + 1;
+
+    item.inCart = item.inCart - 1;
+
     setList((current) =>
-      current.filter((i) => {
-        return i !== item;
+      current.forEach((i) => {
+        return i.inCart - 1;
       })
     );
-
-    // TODO: this removes the item completely even if it's just supposed to remove one
   };
 
   return (

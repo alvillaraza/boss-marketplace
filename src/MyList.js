@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 
 function MyList({ list, handleRemove }) {
 
-    console.log(list)
+    console.log('cart', list)
 
   return (
     <section className="my-list-wrapper">
       {list.map((item) => {
-       return item.inCart === true ? (
+       return item.inCart > 0 ? (
           <div>
             <div
               onClick={() => {
