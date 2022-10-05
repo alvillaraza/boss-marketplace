@@ -13,7 +13,7 @@ import "./Normalize.css";
 
 function App() {
   const [list, setList] = useState([]);
-  console.log("this list", list);
+  console.log("this list", {list});
 
   const handleAdd = (item) => {
     item.count = item.count - 1;
@@ -22,13 +22,18 @@ function App() {
   };
 
   const handleRemove = (item) => {
-    item.count = item.count + 1;
-    item.inCart = false;
+    // item.count = item.count + 1;
+//
+    // if (item.count <= 0) {
+      item.inCart = false;
+    // }
     setList((current) =>
       current.filter((i) => {
         return i !== item;
       })
     );
+
+    // TODO: this removes the item completely even if it's just supposed to remove one
   };
 
   return (
