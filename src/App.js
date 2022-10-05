@@ -13,20 +13,22 @@ import "./Normalize.css";
 
 function App() {
   const [list, setList] = useState([]);
-  console.log('this list', list)
+  console.log("this list", list);
 
   const handleAdd = (item) => {
     item.count = item.count - 1;
     item.inCart = true;
     setList((list) => [...list, item]);
-  
   };
 
   const handleRemove = (item) => {
     item.count = item.count + 1;
     item.inCart = false;
-    setList((list) => [...list, item]);
-    // window.localStorage.removeItem("items", JSON.stringify(item));
+    setList((current) =>
+      current.filter((i) => {
+        return i !== item;
+      })
+    );
   };
 
   return (
@@ -51,7 +53,10 @@ function App() {
           <Route path="/hats" element={<Hats handleAdd={handleAdd} />}></Route>
 
           <Route path="/wigs" element={<Wigs handleAdd={handleAdd} />}></Route>
-          <Route path="/my-list" element={<MyList list={list} handleRemove={handleRemove} />}></Route>
+          <Route
+            path="/my-list"
+            element={<MyList list={list} handleRemove={handleRemove} />}
+          ></Route>
         </Routes>
       </BrowserRouter>
       {/* </header> */}
