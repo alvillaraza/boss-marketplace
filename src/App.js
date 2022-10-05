@@ -17,6 +17,8 @@ function App() {
 
   const handleAdd = (item) => {
     // TODO: need to make it so that it updates the quantity and stops when quantity is 0
+    item.count = item.count - 1
+    console.log('count', item.count)
     setList((list) => [...list, item]);
     window.localStorage.setItem("items", JSON.stringify(list));
   };

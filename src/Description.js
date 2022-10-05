@@ -21,7 +21,11 @@ function Description({ name, itemized, handleAdd }) {
                   handleAdd(item);
                 }}
               >
-                <i className="fas fa-plus"></i>
+                {item.count > 0 ? (
+                  <i className="fas fa-plus"></i>
+                ) : (
+                  <i class="fas fa-minus"></i>
+                )}
               </div>
               <span> {item.item}</span>
             </div>
