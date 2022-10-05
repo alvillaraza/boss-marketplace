@@ -1,7 +1,7 @@
 import clothingData from "./data.js";
 import Description from "../Description.js";
 
-function Clothing({ handleAdd }) {
+function Clothing({ handleAdd, handleRemove }) {
   // setCurrentCategory useState('welcome page')
   //if a certain category is clicked set that as the current category
 
@@ -12,11 +12,11 @@ function Clothing({ handleAdd }) {
         return (
           <div className="photo">
             <img src={clothing.image} alt={clothing.name} />
-            {/* <i class="fas fa-plus-circle"></i>{" "} */}
             <Description
               name={clothing.name}
               itemized={clothing.available}
               handleAdd={handleAdd}
+              handleRemove={handleRemove}
             />
           </div>
         );

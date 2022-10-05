@@ -88,42 +88,21 @@ const clothingData = [
     image: audrey_hepburn,
     available: [
       {
-        item: "leotard",
+        item: "audrey leotard",
         price: 10,
+        inCart: false,
         count: 2,
       },
 
       {
         item: "cigarette holder",
         price: 3,
+        inCart: false,
         count: 1,
       },
     ],
   },
-  // {
-  //   name: "Autumn Babes Outfit",
-  //   category: 'clothing',
-  //   image: autumn_babes,
-  //   available: [
-  //     {
-  //       item: "Bra, wrap, and floral clips",
-  //       price: 10,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Autumn Glitter",
-  //   category: 'clothing',
-  //   image: autumn_full_piece,
-  //   available: [
-  //     {
-  //       item: "Bra, bottoms, and flowy back skirt",
-  //       price: 20,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
+
   {
     name: "white lace full leotard",
     category: "clothing",
@@ -132,11 +111,13 @@ const clothingData = [
       {
         item: "White lace full body leotard",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "White metal mask",
         price: 12,
+        inCart: false,
         count: 1,
       },
     ],
@@ -149,16 +130,19 @@ const clothingData = [
       {
         item: "black lace leotard",
         price: 5,
+        inCart: false,
         count: 4,
       },
       {
         item: "black lace bunny mask",
         price: 15,
+        inCart: false,
         count: 3,
       },
       {
         item: "long black lace gloves",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -171,11 +155,13 @@ const clothingData = [
       {
         item: "feather headpieces (black or white)",
         price: 25,
+        inCart: false,
         count: 2,
       },
       {
         item: "bra (black or white)",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -188,6 +174,7 @@ const clothingData = [
       {
         item: "silver with black lace top and bottoms and black lace wrap",
         price: 15,
+        inCart: false,
         count: 1,
       },
     ],
@@ -200,6 +187,7 @@ const clothingData = [
       {
         item: "floral dress",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -212,6 +200,7 @@ const clothingData = [
       {
         item: "halter dress",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -224,6 +213,7 @@ const clothingData = [
       {
         item: "robe",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -236,11 +226,13 @@ const clothingData = [
       {
         item: "red dress",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "nude dress",
         price: 15,
+        inCart: false,
         count: 1,
       },
     ],
@@ -253,33 +245,17 @@ const clothingData = [
       {
         item: "wig",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "dress, bottoms, gloves, and poof for shoes",
         price: 25,
+        inCart: false,
         count: 2,
       },
     ],
   },
-
-  // {
-  //   name: "christmas tartan plaid leotard",
-  //   category: 'clothing',
-  //   image: christmas_tartan,
-  //   available: [
-  //     {
-  //       item: "tartan plaid leotard",
-  //       price: 10,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "poinsettia headband",
-  //       price: 10,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
   {
     name: "Marie Antoinette",
     category: "clothing",
@@ -288,11 +264,13 @@ const clothingData = [
       {
         item: "leotard (no ruffley wrist)",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "pink marie antoinette wig",
         price: 20,
+        inCart: false,
         count: 2,
       },
     ],
@@ -305,16 +283,19 @@ const clothingData = [
       {
         item: "rose gold sequin leotard and ribbon neck piece",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "curly retro betty boop blonde wig",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "butterfly fascinator hair clip",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -328,16 +309,19 @@ const clothingData = [
       {
         item: "blue sequin leotard",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "silver sequin bra",
         price: 10,
+        inCart: false,
         count: 4,
       },
       {
         item: "white wigs",
         price: 10,
+        inCart: false,
         count: 1,
       },
     ],
@@ -350,6 +334,7 @@ const clothingData = [
       {
         item: "neckpiece, bra, bottoms, arm bands",
         price: 15,
+        inCart: false,
         count: 1,
       },
     ],
@@ -362,6 +347,7 @@ const clothingData = [
       {
         item: "top, bottoms, gloves",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -375,11 +361,13 @@ const clothingData = [
       {
         item: "gold top",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "gold pants",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -392,6 +380,7 @@ const clothingData = [
       {
         item: "bra, skirt jumper, arm bands",
         price: 15,
+        inCart: false,
         count: 3,
       },
     ],
@@ -404,29 +393,19 @@ const clothingData = [
       {
         item: "green vest and green bowtie",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "gold high waist bottoms",
         price: 5,
+        inCart: false,
         count: 3,
       },
-      { item: "green hat with gold shamrocks", price: 15, count: 3 },
-      { item: "gold sequin baton", price: 5, count: 3 },
+      { item: "green hat with gold shamrocks", price: 15, inCart: false, count: 3 },
+      { item: "gold sequin baton", price: 5, inCart: false, count: 3 },
     ],
   },
-  // {
-  //   name: "Green Mesh Leotard",
-  //   category: "clothing",
-  //   image: green_mesh,
-  //   available: [
-  //     {
-  //       item: "green mesh leotard",
-  //       price: 10,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
   {
     name: "Green Robe",
     category: "clothing",
@@ -435,16 +414,19 @@ const clothingData = [
       {
         item: "green robe",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "statement necklace",
         price: 8,
+        inCart: false,
         count: 2,
       },
       {
         item: "black strappy bra",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -458,16 +440,19 @@ const clothingData = [
       {
         item: "blue and white striped half top and bottoms",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "red and white striped bra",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "sailor headband",
         price: 8,
+        inCart: false,
         count: 3,
       },
     ],
@@ -481,6 +466,7 @@ const clothingData = [
       {
         item: "bra, grass skirt, hairpiece, wrist flowers, and flower hair clip",
         price: 15,
+        inCart: false,
         count: 3,
       },
     ],
@@ -493,33 +479,17 @@ const clothingData = [
       {
         item: "pink sequin bra and skirt",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "starfish hairclip",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
   },
-
-  // {
-  //   name: "Green St Patrick's Shamrock Leotard",
-  //   category: 'clothing',
-  //   image: green_shamrock,
-  //   available: [
-  //     {
-  //       item: "mesh shamrock leotard",
-  //       price: 5,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "green tophat with buckle",
-  //       price: 15,
-  //       count: 2,
-  //     },
-  //   ],
-  // },
 
   {
     name: "OG Harley Quinn",
@@ -529,21 +499,25 @@ const clothingData = [
       {
         item: "leotard, headband, neck and wristpieces",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "checkered bra",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "Thigh high stockings",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "short satin gloves (red or black)",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -556,6 +530,7 @@ const clothingData = [
       {
         item: "red top with logo",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -568,6 +543,7 @@ const clothingData = [
       {
         item: "bra, necklace, arm bands, skirt",
         price: 15,
+        inCart: false,
         count: 2,
       },
     ],
@@ -581,11 +557,13 @@ const clothingData = [
       {
         item: "facemask, strappy bra, bottoms, whip",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "white wig",
         price: 10,
+        inCart: false,
         count: 3,
       },
     ],
@@ -598,6 +576,7 @@ const clothingData = [
       {
         item: "half top",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -610,26 +589,31 @@ const clothingData = [
       {
         item: "colorful tube leotard and half top",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "overall shorts (light or dark denim)",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "blonde wavy wig",
         price: 12,
+        inCart: false,
         count: 3,
       },
       {
         item: "cat ears sequin headband",
         price: 8,
+        inCart: false,
         count: 1,
       },
       {
         item: "pink beanie with black star",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -642,47 +626,35 @@ const clothingData = [
       {
         item: "colorful tube leotard and half top",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "overall shorts (light or dark denim)",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "blonde wavy wig",
         price: 12,
+        inCart: false,
         count: 3,
       },
       {
         item: "cat ears sequin headband",
         price: 8,
+        inCart: false,
         count: 1,
       },
       {
         item: "pink beanie with black star",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
   },
-  // {
-  //   name: "Mardi Gras",
-  //   category: 'clothing',
-  //   image: mardi_gras,
-  //   available: [
-  //     {
-  //       item: "feather mask, leotard, skirt",
-  //       price: 20,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "long black lace gloves",
-  //       price: 8,
-  //       count: 2,
-  //     },
-  //   ],
-  // },
 
   {
     name: "Olive Gold Spikey 2 piece",
@@ -692,6 +664,7 @@ const clothingData = [
       {
         item: "olive top and bottom",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -704,6 +677,7 @@ const clothingData = [
       {
         item: "top, wristbands, waist wrap, and shell backpack",
         price: 10,
+        inCart: false,
         count: 1,
       },
     ],
@@ -716,11 +690,13 @@ const clothingData = [
       {
         item: "bra and bottoms",
         price: 8,
+        inCart: false,
         count: 3,
       },
       {
         item: "gold studded belt",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -733,16 +709,19 @@ const clothingData = [
       {
         item: "hat",
         price: 8,
+        inCart: false,
         count: 3,
       },
       {
         item: "black strappy bra",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "skirt",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -755,11 +734,13 @@ const clothingData = [
       {
         item: "yellow half top and plaid skirt",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "yellow visor",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -772,11 +753,13 @@ const clothingData = [
       {
         item: "top and bottom (yellow or red)",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "visor (yellow or red)",
         price: 5,
+        inCart: false,
         count: 4,
       },
     ],
@@ -789,11 +772,13 @@ const clothingData = [
       {
         item: "white halter top",
         price: 5,
+        inCart: false,
         count: 1,
       },
       {
         item: "vwhite bralette",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -806,6 +791,7 @@ const clothingData = [
       {
         item: "pink and black half top shoulder pads, top, and bottoms",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -818,6 +804,7 @@ const clothingData = [
       {
         item: "pikachu yellow top and headband",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -830,16 +817,19 @@ const clothingData = [
       {
         item: "bra",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "gas mask",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "gold studded belt",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -852,11 +842,13 @@ const clothingData = [
       {
         item: "bra",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "gas mask",
         price: 10,
+        inCart: false,
         count: 3,
       },
     ],
@@ -869,11 +861,13 @@ const clothingData = [
       {
         item: "jacket (no lining) and ruffley chest",
         price: 5,
+        inCart: false,
         count: 1,
       },
       {
         item: "pirate captain hat",
         price: 8,
+        inCart: false,
         count: 1,
       },
     ],
@@ -886,11 +880,13 @@ const clothingData = [
       {
         item: "headwrap, dress, corset",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "headwrap, bra, ruffley arms",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -903,6 +899,7 @@ const clothingData = [
       {
         item: "floppy hoodie, leotard, gloves, and bunny tail",
         price: 20,
+        inCart: false,
         count: 2,
       },
     ],
@@ -915,6 +912,7 @@ const clothingData = [
       {
         item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
         price: 20,
+        inCart: false,
         count: 2,
       },
     ],
@@ -927,6 +925,7 @@ const clothingData = [
       {
         item: "Candy Corn Leotard",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -939,6 +938,7 @@ const clothingData = [
       {
         item: "bone hairclip, fan, robe, and robe wrap",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -951,6 +951,7 @@ const clothingData = [
       {
         item: "silver fringe belt",
         price: 8,
+        inCart: false,
         count: 4,
       },
     ],
@@ -963,6 +964,7 @@ const clothingData = [
       {
         item: "bra, long skirt, wig",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -975,11 +977,13 @@ const clothingData = [
       {
         item: "silver shark top with hood and arm bands",
         price: 20,
+        inCart: false,
         count: 3,
       },
       {
         item: "silver bottoms",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -992,11 +996,13 @@ const clothingData = [
       {
         item: "bomb popsicle leotard",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "bomb popsicle headband",
         price: 8,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1009,11 +1015,13 @@ const clothingData = [
       {
         item: "red leather leotard",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "short red satin gloves",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1026,27 +1034,18 @@ const clothingData = [
       {
         item: "black mesh leotard with red lace appliques",
         price: 10,
+        inCart: false,
         count: 1,
       },
       {
         item: "short red satin gloves",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
   },
-  // {
-  //   name: "Red Feather Tutu",
-  //   category: "clothing",
-  //   image: red_feather_tutu,
-  //   available: [
-  //     {
-  //       item: "bra and feather half tutu",
-  //       price: 10,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
+
   {
     name: "Red Mesh Top",
     category: "clothing",
@@ -1055,6 +1054,7 @@ const clothingData = [
       {
         item: "red mesh crop top",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1067,11 +1067,13 @@ const clothingData = [
       {
         item: "ninja top with mask and bottoms",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "pair of red, braided hair extensions",
         price: 8,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1084,16 +1086,19 @@ const clothingData = [
       {
         item: "leopard leotard and a pair of fur leg garters",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "red retro sunglasses",
         price: 8,
+        inCart: false,
         count: 2,
       },
       {
         item: "short red satin gloves",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1106,21 +1111,25 @@ const clothingData = [
       {
         item: "marching band red leotard",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "marching band hat",
         price: 28,
+        inCart: false,
         count: 3,
       },
       {
         item: "white fringe shoulder pads",
         price: 10,
+        inCart: false,
         count: 3,
       },
       {
         item: "short white satin gloves",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1133,11 +1142,13 @@ const clothingData = [
       {
         item: "red half jacket and black high waisted bottoms",
         price: 10,
+        inCart: false,
         count: 1,
       },
       {
         item: "short black satin gloves",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1151,11 +1162,13 @@ const clothingData = [
       {
         item: "ruffle top and skirt",
         price: 5,
+        inCart: false,
         count: 3,
       },
       {
         item: "flower hair clip",
         price: 3,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1168,11 +1181,13 @@ const clothingData = [
       {
         item: "half leather jacket and bottoms with gold lace",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "bra",
         price: 3,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1185,21 +1200,25 @@ const clothingData = [
       {
         item: "red sequin bra with attached ruffley sleeves",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "red sequin bottoms",
         price: 8,
+        inCart: false,
         count: 4,
       },
       {
         item: "black flapper headwrap hat",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "fringe earrings (2 different styles)",
         price: 8,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1212,11 +1231,13 @@ const clothingData = [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "peacock feather shoulder pieces",
         price: 25,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1229,21 +1250,25 @@ const clothingData = [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "peacock feather shoulder pieces",
         price: 25,
+        inCart: false,
         count: 2,
       },
       {
         item: "silver necklace",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "silver head decor",
         price: 5,
+        inCart: false,
         count: 1,
       },
     ],
@@ -1256,21 +1281,25 @@ const clothingData = [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
         price: 15,
+        inCart: false,
         count: 2,
       },
       {
         item: "peacock feather shoulder pieces",
         price: 25,
+        inCart: false,
         count: 2,
       },
       {
         item: "neon green leotard",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "green, pink, yellow shoulder piece with matching leg feather bands",
         price: 28,
+        inCart: false,
         count: 1,
       },
     ],
@@ -1283,11 +1312,13 @@ const clothingData = [
       {
         item: "neon green leotard",
         price: 10,
+        inCart: false,
         count: 2,
       },
       {
         item: "green, pink, yellow shoulder piece with matching leg feather bands",
         price: 28,
+        inCart: false,
         count: 1,
       },
     ],
@@ -1300,11 +1331,13 @@ const clothingData = [
       {
         item: "fuschia leotard",
         price: 5,
+        inCart: false,
         count: 2,
       },
       {
         item: "long white gloves",
         price: 8,
+        inCart: false,
         count: 1,
       },
     ],
@@ -1317,28 +1350,11 @@ const clothingData = [
       {
         item: "santa fur hoodie leotard",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
   },
-
-  // {
-  //   name: "Silver Disco Leotard",
-  //   category: "clothing",
-  //   image: silver_disco_leo,
-  //   available: [
-  //     {
-  //       item: "silver sequin leotard",
-  //       price: 15,
-  //       count: 3,
-  //     },
-  //     {
-  //       item: "white fur jacket",
-  //       price: 25,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
 
   {
     name: "White Crisscross 2 Pieces",
@@ -1348,6 +1364,7 @@ const clothingData = [
       {
         item: "crisscross top, bottoms, and arm gloves",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1360,6 +1377,7 @@ const clothingData = [
       {
         item: "white lacey strappy top (bra not included) and strappy leg garter 5",
         price: 10,
+        inCart: false,
         count: 1,
       },
     ],
@@ -1372,6 +1390,7 @@ const clothingData = [
       {
         item: "white mesh leotard",
         price: 5,
+        inCart: false,
         count: 3,
       },
     ],
@@ -1384,16 +1403,19 @@ const clothingData = [
       {
         item: "winter white leotard and arm bands",
         price: 10,
+        inCart: false,
         count: 1,
       },
       {
         item: "light up ice headband",
         price: 25,
+        inCart: false,
         count: 2,
       },
       {
         item: "short blonde wigs",
         price: 10,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1406,16 +1428,19 @@ const clothingData = [
       {
         item: "hooded fur leotard",
         price: 12,
+        inCart: false,
         count: 1,
       },
       {
         item: "silver sequin bra",
         price: 10,
+        inCart: false,
         count: 4,
       },
       {
         item: "silver necklace",
         price: 5,
+        inCart: false,
         count: 2,
       },
     ],
@@ -1428,57 +1453,181 @@ const clothingData = [
       {
         item: "lace one piece suit",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "bunny mask with feather neckpiece",
         price: 10,
+        inCart: false,
         count: 1,
       },
       {
         item: "white leotard",
         price: 5,
+        inCart: false,
         count: 1,
       },
       {
         item: "white hat with wig",
         price: 15,
+        inCart: false,
         count: 1,
       },
       {
         item: "ruffle bottoms",
         price: 8,
+        inCart: false,
         count: 1,
       },
     ],
   },
-  // {
-  //   name: "Silver Winter Skirt",
-  //   category: 'clothing',
-  //   image: xmas_winter_silver_skirt,
-  //   available: [
-  //     {
-  //       item: "silver winter fur skirt",
-  //       price: 15,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "white poinsettia headband",
-  //       price: 10,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "white long satin gloves",
-  //       price: 5,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "short blonde wigs",
-  //       price: 10,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
 ];
 
 export default clothingData;
+// {
+//   name: "Silver Winter Skirt",
+//   category: 'clothing',
+//   image: xmas_winter_silver_skirt,
+//   available: [
+//     {
+//       item: "silver winter fur skirt",
+//       price: 15,
+// inCart: false,//
+// count: 2,
+//     },
+//     {
+//       item: "white poinsettia headband",
+//       price: 10,
+//       count: 2,
+//     },
+//     {
+//       item: "white long satin gloves",
+//       price: 5,
+//       count: 2,
+//     },
+//     {
+//       item: "short blonde wigs",
+//       price: 10,
+//       count: 3,
+//     },
+//   ],
+// },
+
+// {
+//   name: "Autumn Babes Outfit",
+//   category: 'clothing',
+//   image: autumn_babes,
+//   available: [
+//     {
+//       item: "Bra, wrap, and floral clips",
+//       price: 10,
+//       count: 1,
+//     },
+//   ],
+// },
+// {
+//   name: "Autumn Glitter",
+//   category: 'clothing',
+//   image: autumn_full_piece,
+//   available: [
+//     {
+//       item: "Bra, bottoms, and flowy back skirt",
+//       price: 20,
+//       count: 1,
+//     },
+//   ],
+// },
+// {
+//   name: "Silver Disco Leotard",
+//   category: "clothing",
+//   image: silver_disco_leo,
+//   available: [
+//     {
+//       item: "silver sequin leotard",
+//       price: 15,
+//       count: 3,
+//     },
+//     {
+//       item: "white fur jacket",
+//       price: 25,
+//       count: 3,
+//     },
+//   ],
+// },
+// {
+//   name: "Mardi Gras",
+//   category: 'clothing',
+//   image: mardi_gras,
+//   available: [
+//     {
+//       item: "feather mask, leotard, skirt",
+//       price: 20,
+//       count: 2,
+//     },
+//     {
+//       item: "long black lace gloves",
+//       price: 8,
+//       count: 2,
+//     },
+//   ],
+// },
+
+// {
+//   name: "christmas tartan plaid leotard",
+//   category: 'clothing',
+//   image: christmas_tartan,
+//   available: [
+//     {
+//       item: "tartan plaid leotard",
+//       price: 10,
+//       count: 2,
+//     },
+//     {
+//       item: "poinsettia headband",
+//       price: 10,
+//       count: 3,
+//     },
+//   ],
+// },
+// {
+//   name: "Green Mesh Leotard",
+//   category: "clothing",
+//   image: green_mesh,
+//   available: [
+//     {
+//       item: "green mesh leotard",
+//       price: 10,
+//       count: 1,
+//     },
+//   ],
+// },
+// {
+//   name: "Red Feather Tutu",
+//   category: "clothing",
+//   image: red_feather_tutu,
+//   available: [
+//     {
+//       item: "bra and feather half tutu",
+//       price: 10,
+//       count: 1,
+//     },
+//   ],
+// },
+// {
+//   name: "Green St Patrick's Shamrock Leotard",
+//   category: 'clothing',
+//   image: green_shamrock,
+//   available: [
+//     {
+//       item: "mesh shamrock leotard",
+//       price: 5,
+//       count: 2,
+//     },
+//     {
+//       item: "green tophat with buckle",
+//       price: 15,
+//       count: 2,
+//     },
+//   ],
+// },

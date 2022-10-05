@@ -1,8 +1,4 @@
-
-
-function Description({ name, itemized, handleAdd }) {
-
-  
+function Description({ name, itemized, handleAdd, handleRemove }) {
   return (
     <div className="description-wrapper">
       <h4 className="item-title">
@@ -21,12 +17,9 @@ function Description({ name, itemized, handleAdd }) {
                   handleAdd(item);
                 }}
               >
-                {item.count > 0 ? (
-                  <i className="fas fa-plus"></i>
-                ) : (
-                  <i class="fas fa-minus"></i>
-                )}
+                <i className={`fas fa-plus  ${item.count <= 0 ? 'hide' : ''}`}></i>
               </div>
+
               <span> {item.item}</span>
             </div>
             <p>

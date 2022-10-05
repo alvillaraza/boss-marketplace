@@ -110,6 +110,9 @@
 .Marketplace .description-wrapper .items {
   line-height: 1;
 }
+.Marketplace .description-wrapper .items .hide {
+  display: none;
+}
 .Marketplace .description-wrapper span {
   font-weight: bold;
 }

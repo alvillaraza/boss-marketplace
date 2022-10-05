@@ -13,14 +13,20 @@ import "./Normalize.css";
 
 function App() {
   const [list, setList] = useState([]);
-  console.log("final list", list);
+  console.log('this list', list)
 
   const handleAdd = (item) => {
-    // TODO: need to make it so that it updates the quantity and stops when quantity is 0
-    item.count = item.count - 1
-    console.log('count', item.count)
+    item.count = item.count - 1;
+    item.inCart = true;
     setList((list) => [...list, item]);
-    window.localStorage.setItem("items", JSON.stringify(list));
+  
+  };
+
+  const handleRemove = (item) => {
+    item.count = item.count + 1;
+    item.inCart = false;
+    setList((list) => [...list, item]);
+    // window.localStorage.removeItem("items", JSON.stringify(item));
   };
 
   return (
@@ -38,12 +44,14 @@ function App() {
 
           <Route
             path="/clothing"
-            element={<Clothing handleAdd={handleAdd} />}
+            element={
+              <Clothing handleAdd={handleAdd} handleRemove={handleRemove} />
+            }
           ></Route>
           <Route path="/hats" element={<Hats handleAdd={handleAdd} />}></Route>
 
           <Route path="/wigs" element={<Wigs handleAdd={handleAdd} />}></Route>
-          <Route path="/my-list" element={<MyList list={list} />}></Route>
+          <Route path="/my-list" element={<MyList list={list} handleRemove={handleRemove} />}></Route>
         </Routes>
       </BrowserRouter>
       {/* </header> */}

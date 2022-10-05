@@ -1,17 +1,28 @@
-function MyList({ list }) {
-  console.log("thislist", list);
+import { useEffect, useState } from "react";
 
-  const myList = window.localStorage.getItem("items");
-  const finalList = JSON.parse(myList);
+function MyList({ list, handleRemove }) {
+
+    console.log(list)
+
   return (
     <section className="my-list-wrapper">
-      My List
-      {finalList.map((item) => (
-        <div>
-          {item.item}
-          Quanity: {item.count}${item.price}
-        </div>
-      ))}
+      {list.map((item) => {
+       return item.inCart === true ? (
+          <div>
+            <div
+              onClick={() => {
+                handleRemove(item);
+              }}
+            >
+              <i class="fas fa-minus"></i>
+            </div>
+            <span>{item.item}</span>
+            <span>${item.price}</span>
+          </div>
+        ) : (
+          ""
+        );
+      })}
     </section>
   );
 }
