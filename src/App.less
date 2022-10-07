@@ -1,166 +1,170 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap');
 
 .Marketplace {
-  a {
-    text-decoration: none;
-  }
-
-  h2,
-  h4 {
-    font-family: "Prata", serif;
-  }
-
-  img {
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 350px;
-    border-radius: 10%;
-    box-shadow: 5px 6px 6px -1px rgba(0, 0, 0, 0.21);
-    margin-block: 10px;
-  }
-
-  .header-wrapper {
-    background-color: black;
-    color: white;
-    padding: 20px;
-
     a {
-      color: white;
-      grid-row: 1/2;
+        text-decoration: none;
     }
 
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      h2:hover {
-        text-shadow: 2px 2px 8px #ffffff;
-      }
-    }
-  }
-
-  .landing-page {
-    margin: 10px;
-    margin: 5% 15%;
-
+    h2,
     h4 {
-      margin-bottom: -14px;
-    }
-  }
-
-  .category-wrapper {
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    justify-items: center;
-  }
-
-  .photo {
-    display: grid;
-    //creates 1 block
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-    justify-items: center;
-    // display: flex;
-
-    img,
-    // > selects all div elements under the a
-    > div {
-      //puts the button and the clothing on top of each other, start at block 1, end at block 1
-      grid-column: ~"1 / -1";
-      grid-row: ~"1 / -1";
+        font-family: 'Prata', serif;
     }
 
-    > div {
-      z-index: 1;
+    img {
+        height: auto;
+        max-height: 350px;
+        width: auto;
+        max-width: 350px;
+        border-radius: 10%;
+        box-shadow: 5px 6px 6px -1px rgba(0, 0, 0, 0.21);
+        margin-block: 10px;
     }
 
-    i {
-      align-self: flex-end;
+    .header-wrapper {
+        background-color: black;
+        color: white;
+        padding: 20px;
+
+        a {
+            color: white;
+            grid-row: 1/2;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            h2:hover {
+                text-shadow: 2px 2px 8px #ffffff;
+            }
+        }
     }
 
-    &:hover {
-      img {
-        opacity: 0.2;
-      }
-      .description-wrapper {
-        opacity: 1;
-      }
-    }
-  }
+    .landing-page {
+        margin: 10px;
+        margin: 5% 15%;
 
-  .description-wrapper {
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 0.5s;
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 350px;
-
-    i {
-      padding-left: 3px;
-    }
-
-    .item-title {
-      a {
-        color: black;
-      }
-
-      &:hover {
-        text-shadow: 2px 2px 8px #595555;
-      }
-    }
-
-    h4,
-    span {
-      text-transform: capitalize;
-      font-weight: 700;
-      margin-block: -1px;
-    }
-
-    .items {
-      line-height: 1;
-      display: flex;
-      align-items: center;
-
-      .hide {
-        display: none;
-      }
-    }
-
-    span {
-      font-weight: bold;
-    }
-
-    p {
-      font-family: "Lato", sans-serif;
-      line-height: 0.2;
-      padding-left: 20px;
-      font-weight: 500;
-      font-size: 15px;
-    }
-
-    .description {
-      padding: 1px;
-
-      i {
-        padding-right: 3px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 414px) {
-    nav {
-      font-size: 14px;
+        h4 {
+            margin-bottom: -14px;
+        }
     }
 
     .category-wrapper {
-      grid-template-columns: 1fr;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: center;
     }
-  }
+
+    .photo {
+        display: grid;
+        //creates 1 block
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+        // display: flex;
+
+        img {
+            display: none;
+        }
+
+        img,
+    // > selects all div elements under the a
+    > div {
+            //puts the button and the clothing on top of each other, start at block 1, end at block 1
+            grid-column: ~'1 / -1';
+            grid-row: ~'1 / -1';
+        }
+
+        > div {
+            z-index: 1;
+        }
+
+        i {
+            align-self: flex-end;
+        }
+
+        &:hover {
+            img {
+                opacity: 0.2;
+            }
+            .description-wrapper {
+                opacity: 1;
+            }
+        }
+    }
+
+    .description-wrapper {
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: 0.5s;
+        height: auto;
+        max-height: 350px;
+        width: auto;
+        max-width: 350px;
+
+        i {
+            padding-left: 3px;
+        }
+
+        .item-title {
+            a {
+                color: black;
+            }
+
+            &:hover {
+                text-shadow: 2px 2px 8px #595555;
+            }
+        }
+
+        h4,
+        span {
+            text-transform: capitalize;
+            font-weight: 700;
+            margin-block: -1px;
+        }
+
+        .items {
+            line-height: 1;
+            display: flex;
+            align-items: center;
+
+            .hide {
+                display: none;
+            }
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            line-height: 0.2;
+            padding-left: 20px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .description {
+            padding: 1px;
+
+            i {
+                padding-right: 3px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        nav {
+            font-size: 14px;
+        }
+
+        .category-wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
 }
