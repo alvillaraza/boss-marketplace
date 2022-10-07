@@ -41,7 +41,7 @@ import olive_gold_spikes from "./assets/olive_gold_spikes.jpeg";
 import pikachu from "./assets/pikachu.jpeg";
 import pirate_captain from "./assets/pirate_captain.jpeg";
 import pirates from "./assets/pirates.jpeg";
-import popsicles from "./assets/popsicles.jpeg";
+// import popsicles from "./assets/popsicles.jpeg";
 import race_car from "./assets/race_car.jpeg";
 import red_black_lace_leo from "./assets/red_black_lace_leo.jpeg";
 // import red_feather_tutu from "./assets/red_feather_tutu.png";
@@ -58,7 +58,7 @@ import samba_girls2 from "./assets/samba_girls2.jpeg";
 import santa_hoodie from "./assets/santa_hoodie.jpeg";
 import shark from "./assets/shark.jpeg";
 import silver_black_raw_fashion from "./assets/silver_black_raw_fasion.jpeg";
-import silver_disco_leo from "./assets/silver_disco_leo.jpeg";
+// import silver_disco_leo from "./assets/silver_disco_leo.jpeg";
 import silver_fringe_belt from "./assets/silver_fringe_belt.jpeg";
 import sporty_football from "./assets/sporty_football.jpeg";
 import st_patricks from "./assets/st_patricks.jpeg";
@@ -131,7 +131,7 @@ const clothingData = [
         item: "black lace leotard",
         price: 5,
         inCart: 0,
-        count: 4,
+        count: 3,
       },
       {
         item: "black lace bunny mask",
@@ -665,7 +665,7 @@ const clothingData = [
         item: "olive top and bottom",
         price: 5,
         inCart: 0,
-        count: 3,
+        count: 1,
       },
     ],
   },

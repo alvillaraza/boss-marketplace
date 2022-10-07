@@ -11,12 +11,13 @@ import red_gold_epaulette from './assets/red_gold_epaulette.jpeg'
 import rose_headpiece from './assets/rose_headpiece.jpeg'
 import white_fringe_epaulette from './assets/white_fringe_epaulette.jpeg'
 import reindeer_led from './assets/reindeer_led.jpeg'
+import popsicles from '../Clothing/assets/popsicles.jpeg'
 
 
 const accessoriesData = [
   {
     name: "White Fringe Epaulette",
-    category: 'accessories',
+    category: "accessories",
     image: white_fringe_epaulette,
     available: [
       {
@@ -28,7 +29,7 @@ const accessoriesData = [
   },
   {
     name: "Red and Gold Leopard Epaulette",
-    category: 'accessories',
+    category: "accessories",
     image: red_gold_epaulette,
     available: [
       {
@@ -40,7 +41,7 @@ const accessoriesData = [
   },
   {
     name: "Gold Fringe Strappy Epaulette",
-    category: 'accessories',
+    category: "accessories",
     image: gold_fringe_epaulette,
     available: [
       {
@@ -52,7 +53,7 @@ const accessoriesData = [
   },
   {
     name: "Rose Headpiece",
-    category: 'accessories',
+    category: "accessories",
     image: rose_headpiece,
     available: [
       {
@@ -64,7 +65,7 @@ const accessoriesData = [
   },
   {
     name: "Pink Fringe",
-    category: 'accessories',
+    category: "accessories",
     image: pink_fringe_for_bra,
     available: [
       {
@@ -76,7 +77,7 @@ const accessoriesData = [
   },
   {
     name: "Palm Tree Headpiece",
-    category: 'accessories',
+    category: "accessories",
     image: palm_tree_hair,
     available: [
       {
@@ -88,7 +89,7 @@ const accessoriesData = [
   },
   {
     name: "Light Up Reindeer Headband",
-    category: 'accessories',
+    category: "accessories",
     image: reindeer_led,
     available: [
       {
@@ -100,7 +101,7 @@ const accessoriesData = [
   },
   {
     name: "Showgirl Feather Headpiece",
-    category: 'accessories',
+    category: "accessories",
     image: feather_headpieces,
     available: [
       {
@@ -117,7 +118,7 @@ const accessoriesData = [
   },
   {
     name: "Cupid Feathery Headband and Arrow",
-    category: 'accessories',
+    category: "accessories",
     image: cupids,
     available: [
       {
@@ -128,8 +129,20 @@ const accessoriesData = [
     ],
   },
   {
+    name: "The Bomb Pop Popsicles",
+    category: "clothing",
+    image: popsicles,
+    available: [
+      {
+        item: "bomb popsicle headband",
+        price: 8,
+        count: 3,
+      },
+    ],
+  },
+  {
     name: "Short Black Cape",
-    category: 'accessories',
+    category: "accessories",
     image: count_dracula,
     available: [
       {
@@ -141,7 +154,7 @@ const accessoriesData = [
   },
   {
     name: "Neck and Wrist Clown Accessories",
-    category: 'accessories',
+    category: "accessories",
     image: clown_stuff,
     available: [
       {
@@ -153,7 +166,7 @@ const accessoriesData = [
   },
   {
     name: "Gold and Purple Clown Neck Ruffle",
-    category: 'accessories',
+    category: "accessories",
     image: clown_neck,
     available: [
       {
@@ -165,7 +178,7 @@ const accessoriesData = [
   },
   {
     name: "Leather Shoulder Piece",
-    category: 'accessories',
+    category: "accessories",
     image: camo_2pc_2,
     available: [
       {

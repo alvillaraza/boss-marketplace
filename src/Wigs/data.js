@@ -48,7 +48,7 @@ const wigsData = [
       {
         item: "black wavy wig",
         price: 12,
-        count: 3,
+        count: 2,
       },
     ],
   },
