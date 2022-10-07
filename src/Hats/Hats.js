@@ -5,9 +5,9 @@ function Hats() {
   return (
     <div className='category-wrapper'>
       {/* Hats */}
-      {hatsData.map((hats) => {
+      {hatsData.map((hats, idx) => {
         return (
-          <div className="photo">
+          <div className="photo" key={idx}>
             <img src={hats.image} alt={hats.name} />
             <Description
               name={hats.name}
