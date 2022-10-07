@@ -79,6 +79,7 @@ import white_bunny from "./assets/white_bunny.jpeg";
 import white_tops from "./assets/white_tops.jpeg";
 import marching_band from "./assets/marching_band.jpeg";
 import fuschia_leotard from "./assets/fuschia_leotard.png";
+import cowgirl from './assets/cowgirl.jpeg'
 
 // data set should be name, image, number in Storage (count), items for sale, price?
 const clothingData = [
@@ -363,6 +364,23 @@ const clothingData = [
         item: "top, bottoms, gloves",
         price: 10,
         count: 2,
+      },
+    ],
+  },
+  {
+    name: "fringe cowgirl",
+    category: "clothing",
+    image: cowgirl,
+    available: [
+      {
+        item: "black cowboy hat",
+        price: 8,
+        count: 2,
+      },
+      {
+        item: "fringe cowgirl leotard",
+        price: 10,
+        count: 4,
       },
     ],
   },
