@@ -810,7 +810,7 @@ const clothingData = [
         count: 1,
       },
       {
-        item: "vwhite bralette",
+        item: "white bralette",
         price: 5,
         count: 2,
       },
