@@ -2,11 +2,9 @@ import allData from "./allData";
 import Description from "./Description";
 
 const EntireStore = ({ category }) => {
-  console.log(category);
 
   return (
     <section>
-      Entire Store
       <div className="category-wrapper">
         {allData.map((item, idx) => {
           console.log(item.category);
