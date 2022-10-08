@@ -4,7 +4,7 @@ function Header({ setCategory }) {
   const categories = ["clothing", "hats", "wigs", "accessories"];
   function handleChange(cat) {
     setCategory(cat);
-    console.log("e",cat);
+    console.log("e", cat);
   }
 
   function handleSubmit(e) {
@@ -12,13 +12,13 @@ function Header({ setCategory }) {
   }
   return (
     <section className="header-wrapper">
-      <Link to="/">BOSS Marketplace</Link>
+      <Link to="/about">BOSS Marketplace</Link>
       <nav>
         {categories.map((cat, idx) => {
           return (
-            <div key={idx} onClick={() => handleChange(cat)}>
-              {cat}
-            </div>
+            <Link to="/" key={idx} onClick={() => handleChange(cat)}>
+              <h2>{cat}</h2>
+            </Link>
           );
         })}
         {/* <form onSubmit={handleSubmit}>

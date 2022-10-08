@@ -13,31 +13,17 @@ function App() {
   const [category, setCategory] = useState("all");
   return (
     <div className="Marketplace">
-      {/* <header className="App-header"> */}
       <BrowserRouter>
         <Header setCategory={setCategory} />
         <Routes>
-          <Route exact path="/" element={<LandingPage />}></Route>
-          {/* <Route
-            path="/store"
+          <Route path="/about" element={<LandingPage />}></Route>
+          <Route
+            exact path="/"
             element={<EntireStore category={category} />}
-          ></Route> */}
+          ></Route>
         </Routes>
       </BrowserRouter>
-          <div className="category-wrapper">
-            {allData.map((item, idx) => {
-              console.log(item.category);
-              if (item.category === category) {
-                return (
-                  <div className="photo" key={idx}>
-                    <img src={item.image} alt={item.name} />
-                    <Description name={item.name} itemized={item.available} />
-                  </div>
-                );
-              }
-            })}
-          </div>
-      {/* </header> */}
+         
     </div>
   );
 }
