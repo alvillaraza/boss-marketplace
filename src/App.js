@@ -10,7 +10,7 @@ import "./App.css";
 import './Normalize.css';
 
 function App() {
-  const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("clothing");
   return (
     <div className="Marketplace">
       <BrowserRouter>
