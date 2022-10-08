@@ -94,7 +94,7 @@ const accessoriesData = [
     available: [
       {
         item: "Light-up Reindeer Headband",
-        price: 28,
+        price: 25,
         count: 1,
       },
     ],
