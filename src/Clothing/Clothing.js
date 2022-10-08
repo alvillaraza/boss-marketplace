@@ -11,7 +11,7 @@ function Clothing() {
             {clothingData.map((clothing, idx) => {
                 return (
                     <div className="photo" key={idx}>
-                        {/* <img src={clothing.image} alt={clothing.name} /> */}
+                        <img src={clothing.image} alt={clothing.name} />
                         {/* <i className="fas fa-plus-circle"></i>{" "} */}
                         <Description
                             name={clothing.name}
