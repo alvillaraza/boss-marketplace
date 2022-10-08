@@ -14,49 +14,36 @@ import './Normalize.css';
 
 function App() {
     const [list, setList] = useState(data);
-    // console.log('this list', list);
+    console.log('this list', list);
 
     const handleAdd = (selectedItem) => {
-        console.log('...this item', { ...selectedItem });
-        /*
-            { item: 'audrey leotard' }
-        */
-        console.log('{ this item }', { selectedItem });
-        /* 
-            { selectedItem: 
-              { selectedItem:
-                { item: 'audrey leotard'}}}
-        */
-        console.log('this item', selectedItem);
-        /*
-            { item: 'audrey leotard' }
-        */
+        setList((prev) => {
+            return prev.map((section) => {
+                section.available.forEach((item) => {
+                    if (item.item === selectedItem.item) {
+                        item.inCart = item.inCart + 1;
+                        item.count = item.count - 1;
+                    }
+                });
 
-        // setList((prev) => {
-        //   return prev.map((section) => {
-        //     return section.available.map((item) => {
-        //       if (selectedItem.item === item.item) {
-        //         console.log("item", item);
-
-        //         return { ...item, count: item.count - 1, inCart: item.inCart + 1 };
-        //       }
-
-        //       return { ...item };
-        //     });
-        //   });
-        // });
+                return section;
+            });
+        });
     };
 
-    const handleRemove = (item) => {
-        item.count = item.count + 1;
+    const handleRemove = (selectedItem) => {
+        setList((prev) => {
+            return prev.map((section) => {
+                section.available.forEach((item) => {
+                    if (item.item === selectedItem.item) {
+                        item.inCart = item.inCart - 1;
+                        item.count = item.count + 1;
+                    }
+                });
 
-        item.inCart = item.inCart - 1;
-
-        setList((current) =>
-            current.forEach((i) => {
-                return i.inCart - 1;
-            })
-        );
+                return section;
+            });
+        });
     };
 
     return (
