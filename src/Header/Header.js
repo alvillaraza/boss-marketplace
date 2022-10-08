@@ -1,24 +1,22 @@
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ setCategory }) {
+  const categories = ["clothing", "hats", "wigs", "accessories"];
+  function handleChange(cat) {
+    setCategory(cat);
+  }
+
   return (
     <section className="header-wrapper">
-      <Link to="/">BOSS Marketplace</Link>
+      <Link to="/about">BOSS Marketplace</Link>
       <nav>
-        <Link to="/clothing">
-          <h2>Clothing</h2>
-        </Link>
-        <Link to="/accessories">
-          <h2>Accessories</h2>
-        </Link>
-
-        <Link to="/hats">
-          <h2>Hats</h2>
-        </Link>
-
-        <Link to="/wigs">
-          <h2>Wigs</h2>
-        </Link>
+        {categories.map((cat, idx) => {
+          return (
+            <Link to="/" key={idx} onClick={() => handleChange(cat)}>
+              <h2>{cat}</h2>
+            </Link>
+          );
+        })}
       </nav>
     </section>
   );

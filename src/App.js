@@ -1,32 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import Header from "./Header/Header";
-import Hats from "./Hats/Hats";
-import Accessories from "./Accessories/Accessories";
-import Clothing from "./Clothing/Clothing";
 import LandingPage from "./LandingPage/LandingPage";
-import Wigs from "./Wigs/Wigs";
+import EntireStore from './EntireStore';
+import allData from "./allData";
+import Description from "./Description";
 
 import "./App.css";
 import './Normalize.css';
 
 function App() {
+  const [category, setCategory] = useState("all");
   return (
     <div className="Marketplace">
-      {/* <header className="App-header"> */}
       <BrowserRouter>
-        <Header />
+        <Header setCategory={setCategory} />
         <Routes>
-          <Route exact path="/" element={<LandingPage />}></Route>
-
-          <Route path="/accessories" element={<Accessories />}></Route>
-
-          <Route exact path="/clothing" element={<Clothing />}></Route>
-          <Route exact path="/hats" element={<Hats />}></Route>
-
-          <Route exact path="/wigs" element={<Wigs />}></Route>
+          <Route path="/about" element={<LandingPage />}></Route>
+          <Route
+            exact path="/"
+            element={<EntireStore category={category} />}
+          ></Route>
         </Routes>
       </BrowserRouter>
-      {/* </header> */}
+         
     </div>
   );
 }

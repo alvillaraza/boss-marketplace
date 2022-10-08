@@ -18,6 +18,7 @@
 .Marketplace h2,
 .Marketplace h4 {
   font-family: "Prata", serif;
+  text-transform: capitalize;
 }
 .Marketplace img {
   height: auto;
