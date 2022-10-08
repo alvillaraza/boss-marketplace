@@ -17,7 +17,7 @@
 }
 .Marketplace h2,
 .Marketplace h4 {
-  font-family: "Prata", serif;
+  font-family: 'Prata', serif;
 }
 .Marketplace img {
   height: auto;
@@ -66,6 +66,9 @@
   align-items: center;
   justify-items: center;
 }
+.Marketplace .photo img {
+  display: none;
+}
 .Marketplace .photo img,
 .Marketplace .photo > div {
   grid-column: 1 / -1;
@@ -105,16 +108,21 @@
 .Marketplace .description-wrapper span {
   text-transform: capitalize;
   font-weight: 700;
-  margin-block: -11px;
+  margin-block: -1px;
 }
 .Marketplace .description-wrapper .items {
   line-height: 1;
+  display: flex;
+  align-items: center;
+}
+.Marketplace .description-wrapper .items .hide {
+  display: none;
 }
 .Marketplace .description-wrapper span {
   font-weight: bold;
 }
 .Marketplace .description-wrapper p {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 0.2;
   padding-left: 20px;
   font-weight: 500;

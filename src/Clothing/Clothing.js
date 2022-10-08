@@ -1,7 +1,7 @@
 import clothingData from './data.js';
 import Description from '../Description.js';
 
-function Clothing() {
+function Clothing({ handleAdd, handleRemove }) {
     // setCurrentCategory useState('welcome page')
     //if a certain category is clicked set that as the current category
 
@@ -11,16 +11,16 @@ function Clothing() {
             {clothingData.map((clothing, idx) => {
                 return (
                     <div className="photo" key={idx}>
-                        {/* <img src={clothing.image} alt={clothing.name} /> */}
-                        {/* <i className="fas fa-plus-circle"></i>{" "} */}
+                        <img src={clothing.image} alt={clothing.name} />
                         <Description
                             name={clothing.name}
                             itemized={clothing.available}
+                            handleAdd={handleAdd}
+                            handleRemove={handleRemove}
                         />
                     </div>
                 );
             })}
-            <i className="fa-solid fa-circle-plus"></i>
         </div>
     );
 }

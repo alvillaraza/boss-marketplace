@@ -1,9 +1,9 @@
 import hatsData from './data'
 import Description from '../Description';
 
-function Hats() {
+function Hats({ handleAdd }) {
   return (
-    <div className='category-wrapper'>
+    <div className="category-wrapper">
       {/* Hats */}
       {hatsData.map((hats, idx) => {
         return (
@@ -12,6 +12,7 @@ function Hats() {
             <Description
               name={hats.name}
               itemized={hats.available}
+              handleAdd={handleAdd}
             />
           </div>
         );

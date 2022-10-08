@@ -1,7 +1,7 @@
 import accessoriesData from './data';
 import Description from '../Description';
 
-function Accessories() {
+function Accessories({ handleAdd }) {
     return (
         <div className="category-wrapper">
             {/* Accessories */}
@@ -12,6 +12,7 @@ function Accessories() {
                         <Description
                             name={accessories.name}
                             itemized={accessories.available}
+                            handleAdd={handleAdd}
                         />
                     </div>
                 );
