@@ -132,6 +132,7 @@ import red_wig from "./assets/red_wig.png";
 import white_wigs from "./assets/white_wigs.png";
 import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
 import marie_antoinette_front from "./assets/marie_antoinette_front.jpeg";
+import hooded_cape from './assets/hooded_cape.jpeg';
 
 const allData = [
   {
@@ -2076,7 +2077,7 @@ const allData = [
   },
   {
     name: "The Bomb Pop Popsicles",
-    category: "clothing",
+    category: "accessories",
     image: popsicles,
     available: [
       {
@@ -2131,6 +2132,18 @@ const allData = [
         item: "leather shoulder half jacket look",
         price: 5,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Black Velvet Hooded Cape",
+    category: "accessories",
+    image: hooded_cape,
+    available: [
+      {
+        item: "black velvet hooded cape",
+        price: 15,
+        count: 2,
       },
     ],
   },
