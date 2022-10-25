@@ -292,18 +292,6 @@ const allData = [
   //   ],
   // },
   {
-    name: "White Wig",
-    category: "wigs",
-    image: white_wigs,
-    available: [
-      {
-        item: "white wigs",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
     name: "Short Yellow or Blue Wig",
     category: "wigs",
     image: yellow_blue_wig,
@@ -1109,11 +1097,6 @@ const allData = [
         item: "facemask, strappy bra, bottoms, whip",
         price: 10,
         count: 2,
-      },
-      {
-        item: "white wig",
-        price: 10,
-        count: 3,
       },
     ],
   },
