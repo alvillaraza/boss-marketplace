@@ -889,7 +889,7 @@ const allData = [
       {
         item: "fringe cowgirl leotard",
         price: 10,
-        count: 4,
+        count: 2,
       },
     ],
   },
