@@ -292,14 +292,14 @@ const allData = [
   //   ],
   // },
   {
-    name: "Short Yellow or Blue Wig",
+    name: "Short Blue Wig",
     category: "wigs",
     image: yellow_blue_wig,
     available: [
       {
-        item: "short wig (yellow or blue)",
+        item: "short blue wig",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -384,7 +384,7 @@ const allData = [
       {
         item: "mariachi hat with moño",
         price: 20,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -468,7 +468,7 @@ const allData = [
       {
         item: "sailor captain hat",
         price: 5,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -552,7 +552,7 @@ const allData = [
       {
         item: "white fur hood with ears",
         price: 20,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -563,7 +563,7 @@ const allData = [
     available: [
       {
         item: "white fur  hat",
-        price: 15,
+        price: 20,
         count: 2,
       },
     ],
@@ -575,7 +575,7 @@ const allData = [
     available: [
       {
         item: "leopard fur hood",
-        price: 15,
+        price: 20,
         count: 1,
       },
     ],
@@ -832,12 +832,7 @@ const allData = [
         item: "silver sequin bra",
         price: 10,
         count: 4,
-      },
-      {
-        item: "white wigs",
-        price: 10,
-        count: 1,
-      },
+      }
     ],
   },
   {
@@ -2118,18 +2113,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Black Velvet Hooded Cape",
-    category: "accessories",
-    image: hooded_cape,
-    available: [
-      {
-        item: "black velvet hooded cape",
-        price: 15,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Black Velvet Hooded Cape",
+  //   category: "accessories",
+  //   image: hooded_cape,
+  //   available: [
+  //     {
+  //       item: "black velvet hooded cape",
+  //       price: 15,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
 ];
 
 export default allData;
