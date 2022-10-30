@@ -468,7 +468,7 @@ const allData = [
       {
         item: "sailor captain hat",
         price: 5,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1875,8 +1875,8 @@ const allData = [
         count: 1,
       },
       {
-        item: "light up ice headband",
-        price: 25,
+        item: "LED ice crown",
+        price: 75,
         count: 2,
       },
       {
@@ -1983,7 +1983,7 @@ const allData = [
     available: [
       {
         item: "rose headpiece",
-        price: 15,
+        price: 25,
         count: 3,
       },
     ],
@@ -2019,7 +2019,7 @@ const allData = [
     available: [
       {
         item: "Light-up Reindeer Headband",
-        price: 25,
+        price: 35,
         count: 1,
       },
     ],
