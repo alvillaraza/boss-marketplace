@@ -384,7 +384,7 @@ const allData = [
       {
         item: "mariachi hat with moño",
         price: 20,
-        count: 2,
+        count: 1,
       },
     ],
   },
