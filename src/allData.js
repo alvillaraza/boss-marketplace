@@ -11,6 +11,7 @@ import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
 import rose_headpiece from "./assets/rose_headpiece.jpeg";
 import white_fringe_epaulette from "./assets/white_fringe_epaulette.jpeg";
 import reindeer_led from "./assets/reindeer_led.jpeg";
+import pink_camo from './assets/pink_camo.png'
 import popsicles from "./assets/popsicles.jpeg";
 import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
 import apocalypse_gold from "./assets/apocalypse_gold.jpeg";
@@ -1311,6 +1312,18 @@ const allData = [
       {
         item: "pink and black half top shoulder pads, top, and bottoms",
         price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Pink Camo Leotard",
+    category: "clothing",
+    image: pink_camo,
+    available: [
+      {
+        item: "pink camo leotard and gloves",
+        price: 15,
         count: 2,
       },
     ],
