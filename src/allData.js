@@ -1322,7 +1322,7 @@ const allData = [
       {
         item: "pink and black half top shoulder pads, top, and bottoms",
         price: 10,
-        count: 2,
+        count: 3,
       },
     ],
   },
