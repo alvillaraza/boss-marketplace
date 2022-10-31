@@ -278,6 +278,11 @@ const allData = [
         price: 10,
         count: 3,
       },
+      {
+        item: "black spiked hat",
+        price: 15,
+        count: 1,
+      },
     ],
   },
   // {
@@ -669,7 +674,7 @@ const allData = [
     available: [
       {
         item: "feather headpieces (black or white)",
-        price: 25,
+        price: 30,
         count: 2,
       },
       {
@@ -711,6 +716,11 @@ const allData = [
       {
         item: "halter dress",
         price: 10,
+        count: 2,
+      },
+      {
+        item: "black curly betty boop wig",
+        price: 15,
         count: 2,
       },
     ],
@@ -1556,6 +1566,11 @@ const allData = [
       {
         item: "red mesh crop top",
         price: 5,
+        count: 3,
+      },
+      {
+        item: "BOSS Statement hat",
+        price: 15,
         count: 3,
       },
     ],
