@@ -652,7 +652,7 @@ const allData = [
         count: 1,
       },
       {
-        item: "White metal mask",
+        item: "Metal Mask (White or Black)",
         price: 12,
         count: 1,
       },
