@@ -107,7 +107,7 @@ import patriotic_visor_side from "./assets/patriotic_visor_side.jpeg";
 import sailor_front from "./assets/sailor_front.jpeg";
 import sailor_stripe_front from "./assets/sailor_stripe_front.jpeg";
 import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
-import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
+// import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
 import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
@@ -133,7 +133,8 @@ import red_wig from "./assets/red_wig.png";
 import white_wigs from "./assets/white_wigs.png";
 import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
 import marie_antoinette_front from "./assets/marie_antoinette_front.jpeg";
-import hooded_cape from './assets/hooded_cape.jpeg';
+import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
+// import hooded_cape from './assets/hooded_cape.jpeg';
 
 const allData = [
   {
@@ -550,18 +551,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "White Fur Hood with Ears",
-    category: "hats",
-    image: white_fur_ears_front,
-    available: [
-      {
-        item: "white fur hood with ears",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "White Fur Hood with Ears",
+  //   category: "hats",
+  //   image: white_fur_ears_front,
+  //   available: [
+  //     {
+  //       item: "white fur hood with ears",
+  //       price: 20,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "White Fur Hat",
     category: "hats",
@@ -571,6 +572,18 @@ const allData = [
         item: "white fur  hat",
         price: 20,
         count: 2,
+      },
+    ],
+  },
+  {
+    name: "Black Sequin Jacket",
+    category: "clothing",
+    image: black_sequin_jacket_front,
+    available: [
+      {
+        item: "Black Sequin Jacket",
+        price: 20,
+        count: 3,
       },
     ],
   },
@@ -1733,7 +1746,7 @@ const allData = [
       {
         item: "peacock feather shoulder pieces",
         price: 25,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1750,7 +1763,7 @@ const allData = [
       {
         item: "peacock feather shoulder pieces",
         price: 25,
-        count: 2,
+        count: 1,
       },
       {
         item: "silver necklace",
