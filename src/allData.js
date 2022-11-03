@@ -1790,7 +1790,7 @@ const allData = [
       {
         item: "peacock feather shoulder pieces",
         price: 25,
-        count: 2,
+        count: 1,
       },
       {
         item: "neon green leotard",
