@@ -741,7 +741,7 @@ const allData = [
       },
       {
         item: "Metal Mask (White or Black)",
-        price: 12,
+        price: 15,
         count: 1,
       },
     ],
