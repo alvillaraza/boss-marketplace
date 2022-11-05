@@ -810,6 +810,79 @@ const allData = [
     ],
   },
   {
+    name: "Rose Gold Leotard",
+    category: "clothing",
+    image: rose_gold_leo,
+    available: [
+      {
+        item: "rose gold sequin leotard and ribbon neck piece",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "curly retro betty boop blonde wig",
+        price: 15,
+        count: 2,
+      },
+      {
+        item: "butterfly fascinator hair clip",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "blue sequin leotard",
+    category: "clothing",
+    image: blue_sequin,
+    available: [
+      {
+        item: "blue sequin leotard",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+    ],
+  },
+  {
+    name: "Gold Disco Outfit",
+    category: "clothing",
+    image: gold_retro,
+    available: [
+      {
+        item: "gold top",
+        price: 5,
+        count: 3,
+      },
+      {
+        item: "gold pants",
+        price: 8,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Bond Girls",
+    category: "clothing",
+    image: james_bond,
+    available: [
+      {
+        item: "red dress",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "nude dress",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
     name: "Red and Black Floral Dress",
     category: "clothing",
     image: asian_dress,
@@ -851,23 +924,6 @@ const allData = [
     ],
   },
   {
-    name: "Bond Girls",
-    category: "clothing",
-    image: james_bond,
-    available: [
-      {
-        item: "red dress",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "nude dress",
-        price: 15,
-        count: 1,
-      },
-    ],
-  },
-  {
     name: "fembots",
     category: "clothing",
     image: fembots,
@@ -898,46 +954,6 @@ const allData = [
         item: "pink marie antoinette wig",
         price: 20,
         count: 2,
-      },
-    ],
-  },
-  {
-    name: "Rose Gold Leotard",
-    category: "clothing",
-    image: rose_gold_leo,
-    available: [
-      {
-        item: "rose gold sequin leotard and ribbon neck piece",
-        price: 15,
-        count: 2,
-      },
-      {
-        item: "curly retro betty boop blonde wig",
-        price: 15,
-        count: 2,
-      },
-      {
-        item: "butterfly fascinator hair clip",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-
-  {
-    name: "blue sequin leotard",
-    category: "clothing",
-    image: blue_sequin,
-    available: [
-      {
-        item: "blue sequin leotard",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "silver sequin bra",
-        price: 10,
-        count: 4,
       },
     ],
   },
@@ -978,24 +994,6 @@ const allData = [
       {
         item: "fringe cowgirl leotard",
         price: 10,
-        count: 2,
-      },
-    ],
-  },
-
-  {
-    name: "Gold Disco Outfit",
-    category: "clothing",
-    image: gold_retro,
-    available: [
-      {
-        item: "gold top",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "gold pants",
-        price: 8,
         count: 2,
       },
     ],
