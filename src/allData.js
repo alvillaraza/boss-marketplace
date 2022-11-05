@@ -576,18 +576,6 @@ const allData = [
     ],
   },
   {
-    name: "Black Sequin Jacket",
-    category: "clothing",
-    image: black_sequin_jacket_front,
-    available: [
-      {
-        item: "Black Sequin Jacket",
-        price: 20,
-        count: 3,
-      },
-    ],
-  },
-  {
     name: "Leopard Fur Hood",
     category: "hats",
     image: leopard_fur_front2,
@@ -595,6 +583,118 @@ const allData = [
       {
         item: "leopard fur hood",
         price: 20,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "White Crisscross 2 Pieces",
+    category: "clothing",
+    image: white_crisscross,
+    available: [
+      {
+        item: "crisscross top, bottoms, and arm gloves",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "White lace Straps",
+    category: "clothing",
+    image: white_lace_fashion,
+    available: [
+      {
+        item: "white lacey strappy top (bra not included) and strappy leg garter 5",
+        price: 10,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "White Mesh Leotard",
+    category: "clothing",
+    image: white_mesh,
+    available: [
+      {
+        item: "white mesh leotard",
+        price: 5,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Winter White Leotard",
+    category: "clothing",
+    image: winter_white_leo,
+    available: [
+      {
+        item: "winter white leotard and arm bands",
+        price: 10,
+        count: 1,
+      },
+      {
+        item: "LED ice crown",
+        price: 75,
+        count: 2,
+      },
+      {
+        item: "short blonde wigs",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Hooded Fur Leotard",
+    category: "clothing",
+    image: hooded_fur,
+    available: [
+      {
+        item: "hooded fur leotard",
+        price: 12,
+        count: 1,
+      },
+      {
+        item: "silver sequin bra",
+        price: 10,
+        count: 4,
+      },
+      {
+        item: "silver necklace",
+        price: 5,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Alice in White Wonderland",
+    category: "clothing",
+    image: white_bunny,
+    available: [
+      {
+        item: "lace one piece suit",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "bunny mask with feather neckpiece",
+        price: 10,
+        count: 1,
+      },
+      {
+        item: "white leotard",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "white hat with wig",
+        price: 15,
+        count: 1,
+      },
+      {
+        item: "ruffle bottoms",
+        price: 8,
         count: 1,
       },
     ],
@@ -617,30 +717,6 @@ const allData = [
       },
     ],
   },
-  // {
-  //   name: "Autumn Babes Outfit",
-  //   category: 'clothing',
-  //   image: autumn_babes,
-  //   available: [
-  //     {
-  //       item: "Bra, wrap, and floral clips",
-  //       price: 10,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Autumn Glitter",
-  //   category: 'clothing',
-  //   image: autumn_full_piece,
-  //   available: [
-  //     {
-  //       item: "Bra, bottoms, and flowy back skirt",
-  //       price: 20,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
   {
     name: "white lace full leotard",
     category: "clothing",
@@ -706,6 +782,18 @@ const allData = [
         item: "silver with black lace top and bottoms and black lace wrap",
         price: 15,
         count: 1,
+      },
+    ],
+  },
+  {
+    name: "Black Sequin Jacket",
+    category: "clothing",
+    image: black_sequin_jacket_front,
+    available: [
+      {
+        item: "Black Sequin Jacket",
+        price: 20,
+        count: 3,
       },
     ],
   },
@@ -784,24 +872,6 @@ const allData = [
       },
     ],
   },
-
-  // {
-  //   name: "christmas tartan plaid leotard",
-  //   category: 'clothing',
-  //   image: christmas_tartan,
-  //   available: [
-  //     {
-  //       item: "tartan plaid leotard",
-  //       price: 10,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "poinsettia headband",
-  //       price: 10,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
   {
     name: "Marie Antoinette",
     category: "clothing",
@@ -856,7 +926,7 @@ const allData = [
         item: "silver sequin bra",
         price: 10,
         count: 4,
-      }
+      },
     ],
   },
   {
@@ -949,18 +1019,6 @@ const allData = [
       { item: "gold sequin baton", price: 5, count: 3 },
     ],
   },
-  // {
-  //   name: "Green Mesh Leotard",
-  //   category: "clothing",
-  //   image: green_mesh,
-  //   available: [
-  //     {
-  //       item: "green mesh leotard",
-  //       price: 10,
-  //       count: 1,
-  //     },
-  //   ],
-  // },
   {
     name: "Green Robe",
     category: "clothing",
@@ -1036,25 +1094,6 @@ const allData = [
       },
     ],
   },
-
-  // {
-  //   name: "Green St Patrick's Shamrock Leotard",
-  //   category: 'clothing',
-  //   image: green_shamrock,
-  //   available: [
-  //     {
-  //       item: "mesh shamrock leotard",
-  //       price: 5,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "green tophat with buckle",
-  //       price: 15,
-  //       count: 2,
-  //     },
-  //   ],
-  // },
-
   {
     name: "OG Harley Quinn",
     category: "clothing",
@@ -1195,24 +1234,6 @@ const allData = [
       },
     ],
   },
-  // {
-  //   name: "Mardi Gras",
-  //   category: 'clothing',
-  //   image: mardi_gras,
-  //   available: [
-  //     {
-  //       item: "feather mask, leotard, skirt",
-  //       price: 20,
-  //       count: 2,
-  //     },
-  //     {
-  //       item: "long black lace gloves",
-  //       price: 8,
-  //       count: 2,
-  //     },
-  //   ],
-  // },
-
   {
     name: "Olive Gold Spikey 2 piece",
     category: "clothing",
@@ -1870,118 +1891,6 @@ const allData = [
   // },
 
   {
-    name: "White Crisscross 2 Pieces",
-    category: "clothing",
-    image: white_crisscross,
-    available: [
-      {
-        item: "crisscross top, bottoms, and arm gloves",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "White lace Straps",
-    category: "clothing",
-    image: white_lace_fashion,
-    available: [
-      {
-        item: "white lacey strappy top (bra not included) and strappy leg garter 5",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "White Mesh Leotard",
-    category: "clothing",
-    image: white_mesh,
-    available: [
-      {
-        item: "white mesh leotard",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Winter White Leotard",
-    category: "clothing",
-    image: winter_white_leo,
-    available: [
-      {
-        item: "winter white leotard and arm bands",
-        price: 10,
-        count: 1,
-      },
-      {
-        item: "LED ice crown",
-        price: 75,
-        count: 2,
-      },
-      {
-        item: "short blonde wigs",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Hooded Fur Leotard",
-    category: "clothing",
-    image: hooded_fur,
-    available: [
-      {
-        item: "hooded fur leotard",
-        price: 12,
-        count: 1,
-      },
-      {
-        item: "silver sequin bra",
-        price: 10,
-        count: 4,
-      },
-      {
-        item: "silver necklace",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Alice in White Wonderland",
-    category: "clothing",
-    image: white_bunny,
-    available: [
-      {
-        item: "lace one piece suit",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "bunny mask with feather neckpiece",
-        price: 10,
-        count: 1,
-      },
-      {
-        item: "white leotard",
-        price: 5,
-        count: 1,
-      },
-      {
-        item: "white hat with wig",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "ruffle bottoms",
-        price: 8,
-        count: 1,
-      },
-    ],
-  },
-  {
     name: "White Fringe Epaulette",
     category: "accessories",
     image: white_fringe_epaulette,
@@ -2154,18 +2063,6 @@ const allData = [
       },
     ],
   },
-  // {
-  //   name: "Black Velvet Hooded Cape",
-  //   category: "accessories",
-  //   image: hooded_cape,
-  //   available: [
-  //     {
-  //       item: "black velvet hooded cape",
-  //       price: 15,
-  //       count: 2,
-  //     },
-  //   ],
-  // },
 ];
 
 export default allData;
