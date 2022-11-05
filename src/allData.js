@@ -700,6 +700,18 @@ const allData = [
     ],
   },
   {
+    name: "Santa Hooded Leotard",
+    category: "clothing",
+    image: santa_hoodie,
+    available: [
+      {
+        item: "santa fur hooded leotard",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "audrey hepburn leotard",
     category: "clothing",
     image: audrey_hepburn,
@@ -1856,18 +1868,6 @@ const allData = [
         item: "long white gloves",
         price: 8,
         count: 1,
-      },
-    ],
-  },
-  {
-    name: "Santa Hoodie Leotard",
-    category: "clothing",
-    image: santa_hoodie,
-    available: [
-      {
-        item: "santa fur hoodie leotard",
-        price: 10,
-        count: 2,
       },
     ],
   },
