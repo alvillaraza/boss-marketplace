@@ -3,7 +3,7 @@ function Description({ name, itemized }) {
         <div className="description-wrapper">
             <h4 className="item-title">
                 <a
-                    href={`mailto:someone@yoursite.com?subject=BOSS Marketplace ${name}`}
+                    href={`mailto:alexis.borja@gmail.com?subject=BOSS Marketplace ${name}`}
                 >
                     {name} <i className="fas fa-envelope"></i>
                 </a>
