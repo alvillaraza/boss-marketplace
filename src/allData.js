@@ -324,18 +324,6 @@ const allData = [
     ],
   },
   {
-    name: "Gold Spiked Hat",
-    category: "hats",
-    image: gold_spiked_side,
-    available: [
-      {
-        item: "white hat with gold spikes",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
-  {
     name: "Gold BOSS Statement Hat",
     category: "hats",
     image: boss_hats,
@@ -383,19 +371,6 @@ const allData = [
   //     },
   //   ],
   // },
-
-  {
-    name: "Mariachi Hat",
-    category: "hats",
-    image: mariachi_front,
-    available: [
-      {
-        item: "mariachi hat with moño",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
   {
     name: "Marching Band Hat",
     category: "hats",
@@ -684,11 +659,6 @@ const allData = [
         count: 1,
       },
       {
-        item: "white leotard",
-        price: 5,
-        count: 1,
-      },
-      {
         item: "white hat with wig",
         price: 15,
         count: 1,
@@ -708,7 +678,7 @@ const allData = [
       {
         item: "santa fur hooded leotard",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1006,8 +976,8 @@ const allData = [
     available: [
       {
         item: "black cowboy hat",
-        price: 8,
-        count: 2,
+        price: 10,
+        count: 1,
       },
       {
         item: "fringe cowgirl leotard",
@@ -1024,7 +994,7 @@ const allData = [
       {
         item: "bra, skirt jumper, arm bands",
         price: 15,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -1113,7 +1083,7 @@ const allData = [
       {
         item: "pink sequin bra and skirt",
         price: 10,
-        count: 2,
+        count: 1,
       },
       {
         item: "starfish hairclip",
@@ -1157,7 +1127,7 @@ const allData = [
       {
         item: "red top with logo",
         price: 5,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -1194,7 +1164,7 @@ const allData = [
       {
         item: "half top",
         price: 5,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1270,18 +1240,6 @@ const allData = [
       {
         item: "olive top and bottom",
         price: 5,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Teenage Mutant Ninja Turtle Leonardo",
-    category: "clothing",
-    image: tmnt,
-    available: [
-      {
-        item: "top, wristbands, waist wrap, and shell backpack",
-        price: 10,
         count: 1,
       },
     ],
@@ -1583,23 +1541,6 @@ const allData = [
         item: "red leather leotard",
         price: 10,
         count: 2,
-      },
-      {
-        item: "short red satin gloves",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Black Red Lace Mesh Leotard",
-    category: "clothing",
-    image: red_black_lace_leo,
-    available: [
-      {
-        item: "black mesh leotard with red lace appliques",
-        price: 10,
-        count: 1,
       },
       {
         item: "short red satin gloves",
