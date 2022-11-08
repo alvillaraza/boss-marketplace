@@ -1088,7 +1088,7 @@ const allData = [
       {
         item: "starfish hairclip",
         price: 8,
-        count: 2,
+        count: 1,
       },
     ],
   },
