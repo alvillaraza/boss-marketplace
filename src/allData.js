@@ -11,6 +11,7 @@ import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
 import rose_headpiece from "./assets/rose_headpiece.jpeg";
 import white_fringe_epaulette from "./assets/white_fringe_epaulette.jpeg";
 import reindeer_led from "./assets/reindeer_led.jpeg";
+import pink_feather_tutu_outfit from './assets/pink_feather_tutu_outfit.png'
 import pink_camo from './assets/pink_camo.png'
 import popsicles from "./assets/popsicles.jpeg";
 import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
@@ -782,6 +783,23 @@ const allData = [
         item: "bra (black or white)",
         price: 10,
         count: 2,
+      },
+    ],
+  },
+  {
+    name: "Pink Feather Tutu Outfit",
+    category: "clothing",
+    image: pink_feather_tutu_outfit,
+    available: [
+      {
+        item: "pink feather tutu outfit",
+        price: 35,
+        count: 1,
+      },
+      {
+        item: "blue wig",
+        price: 10,
+        count: 1,
       },
     ],
   },
