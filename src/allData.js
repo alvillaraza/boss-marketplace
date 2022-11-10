@@ -136,6 +136,13 @@ import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
 import marie_antoinette_front from "./assets/marie_antoinette_front.jpeg";
 import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
 // import hooded_cape from './assets/hooded_cape.jpeg';
+import black_filigree_side from './assets/black_filigree_side.jpeg'
+import feather_hat_front from './assets/feather_hat_front.jpeg'
+import feather_mask_front from './assets/feather_mask_front.jpeg'
+import gold_filigree_front from './assets/gold_filigree_front.jpeg'
+import male_mask_front from './assets/male_mask_front.jpeg'
+import poinsettia_fronttop from './assets/poinsettia_fronttop.jpeg'
+import white_filigree_side from './assets/white_filigree_side.jpeg'
 
 const allData = [
   {
@@ -2017,6 +2024,90 @@ const allData = [
         item: "leather shoulder half jacket look",
         price: 5,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Black Filigree Mask",
+    category: "accessories",
+    image: black_filigree_side,
+    available: [
+      {
+        item: "black filigree mask",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "White Filigree Mask",
+    category: "accessories",
+    image: white_filigree_side,
+    available: [
+      {
+        item: "white filigree mask",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Gold Filigree Mask",
+    category: "accessories",
+    image: gold_filigree_front,
+    available: [
+      {
+        item: "gold filigree mask",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Feather Venetian Mask",
+    category: "accessories",
+    image: feather_mask_front,
+    available: [
+      {
+        item: "feather venitian mask",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Male Venetian Mask",
+    category: "accessories",
+    image: male_mask_front,
+    available: [
+      {
+        item: "male venetian mask",
+        price: 15,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Poinsettia Headband",
+    category: "accessories",
+    image: poinsettia_fronttop,
+    available: [
+      {
+        item: "poinsettia headband",
+        price: 10,
+        count: 10,
+      },
+    ],
+  },
+  {
+    name: "Mini Top Hat with Feathers",
+    category: "accessories",
+    image: feather_hat_front,
+    available: [
+      {
+        item: "mini tophat with feathers",
+        price: 30,
+        count: 2,
       },
     ],
   },
