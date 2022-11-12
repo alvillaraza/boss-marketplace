@@ -547,18 +547,6 @@ const allData = [
   //   ],
   // },
   {
-    name: "White Fur Hat",
-    category: "hats",
-    image: white_fur_hat,
-    available: [
-      {
-        item: "white fur  hat",
-        price: 20,
-        count: 2,
-      },
-    ],
-  },
-  {
     name: "Leopard Fur Hood",
     category: "hats",
     image: leopard_fur_front2,
@@ -1422,11 +1410,6 @@ const allData = [
     image: pirate_captain,
     available: [
       {
-        item: "jacket (no lining) and ruffley chest",
-        price: 5,
-        count: 1,
-      },
-      {
         item: "pirate captain hat",
         price: 8,
         count: 1,
@@ -1694,12 +1677,12 @@ const allData = [
       {
         item: "half leather jacket and bottoms with gold lace",
         price: 10,
-        count: 2,
+        count: 1,
       },
       {
         item: "bra",
         price: 3,
-        count: 2,
+        count: 1,
       },
     ],
   },
