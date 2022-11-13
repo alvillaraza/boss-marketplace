@@ -596,14 +596,9 @@ const allData = [
   },
   {
     name: "Winter White Leotard",
-    category: "clothing",
+    category: "accessories",
     image: winter_white_leo,
     available: [
-      {
-        item: "winter white leotard and arm bands",
-        price: 10,
-        count: 1,
-      },
       {
         item: "LED ice crown",
         price: 75,
@@ -1720,12 +1715,12 @@ const allData = [
     available: [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
-        price: 15,
-        count: 2,
+        price: 20,
+        count: 1,
       },
       {
         item: "peacock feather shoulder pieces",
-        price: 25,
+        price: 35,
         count: 1,
       },
     ],
@@ -1737,12 +1732,12 @@ const allData = [
     available: [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
-        price: 15,
-        count: 2,
+        price: 20,
+        count: 1,
       },
       {
         item: "peacock feather shoulder pieces",
-        price: 25,
+        price: 35,
         count: 1,
       },
       {
@@ -1764,12 +1759,12 @@ const allData = [
     available: [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
-        price: 15,
+        price: 20,
         count: 2,
       },
       {
         item: "peacock feather shoulder pieces",
-        price: 25,
+        price: 35,
         count: 1,
       },
       {
@@ -1779,7 +1774,7 @@ const allData = [
       },
       {
         item: "green, pink, yellow shoulder piece with matching leg feather bands",
-        price: 28,
+        price: 35,
         count: 1,
       },
     ],
@@ -1796,7 +1791,7 @@ const allData = [
       },
       {
         item: "green, pink, yellow shoulder piece with matching leg feather bands",
-        price: 28,
+        price: 35,
         count: 1,
       },
     ],
