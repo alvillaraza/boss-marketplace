@@ -955,7 +955,7 @@ const allData = [
       {
         item: "top, bottoms, gloves",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
