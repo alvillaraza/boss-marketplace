@@ -1595,7 +1595,7 @@ const allData = [
       {
         item: "bra (purple or blue) with bottoms and arm bands",
         price: 20,
-        count: 2,
+        count: 1,
       },
       {
         item: "peacock feather shoulder pieces",
