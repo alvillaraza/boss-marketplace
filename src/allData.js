@@ -165,7 +165,7 @@ const allData = [
       {
         item: "curly retro betty boop blonde wig",
         price: 15,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -475,18 +475,6 @@ const allData = [
     ],
   },
   {
-    name: "Sailor Stripe Headband",
-    category: "hats",
-    image: sailor_stripe_front,
-    available: [
-      {
-        item: "sailor stripe headband",
-        price: 8,
-        count: 3,
-      },
-    ],
-  },
-  {
     name: "White Sailor",
     category: "hats",
     image: white_sailor_side,
@@ -708,28 +696,6 @@ const allData = [
     ],
   },
   {
-    name: "black lace leotard",
-    category: "clothing",
-    image: black_lacey_leo,
-    available: [
-      {
-        item: "black lace leotard",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "black lace bunny mask",
-        price: 15,
-        count: 3,
-      },
-      {
-        item: "long black lace gloves",
-        price: 8,
-        count: 2,
-      },
-    ],
-  },
-  {
     name: "Showgirl Feather Headpiece",
     category: "clothing",
     image: feather_headpieces,
@@ -772,40 +738,6 @@ const allData = [
         item: "silver with black lace top and bottoms and black lace wrap",
         price: 15,
         count: 1,
-      },
-    ],
-  },
-  {
-    name: "Black Sequin Jacket",
-    category: "clothing",
-    image: black_sequin_jacket_front,
-    available: [
-      {
-        item: "Black Sequin Jacket",
-        price: 20,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Rose Gold Leotard",
-    category: "clothing",
-    image: rose_gold_leo,
-    available: [
-      {
-        item: "rose gold sequin leotard and ribbon neck piece",
-        price: 15,
-        count: 2,
-      },
-      {
-        item: "curly retro betty boop blonde wig",
-        price: 15,
-        count: 2,
-      },
-      {
-        item: "butterfly fascinator hair clip",
-        price: 10,
-        count: 2,
       },
     ],
   },
@@ -919,23 +851,6 @@ const allData = [
     ],
   },
   {
-    name: "Marie Antoinette",
-    category: "clothing",
-    image: marie_antoinette,
-    available: [
-      {
-        item: "leotard (no ruffley wrist)",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "pink marie antoinette wig",
-        price: 20,
-        count: 2,
-      },
-    ],
-  },
-  {
     name: "futuristic silver",
     category: "clothing",
     image: dancetronauts,
@@ -1019,7 +934,7 @@ const allData = [
       },
       {
         item: "statement necklace",
-        price: 8,
+        price: 12,
         count: 2,
       },
       {
@@ -1029,30 +944,6 @@ const allData = [
       },
     ],
   },
-
-  {
-    name: "retro sailor outfit",
-    category: "clothing",
-    image: cute_sailor_retro,
-    available: [
-      {
-        item: "blue and white striped half top and bottoms",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "red and white striped bra",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "sailor headband",
-        price: 8,
-        count: 3,
-      },
-    ],
-  },
-
   {
     name: "Hula Girl",
     category: "clothing",
@@ -1361,45 +1252,6 @@ const allData = [
     ],
   },
   {
-    name: "apocalypse gold costume 2",
-    category: "clothing",
-    image: apocalypse_gold_2,
-    available: [
-      {
-        item: "bra",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gas mask",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gold studded belt",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "apocalypse costume",
-    category: "clothing",
-    image: apocalypse_gold,
-    available: [
-      {
-        item: "bra",
-        price: 10,
-        count: 3,
-      },
-      {
-        item: "gas mask",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
-  {
     name: "Pirate Captain",
     category: "clothing",
     image: pirate_captain,
@@ -1661,23 +1513,6 @@ const allData = [
         item: "flower hair clip",
         price: 3,
         count: 3,
-      },
-    ],
-  },
-  {
-    name: "Mariachi Inspired",
-    category: "clothing",
-    image: latina_mariachi,
-    available: [
-      {
-        item: "half leather jacket and bottoms with gold lace",
-        price: 10,
-        count: 1,
-      },
-      {
-        item: "bra",
-        price: 3,
-        count: 1,
       },
     ],
   },
