@@ -130,7 +130,7 @@ import neon_blue from "./assets/neon_blue.jpeg";
 import orange_wig from "./assets/orange_wig.png";
 import red_queen from "./assets/red_queen.jpeg";
 import red_wig from "./assets/red_wig.png";
-// import short_white_wig from './assets/short_white_wig.jpeg'
+import short_white_wig from './assets/short_white_wig.jpeg'
 import white_wigs from "./assets/white_wigs.png";
 import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
 import marie_antoinette_front from "./assets/marie_antoinette_front.jpeg";
@@ -143,6 +143,8 @@ import gold_filigree_front from './assets/gold_filigree_front.jpeg'
 import male_mask_front from './assets/male_mask_front.jpeg'
 import poinsettia_fronttop from './assets/poinsettia_fronttop.jpeg'
 import white_filigree_side from './assets/white_filigree_side.jpeg'
+import black_straight from './assets/black_straight.png'
+import blonde_fluffy2  from './assets/blonde_fluffy2.png'
 
 const allData = [
   {
@@ -182,6 +184,18 @@ const allData = [
     ],
   },
   {
+    name: "Blonde Wavy Wig",
+    category: "wigs",
+    image: blonde_fluffy2,
+    available: [
+      {
+        item: "blonde wavy wig",
+        price: 20,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "Red White Blue Sequin",
     category: "clothing",
     image: blonde_curly,
@@ -205,6 +219,18 @@ const allData = [
     available: [
       {
         item: "grey wavy wig",
+        price: 20,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "Black Bob Wig",
+    category: "wigs",
+    image: black_straight,
+    available: [
+      {
+        item: "black bob wig",
         price: 20,
         count: 1,
       },
@@ -299,18 +325,18 @@ const allData = [
       },
     ],
   },
-  // {
-  //   name: "Short White Wig",
-  //   category: 'wigs',
-  //   image: short_white_wig,
-  //   available: [
-  //     {
-  //       item: "short white wigs",
-  //       price: 10,
-  //       count: 3,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Short White Wig",
+    category: 'wigs',
+    image: short_white_wig,
+    available: [
+      {
+        item: "short white wigs",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
   // {
   //   name: "Short Blue Wig",
   //   category: "wigs",
@@ -726,12 +752,7 @@ const allData = [
         item: "pink feather tutu outfit",
         price: 40,
         count: 1,
-      },
-      {
-        item: "blue wig",
-        price: 12,
-        count: 1,
-      },
+      }
     ],
   },
   {
