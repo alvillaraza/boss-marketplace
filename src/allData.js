@@ -152,7 +152,7 @@ const allData = [
     available: [
       {
         item: "curly retro betty boop black wig",
-        price: 15,
+        price: 18,
         count: 2,
       },
     ],
@@ -164,7 +164,7 @@ const allData = [
     available: [
       {
         item: "curly retro betty boop blonde wig",
-        price: 15,
+        price: 18,
         count: 1,
       },
     ],
@@ -176,19 +176,24 @@ const allData = [
     available: [
       {
         item: "black wavy wig",
-        price: 12,
+        price: 20,
         count: 2,
       },
     ],
   },
   {
-    name: "Blonde Wavy Wig",
-    category: "wigs",
+    name: "Red White Blue Sequin",
+    category: "clothing",
     image: blonde_curly,
     available: [
       {
+        item: "red white blue sequin",
+        price: 20,
+        count: 3,
+      },
+      {
         item: "blonde wavy wig",
-        price: 12,
+        price: 20,
         count: 3,
       },
     ],
@@ -200,7 +205,7 @@ const allData = [
     available: [
       {
         item: "grey wavy wig",
-        price: 12,
+        price: 20,
         count: 1,
       },
     ],
@@ -212,7 +217,7 @@ const allData = [
     available: [
       {
         item: "short blonde wigs",
-        price: 10,
+        price: 15,
         count: 3,
       },
     ],
@@ -229,18 +234,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Marie Antoinette",
-    category: "wigs",
-    image: marie_antoinette_front,
-    available: [
-      {
-        item: "Marie Antoinette",
-        price: 20,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Marie Antoinette",
+  //   category: "wigs",
+  //   image: marie_antoinette_front,
+  //   available: [
+  //     {
+  //       item: "Marie Antoinette",
+  //       price: 20,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Long Red Wig",
     category: "wigs",
@@ -248,7 +253,7 @@ const allData = [
     available: [
       {
         item: "long red wig",
-        price: 12,
+        price: 20,
         count: 3,
       },
     ],
@@ -260,7 +265,7 @@ const allData = [
     available: [
       {
         item: "neon blue wig",
-        price: 12,
+        price: 20,
         count: 3,
       },
     ],
@@ -284,7 +289,7 @@ const allData = [
     available: [
       {
         item: "short red wigs",
-        price: 10,
+        price: 20,
         count: 3,
       },
       {
@@ -306,18 +311,18 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "Short Blue Wig",
-    category: "wigs",
-    image: yellow_blue_wig,
-    available: [
-      {
-        item: "short blue wig",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Short Blue Wig",
+  //   category: "wigs",
+  //   image: yellow_blue_wig,
+  //   available: [
+  //     {
+  //       item: "short blue wig",
+  //       price: 12,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Red Queen Wig",
     category: "wigs",
@@ -361,7 +366,7 @@ const allData = [
     available: [
       {
         item: "red military hat",
-        price: 12,
+        price: 15,
         count: 2,
       },
     ],
@@ -558,18 +563,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "White lace Straps",
-    category: "clothing",
-    image: white_lace_fashion,
-    available: [
-      {
-        item: "white lacey strappy top (bra not included) and strappy leg garter 5",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "White lace Straps",
+  //   category: "clothing",
+  //   image: white_lace_fashion,
+  //   available: [
+  //     {
+  //       item: "white lacey strappy top (bra not included) and strappy leg garter 5",
+  //       price: 10,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "White Mesh Leotard",
     category: "clothing",
@@ -594,7 +599,7 @@ const allData = [
       },
       {
         item: "short blonde wigs",
-        price: 10,
+        price: 20,
         count: 2,
       },
     ],
@@ -667,7 +672,7 @@ const allData = [
     available: [
       {
         item: "leotard",
-        price: 10,
+        price: 15,
         count: 2,
       },
 
@@ -719,12 +724,12 @@ const allData = [
     available: [
       {
         item: "pink feather tutu outfit",
-        price: 35,
+        price: 40,
         count: 1,
       },
       {
         item: "blue wig",
-        price: 10,
+        price: 12,
         count: 1,
       },
     ],
@@ -766,11 +771,11 @@ const allData = [
       {
         item: "gold top",
         price: 5,
-        count: 3,
+        count: 1,
       },
       {
         item: "gold pants",
-        price: 8,
+        price: 18,
         count: 2,
       },
     ],
@@ -811,12 +816,12 @@ const allData = [
     available: [
       {
         item: "halter dress",
-        price: 10,
+        price: 15,
         count: 2,
       },
       {
         item: "black curly betty boop wig",
-        price: 15,
+        price: 18,
         count: 2,
       },
     ],
@@ -841,12 +846,12 @@ const allData = [
       {
         item: "wig",
         price: 15,
-        count: 2,
+        count: 1,
       },
       {
         item: "dress, bottoms, gloves, and poof for shoes",
         price: 25,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -886,7 +891,7 @@ const allData = [
       },
       {
         item: "fringe cowgirl leotard",
-        price: 10,
+        price: 20,
         count: 2,
       },
     ],
@@ -980,23 +985,23 @@ const allData = [
     available: [
       {
         item: "leotard, headband, neck and wristpieces",
-        price: 10,
-        count: 3,
+        price: 15,
+        count: 2,
       },
       {
         item: "checkered bra",
         price: 5,
-        count: 3,
+        count: 2,
       },
       {
         item: "Thigh high stockings",
         price: 5,
-        count: 3,
+        count: 2,
       },
       {
         item: "short satin gloves (red or black)",
         price: 5,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -1056,7 +1061,7 @@ const allData = [
     available: [
       {
         item: "colorful tube leotard and half top",
-        price: 15,
+        price: 25,
         count: 2,
       },
       {
@@ -1066,7 +1071,7 @@ const allData = [
       },
       {
         item: "blonde wavy wig",
-        price: 12,
+        price: 20,
         count: 3,
       },
       {
@@ -1088,7 +1093,7 @@ const allData = [
     available: [
       {
         item: "colorful tube leotard and half top",
-        price: 15,
+        price: 25,
         count: 2,
       },
       {
@@ -1098,7 +1103,7 @@ const allData = [
       },
       {
         item: "blonde wavy wig",
-        price: 12,
+        price: 20,
         count: 3,
       },
       {
@@ -1120,7 +1125,7 @@ const allData = [
     available: [
       {
         item: "olive top and bottom",
-        price: 5,
+        price: 15,
         count: 1,
       },
     ],
@@ -1132,7 +1137,7 @@ const allData = [
     available: [
       {
         item: "bra and bottoms",
-        price: 8,
+        price: 15,
         count: 3,
       },
       {
@@ -1376,7 +1381,7 @@ const allData = [
     available: [
       {
         item: "red leather leotard",
-        price: 10,
+        price: 20,
         count: 2,
       },
       {
@@ -1746,7 +1751,7 @@ const allData = [
     available: [
       {
         item: "Light-up Reindeer Headband",
-        price: 35,
+        price: 40,
         count: 1,
       },
     ],
@@ -1907,7 +1912,7 @@ const allData = [
     available: [
       {
         item: "poinsettia headband",
-        price: 10,
+        price: 20,
         count: 10,
       },
     ],
@@ -1919,7 +1924,7 @@ const allData = [
     available: [
       {
         item: "mini tophat with feathers",
-        price: 30,
+        price: 35,
         count: 2,
       },
     ],
