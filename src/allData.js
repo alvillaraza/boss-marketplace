@@ -1279,7 +1279,7 @@ const allData = [
   },
   {
     name: "Pirate Captain",
-    category: "clothing",
+    category: "hats",
     image: pirate_captain,
     available: [
       {
@@ -1486,7 +1486,7 @@ const allData = [
     image: marching_band,
     available: [
       {
-        item: "marching band red leotard",
+        item: "red tube leotard",
         price: 5,
         count: 3,
       },
@@ -1550,7 +1550,7 @@ const allData = [
       {
         item: "red sequin bra with attached ruffley sleeves",
         price: 10,
-        count: 2,
+        count: 1,
       },
       {
         item: "red sequin bottoms",
@@ -1563,9 +1563,9 @@ const allData = [
         count: 2,
       },
       {
-        item: "fringe earrings (2 different styles)",
+        item: "fringe earrings",
         price: 8,
-        count: 2,
+        count: 1,
       },
     ],
   },
