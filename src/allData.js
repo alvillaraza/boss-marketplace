@@ -719,7 +719,7 @@ const allData = [
     available: [
       {
         item: "leotard",
-        price: 15,
+        price: 10,
         count: 2,
       },
 
@@ -776,18 +776,18 @@ const allData = [
       }
     ],
   },
-  {
-    name: "Silver and Black Ensemble",
-    category: "clothing",
-    image: silver_black_raw_fashion,
-    available: [
-      {
-        item: "silver with black lace top and bottoms and black lace wrap",
-        price: 15,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Silver and Black Ensemble",
+  //   category: "clothing",
+  //   image: silver_black_raw_fashion,
+  //   available: [
+  //     {
+  //       item: "silver with black lace top and bottoms and black lace wrap",
+  //       price: 15,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "blue sequin leotard",
     category: "clothing",
@@ -810,14 +810,19 @@ const allData = [
     category: "clothing",
     image: gold_retro,
     available: [
+      // {
+      //   item: "gold top",
+      //   price: 5,
+      //   count: 1,
+      // },
       {
-        item: "gold top",
-        price: 5,
-        count: 1,
+        item: "gold pants flared",
+        price: 18,
+        count: 2,
       },
       {
-        item: "gold pants",
-        price: 18,
+        item: "gold leggings",
+        price: 10,
         count: 2,
       },
     ],
@@ -863,7 +868,7 @@ const allData = [
       },
       {
         item: "black curly betty boop wig",
-        price: 18,
+        price: 15,
         count: 2,
       },
     ],
@@ -933,7 +938,7 @@ const allData = [
       },
       {
         item: "fringe cowgirl leotard",
-        price: 20,
+        price: 10,
         count: 2,
       },
     ],
@@ -1179,7 +1184,7 @@ const allData = [
     available: [
       {
         item: "bra and bottoms",
-        price: 15,
+        price: 10,
         count: 3,
       },
       {
@@ -1423,7 +1428,7 @@ const allData = [
     available: [
       {
         item: "red leather leotard",
-        price: 20,
+        price: 10,
         count: 2,
       },
       {
