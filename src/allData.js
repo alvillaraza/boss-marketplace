@@ -147,6 +147,17 @@ import white_filigree_side from './assets/white_filigree_side.jpeg'
 import black_straight from './assets/black_straight.png'
 import blonde_fluffy2 from './assets/blonde_fluffy2.png'
 import ice_crown from './assets/icecrown_frontLEDclose.jpeg'
+import bandana_bra from './assets/bandana_bra.jpeg'
+import black_sequin_bra from './assets/black_sequin_bra.jpeg'
+import camo_bra_gold from './assets/camo_bra_gold.jpeg'
+import camo_bra_silver from './assets/camo_bra_silver.jpeg'
+import neon_orange_bra from './assets/neon_orange_bra.jpeg'
+import polka_dot_bra from './assets/polka_dot_bra.jpeg'
+import red_fringe_bra from './assets/red_fringe_bra.jpeg'
+import red_plaid_bra from './assets/red_plaid_bra.jpeg'
+import silver_sequin_bra from './assets/silver_sequin_bra.jpeg'
+import silver_spike_bra from './assets/silver_spike_bra.jpeg'
+import skeleton_bra from './assets/skeleton_bra.jpeg'
 
 const allData = [
   {
@@ -664,7 +675,7 @@ const allData = [
       {
         item: "silver sequin bra",
         price: 10,
-        count: 4,
+        count: 2,
       },
       {
         item: "silver necklace",
@@ -801,7 +812,7 @@ const allData = [
       {
         item: "silver sequin bra",
         price: 10,
-        count: 4,
+        count: 2,
       },
     ],
   },
@@ -992,7 +1003,7 @@ const allData = [
       {
         item: "black strappy bra",
         price: 5,
-        count: 2,
+        count: 3,
       },
     ],
   },
@@ -1698,6 +1709,149 @@ const allData = [
         price: 8,
         count: 1,
       },
+    ],
+  },
+  {
+    name: "Bandana Bra",
+    category: "clothing",
+    image: bandana_bra,
+    available: [
+      {
+        item: "bandana bra",
+        price: 8,
+        count: 4,
+      },
+     
+    ],
+  },
+  {
+    name: "Black Sequin Bra",
+    category: "clothing",
+    image: black_sequin_bra,
+    available: [
+      {
+        item: "black sequin bra",
+        price: 10,
+        count: 2,
+      },
+     
+    ],
+  },
+  {
+    name: "Camo Bra with Gold Spikes",
+    category: "clothing",
+    image: camo_bra_gold,
+    available: [
+      {
+        item: "camo bra with gold spikes",
+        price: 8,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "Camo Bra with silver Spikes",
+    category: "clothing",
+    image: camo_bra_silver,
+    available: [
+      {
+        item: "camo bra with silver spikes",
+        price: 8,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "neon colorful bra",
+    category: "clothing",
+    image: neon_orange_bra,
+    available: [
+      {
+        item: "neon colorful bra",
+        price: 5,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "polka dot bra",
+    category: "clothing",
+    image: polka_dot_bra,
+    available: [
+      {
+        item: "polka dot bra",
+        price: 5,
+        count: 2,
+      },
+     
+    ],
+  },
+  {
+    name: "Red and White Fringe bra",
+    category: "clothing",
+    image: red_fringe_bra,
+    available: [
+      {
+        item: "Red and White Fringe bra",
+        price: 8,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "Red Plaid bra",
+    category: "clothing",
+    image: red_plaid_bra,
+    available: [
+      {
+        item: "Red Plaid bra",
+        price: 8,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "Silver Sequin bra",
+    category: "clothing",
+    image: silver_sequin_bra,
+    available: [
+      {
+        item: "Silver Sequin bra",
+        price: 10,
+        count: 2,
+      },
+     
+    ],
+  },
+  {
+    name: "Silver Spike bra",
+    category: "clothing",
+    image: silver_spike_bra,
+    available: [
+      {
+        item: "Silver Spike bra",
+        price: 8,
+        count: 2,
+      },
+     
+    ],
+  },
+  {
+    name: "Skeleton Hand bra",
+    category: "clothing",
+    image: skeleton_bra,
+    available: [
+      {
+        item: "Skeleton Hand bra",
+        price: 5,
+        count: 2,
+      },
+     
     ],
   },
 
