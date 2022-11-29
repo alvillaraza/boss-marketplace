@@ -167,7 +167,7 @@ const allData = [
       {
         item: "curly retro betty boop blonde wig",
         price: 18,
-        count: 1,
+        count: 4,
       },
     ],
   },
@@ -232,7 +232,7 @@ const allData = [
       {
         item: "black bob wig",
         price: 20,
-        count: 1,
+        count: 2,
       },
     ],
   },
@@ -280,7 +280,7 @@ const allData = [
       {
         item: "long red wig",
         price: 20,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -292,7 +292,7 @@ const allData = [
       {
         item: "neon blue wig",
         price: 20,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -304,7 +304,7 @@ const allData = [
       {
         item: "orange lilu wig",
         price: 5,
-        count: 3,
+        count: 6,
       },
     ],
   },
@@ -333,7 +333,7 @@ const allData = [
       {
         item: "short white wigs",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -355,8 +355,8 @@ const allData = [
     image: red_queen,
     available: [
       {
-        item: "Red queen wig",
-        price: 15,
+        item: "Red queen wig with crown",
+        price: 20,
         count: 2,
       },
     ],
