@@ -1902,7 +1902,7 @@ const allData = [
   {
     name: "neon skirts",
     category: "clothing",
-    image: metal_silver_bottoms,
+    image: neon_skirts,
     available: [
       {
         item: "neon skirts",
@@ -1915,7 +1915,7 @@ const allData = [
   {
     name: "red iridescent bottoms",
     category: "clothing",
-    image: metal_silver_bottoms,
+    image: red_iridescent_bottoms,
     available: [
       {
         item: "red iridescent bottoms",
@@ -1928,7 +1928,7 @@ const allData = [
   {
     name: "red sequin bottoms",
     category: "clothing",
-    image: metal_silver_bottoms,
+    image: red_sequin_bottoms,
     available: [
       {
         item: "red sequin bottoms",
@@ -1941,11 +1941,11 @@ const allData = [
   {
     name: "silver iridescent bottoms",
     category: "clothing",
-    image: metal_silver_bottoms,
+    image: silver_iridescent_bottoms,
     available: [
       {
         item: "silver iridescent bottoms",
-        price: 8,
+        price: 5,
         count: 2,
       },
      
