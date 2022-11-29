@@ -158,6 +158,13 @@ import red_plaid_bra from './assets/red_plaid_bra.jpeg'
 import silver_sequin_bra from './assets/silver_sequin_bra.jpeg'
 import silver_spike_bra from './assets/silver_spike_bra.jpeg'
 import skeleton_bra from './assets/skeleton_bra.jpeg'
+import blue_beanie from "./assets/blue_beanie.jpeg";
+import blue_stars_bottoms from "./assets/blue_stars_bottoms.jpeg";
+import metal_silver_bottoms from './assets/metal_silver_bottoms.jpeg'
+import neon_skirts from './assets/neon_skirts.jpeg'
+import red_iridescent_bottoms from './assets/red_iridescent_bottoms.jpeg'
+import red_sequin_bottoms from './assets/red_sequin_bottoms.jpeg'
+import silver_iridescent_bottoms from './assets/silver_iridescent_bottoms.jpeg'
 
 const allData = [
   {
@@ -406,6 +413,18 @@ const allData = [
       {
         item: "BOSS Statement Hat",
         price: 15,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Blue Moose Beanie",
+    category: "hats",
+    image: blue_beanie,
+    available: [
+      {
+        item: "Blue Moose Beanie",
+        price: 10,
         count: 3,
       },
     ],
@@ -1849,6 +1868,84 @@ const allData = [
       {
         item: "Skeleton Hand bra",
         price: 5,
+        count: 2,
+      },
+     
+    ],
+  },
+  {
+    name: "blue stars bottoms",
+    category: "clothing",
+    image: blue_stars_bottoms,
+    available: [
+      {
+        item: "blue stars bottoms",
+        price: 5,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "metallic silver bottoms",
+    category: "clothing",
+    image: metal_silver_bottoms,
+    available: [
+      {
+        item: "metallic silver bottoms",
+        price: 5,
+        count: 1,
+      },
+     
+    ],
+  },
+  {
+    name: "neon skirts",
+    category: "clothing",
+    image: metal_silver_bottoms,
+    available: [
+      {
+        item: "neon skirts",
+        price: 8,
+        count: 4,
+      },
+     
+    ],
+  },
+  {
+    name: "red iridescent bottoms",
+    category: "clothing",
+    image: metal_silver_bottoms,
+    available: [
+      {
+        item: "red iridescent bottoms",
+        price: 8,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "red sequin bottoms",
+    category: "clothing",
+    image: metal_silver_bottoms,
+    available: [
+      {
+        item: "red sequin bottoms",
+        price: 10,
+        count: 3,
+      },
+     
+    ],
+  },
+  {
+    name: "silver iridescent bottoms",
+    category: "clothing",
+    image: metal_silver_bottoms,
+    available: [
+      {
+        item: "silver iridescent bottoms",
+        price: 8,
         count: 2,
       },
      
