@@ -133,7 +133,8 @@ import red_wig from "./assets/red_wig.png";
 import short_white_wig from './assets/short_white_wig.jpeg'
 import white_wigs from "./assets/white_wigs.png";
 import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
-import marie_antoinette_front from "./assets/marie_antoinette_front.jpeg";
+import rock_wig from './assets/80s_rock_wig.jpeg'
+import blonde_curly_wig from './assets/80s_blonde_curly_wig.jpeg'
 import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
 // import hooded_cape from './assets/hooded_cape.jpeg';
 import black_filigree_side from './assets/black_filigree_side.jpeg'
@@ -144,7 +145,8 @@ import male_mask_front from './assets/male_mask_front.jpeg'
 import poinsettia_fronttop from './assets/poinsettia_fronttop.jpeg'
 import white_filigree_side from './assets/white_filigree_side.jpeg'
 import black_straight from './assets/black_straight.png'
-import blonde_fluffy2  from './assets/blonde_fluffy2.png'
+import blonde_fluffy2 from './assets/blonde_fluffy2.png'
+import ice_crown from './assets/icecrown_frontLEDclose.jpeg'
 
 const allData = [
   {
@@ -255,6 +257,30 @@ const allData = [
     available: [
       {
         item: "cindy lauper wig",
+        price: 10,
+        count: 1,
+      },
+    ],
+  },
+  {
+    name: "80s Rock Wig",
+    category: "wigs",
+    image: rock_wig,
+    available: [
+      {
+        item: "80s rock wig",
+        price: 10,
+        count: 3,
+      },
+    ],
+  },
+  {
+    name: "Long Blonde Curly Wig",
+    category: "wigs",
+    image: blonde_curly_wig,
+    available: [
+      {
+        item: "long blonde curly wig",
         price: 10,
         count: 1,
       },
@@ -616,18 +642,13 @@ const allData = [
   {
     name: "LED ice crown",
     category: "accessories",
-    image: winter_white_leo,
+    image: ice_crown,
     available: [
       {
         item: "LED ice crown",
         price: 75,
         count: 2,
-      },
-      {
-        item: "short blonde wigs",
-        price: 20,
-        count: 2,
-      },
+      }
     ],
   },
   {
