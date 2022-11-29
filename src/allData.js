@@ -191,7 +191,7 @@ const allData = [
       {
         item: "blonde wavy wig",
         price: 20,
-        count: 2,
+        count: 3,
       },
     ],
   },
@@ -614,7 +614,7 @@ const allData = [
     ],
   },
   {
-    name: "Winter White Leotard",
+    name: "LED ice crown",
     category: "accessories",
     image: winter_white_leo,
     available: [
