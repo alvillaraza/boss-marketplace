@@ -158,7 +158,6 @@ import red_plaid_bra from './assets/red_plaid_bra.jpeg'
 import silver_sequin_bra from './assets/silver_sequin_bra.jpeg'
 import silver_spike_bra from './assets/silver_spike_bra.jpeg'
 import skeleton_bra from './assets/skeleton_bra.jpeg'
-import blue_beanie from "./assets/blue_beanie.jpeg";
 import blue_stars_bottoms from "./assets/blue_stars_bottoms.jpeg";
 import metal_silver_bottoms from './assets/metal_silver_bottoms.jpeg'
 import neon_skirts from './assets/neon_skirts.jpeg'
@@ -413,18 +412,6 @@ const allData = [
       {
         item: "BOSS Statement Hat",
         price: 15,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Blue Moose Beanie",
-    category: "hats",
-    image: blue_beanie,
-    available: [
-      {
-        item: "Blue Moose Beanie",
-        price: 10,
         count: 3,
       },
     ],
@@ -973,18 +960,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Oktoberfest",
-    category: "clothing",
-    image: german_oktoberfest_2,
-    available: [
-      {
-        item: "bra, skirt jumper, arm bands",
-        price: 15,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Oktoberfest",
+  //   category: "clothing",
+  //   image: german_oktoberfest_2,
+  //   available: [
+  //     {
+  //       item: "bra, skirt jumper, arm bands",
+  //       price: 15,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "St Patricks Outfit",
     category: "clothing",
@@ -1254,12 +1241,12 @@ const allData = [
       {
         item: "yellow half top and plaid skirt",
         price: 10,
-        count: 2,
+        count: 3,
       },
       {
         item: "yellow visor",
         price: 5,
-        count: 2,
+        count: 3,
       },
     ],
   },
@@ -1297,18 +1284,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Sporty Football Outfit",
-    category: "clothing",
-    image: sporty_football,
-    available: [
-      {
-        item: "pink and black half top shoulder pads, top, and bottoms",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Sporty Football Outfit",
+  //   category: "clothing",
+  //   image: sporty_football,
+  //   available: [
+  //     {
+  //       item: "pink and black half top shoulder pads, top, and bottoms",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Pink Camo Leotard",
     category: "clothing",
@@ -1599,15 +1586,10 @@ const allData = [
     ],
   },
   {
-    name: "Ruffley Rose Ensemble",
+    name: "Pieces of Ruffley Rose Ensemble",
     category: "clothing",
     image: salsa_latina,
     available: [
-      {
-        item: "red sequin bra with attached ruffley sleeves",
-        price: 10,
-        count: 1,
-      },
       {
         item: "red sequin bottoms",
         price: 8,
