@@ -178,18 +178,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Blonde Curly Betty Boop Wig",
-    category: "wigs",
-    image: blonde_betty_boop,
-    available: [
-      {
-        item: "curly retro betty boop blonde wig",
-        price: 15,
-        count: 4,
-      },
-    ],
-  },
+  // {
+  //   name: "Blonde Curly Betty Boop Wig",
+  //   category: "wigs",
+  //   image: blonde_betty_boop,
+  //   available: [
+  //     {
+  //       item: "curly retro betty boop blonde wig",
+  //       price: 15,
+  //       count: 4,
+  //     },
+  //   ],
+  // },
   {
     name: "Black Wavy Wig",
     category: "wigs",
@@ -1212,37 +1212,23 @@ const allData = [
     ],
   },
   {
-    name: "Green School Girl Golf Outfit",
+    name: "Black Strappy Bra",
     category: "clothing",
     image: green_school_girl_golf,
     available: [
-      {
-        item: "hat",
-        price: 8,
-        count: 3,
-      },
+     
       {
         item: "black strappy bra",
         price: 5,
         count: 3,
       },
-      {
-        item: "skirt",
-        price: 8,
-        count: 2,
-      },
     ],
   },
   {
-    name: "Yellow School Girl Outfit",
-    category: "clothing",
+    name: "Yellow Visor",
+    category: "accessories",
     image: yellow_school_girl,
     available: [
-      {
-        item: "yellow half top and plaid skirt",
-        price: 10,
-        count: 3,
-      },
       {
         item: "yellow visor",
         price: 5,
@@ -1695,23 +1681,23 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Fuschia Leotard",
-    category: "clothing",
-    image: fuschia_leotard,
-    available: [
-      {
-        item: "fuschia leotard",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "long white gloves",
-        price: 8,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Fuschia Leotard",
+  //   category: "clothing",
+  //   image: fuschia_leotard,
+  //   available: [
+  //     {
+  //       item: "fuschia leotard",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "long white gloves",
+  //       price: 8,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Bandana Bra",
     category: "clothing",
@@ -1894,19 +1880,19 @@ const allData = [
      
     ],
   },
-  {
-    name: "red iridescent bottoms",
-    category: "clothing",
-    image: red_iridescent_bottoms,
-    available: [
-      {
-        item: "red iridescent bottoms",
-        price: 8,
-        count: 3,
-      },
+  // {
+  //   name: "red iridescent bottoms",
+  //   category: "clothing",
+  //   image: red_iridescent_bottoms,
+  //   available: [
+  //     {
+  //       item: "red iridescent bottoms",
+  //       price: 8,
+  //       count: 3,
+  //     },
      
-    ],
-  },
+  //   ],
+  // },
   {
     name: "red sequin bottoms",
     category: "clothing",
