@@ -1226,7 +1226,7 @@ const allData = [
   },
   {
     name: "Yellow Visor",
-    category: "accessories",
+    category: "hats",
     image: yellow_school_girl,
     available: [
       {
