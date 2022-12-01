@@ -1555,7 +1555,7 @@ const allData = [
   },
 
   {
-    name: "Ruffles",
+    name: "Cinco De Mayo Outfit",
     category: "clothing",
     image: latina_fluff_3,
     available: [
