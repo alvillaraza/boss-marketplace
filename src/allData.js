@@ -1764,12 +1764,12 @@ const allData = [
     ],
   },
   {
-    name: "polka dot bra",
+    name: "polka dot bikini bra",
     category: "clothing",
     image: polka_dot_bra,
     available: [
       {
-        item: "polka dot bra",
+        item: "polka dot bikini bra",
         price: 5,
         count: 2,
       },
@@ -1862,7 +1862,7 @@ const allData = [
       {
         item: "metallic silver bottoms",
         price: 5,
-        count: 1,
+        count: 2,
       },
      
     ],
