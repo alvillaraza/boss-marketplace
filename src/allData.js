@@ -1603,11 +1603,11 @@ const allData = [
         price: 20,
         count: 1,
       },
-      {
-        item: "peacock feather shoulder pieces",
-        price: 35,
-        count: 1,
-      },
+      // {
+      //   item: "peacock feather shoulder pieces",
+      //   price: 35,
+      //   count: 1,
+      // },
     ],
   },
   {
@@ -1620,11 +1620,11 @@ const allData = [
         price: 20,
         count: 1,
       },
-      {
-        item: "peacock feather shoulder pieces",
-        price: 35,
-        count: 1,
-      },
+      // {
+      //   item: "peacock feather shoulder pieces",
+      //   price: 35,
+      //   count: 1,
+      // },
       {
         item: "silver necklace",
         price: 5,
@@ -1647,21 +1647,21 @@ const allData = [
         price: 20,
         count: 1,
       },
-      {
-        item: "peacock feather shoulder pieces",
-        price: 35,
-        count: 1,
-      },
+      // {
+      //   item: "peacock feather shoulder pieces",
+      //   price: 35,
+      //   count: 1,
+      // },
       {
         item: "neon green leotard",
         price: 10,
         count: 2,
       },
-      {
-        item: "green, pink, yellow shoulder piece with matching leg feather bands",
-        price: 35,
-        count: 1,
-      },
+      // {
+      //   item: "green, pink, yellow shoulder piece with matching leg feather bands",
+      //   price: 35,
+      //   count: 1,
+      // },
     ],
   },
   {
@@ -1674,11 +1674,11 @@ const allData = [
         price: 10,
         count: 2,
       },
-      {
-        item: "green, pink, yellow shoulder piece with matching leg feather bands",
-        price: 35,
-        count: 1,
-      },
+      // {
+      //   item: "green, pink, yellow shoulder piece with matching leg feather bands",
+      //   price: 35,
+      //   count: 1,
+      // },
     ],
   },
   // {
