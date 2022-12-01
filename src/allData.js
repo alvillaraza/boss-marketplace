@@ -1359,18 +1359,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Halloween Candy Corn",
-    category: "clothing",
-    image: halloween_candy,
-    available: [
-      {
-        item: "Candy Corn Leotard",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Halloween Candy Corn",
+  //   category: "clothing",
+  //   image: halloween_candy,
+  //   available: [
+  //     {
+  //       item: "Candy Corn Leotard",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Zombie Geisha",
     category: "clothing",
