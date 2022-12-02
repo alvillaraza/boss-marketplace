@@ -202,35 +202,35 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Blonde Wavy Wig",
-    category: "wigs",
-    image: blonde_fluffy2,
-    available: [
-      {
-        item: "blonde wavy wig",
-        price: 15,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Red White Blue Sequin",
-    category: "clothing",
-    image: blonde_curly,
-    available: [
-      {
-        item: "red white blue sequin",
-        price: 20,
-        count: 3,
-      },
-      {
-        item: "blonde wavy wig",
-        price: 20,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Blonde Wavy Wig",
+  //   category: "wigs",
+  //   image: blonde_fluffy2,
+  //   available: [
+  //     {
+  //       item: "blonde wavy wig",
+  //       price: 15,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Red White Blue Sequin",
+  //   category: "clothing",
+  //   image: blonde_curly,
+  //   available: [
+  //     {
+  //       item: "red white blue sequin",
+  //       price: 20,
+  //       count: 3,
+  //     },
+  //     {
+  //       item: "blonde wavy wig",
+  //       price: 20,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Grey Wavy Wig",
     category: "wigs",
@@ -644,18 +644,18 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "White Mesh Leotard",
-    category: "clothing",
-    image: white_mesh,
-    available: [
-      {
-        item: "white mesh leotard",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "White Mesh Leotard",
+  //   category: "clothing",
+  //   image: white_mesh,
+  //   available: [
+  //     {
+  //       item: "white mesh leotard",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "LED ice crown",
     category: "accessories",
@@ -668,28 +668,28 @@ const allData = [
       }
     ],
   },
-  {
-    name: "Hooded Fur Leotard",
-    category: "clothing",
-    image: hooded_fur,
-    available: [
-      {
-        item: "hooded fur leotard",
-        price: 12,
-        count: 1,
-      },
-      {
-        item: "silver sequin bra",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "silver necklace",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Hooded Fur Leotard",
+  //   category: "clothing",
+  //   image: hooded_fur,
+  //   available: [
+  //     {
+  //       item: "hooded fur leotard",
+  //       price: 12,
+  //       count: 1,
+  //     },
+  //     {
+  //       item: "silver sequin bra",
+  //       price: 10,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "silver necklace",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Alice in White Wonderland",
     category: "clothing",
@@ -818,7 +818,7 @@ const allData = [
       {
         item: "silver sequin bra",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -978,11 +978,6 @@ const allData = [
     image: st_patricks,
     available: [
       {
-        item: "green vest and green bowtie",
-        price: 10,
-        count: 3,
-      },
-      {
         item: "gold high waist bottoms",
         price: 5,
         count: 3,
@@ -1134,11 +1129,6 @@ const allData = [
         count: 2,
       },
       {
-        item: "blonde wavy wig",
-        price: 20,
-        count: 3,
-      },
-      {
         item: "cat ears sequin headband",
         price: 8,
         count: 1,
@@ -1164,11 +1154,6 @@ const allData = [
         item: "overall shorts (light or dark denim)",
         price: 5,
         count: 2,
-      },
-      {
-        item: "blonde wavy wig",
-        price: 20,
-        count: 3,
       },
       {
         item: "cat ears sequin headband",
@@ -1253,23 +1238,23 @@ const allData = [
       },
     ],
   },
-  {
-    name: "White Tops",
-    category: "clothing",
-    image: white_tops,
-    available: [
-      {
-        item: "white halter top",
-        price: 5,
-        count: 1,
-      },
-      {
-        item: "white bralette",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "White Tops",
+  //   category: "clothing",
+  //   image: white_tops,
+  //   available: [
+  //     {
+  //       item: "white halter top",
+  //       price: 5,
+  //       count: 1,
+  //     },
+  //     {
+  //       item: "white bralette",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Sporty Football Outfit",
   //   category: "clothing",
@@ -1383,18 +1368,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Silver Fringe Belt",
-    category: "clothing",
-    image: silver_fringe_belt,
-    available: [
-      {
-        item: "silver fringe belt",
-        price: 8,
-        count: 4,
-      },
-    ],
-  },
+  // {
+  //   name: "Silver Fringe Belt",
+  //   category: "clothing",
+  //   image: silver_fringe_belt,
+  //   available: [
+  //     {
+  //       item: "silver fringe belt",
+  //       price: 8,
+  //       count: 4,
+  //     },
+  //   ],
+  // },
   {
     name: "bride of frankenstein",
     category: "clothing",
@@ -1480,11 +1465,6 @@ const allData = [
         price: 15,
         count: 1,
       },
-      {
-        item: "pair of red, braided hair extensions",
-        price: 8,
-        count: 3,
-      },
     ],
   },
   {
@@ -1525,11 +1505,6 @@ const allData = [
         count: 3,
       },
       {
-        item: "white fringe shoulder pads",
-        price: 10,
-        count: 3,
-      },
-      {
         item: "short white satin gloves",
         price: 5,
         count: 3,
@@ -1554,23 +1529,23 @@ const allData = [
     ],
   },
 
-  {
-    name: "Cinco De Mayo Outfit",
-    category: "clothing",
-    image: latina_fluff_3,
-    available: [
-      {
-        item: "ruffle top and skirt",
-        price: 5,
-        count: 3,
-      },
-      {
-        item: "flower hair clip",
-        price: 3,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Cinco De Mayo Outfit",
+  //   category: "clothing",
+  //   image: latina_fluff_3,
+  //   available: [
+  //     {
+  //       item: "ruffle top and skirt",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //     {
+  //       item: "flower hair clip",
+  //       price: 3,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Pieces of Ruffley Rose Ensemble",
     category: "clothing",
@@ -1698,19 +1673,19 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "Bandana Bra",
-    category: "clothing",
-    image: bandana_bra,
-    available: [
-      {
-        item: "bandana bra",
-        price: 8,
-        count: 4,
-      },
+  // {
+  //   name: "Bandana Bra",
+  //   category: "clothing",
+  //   image: bandana_bra,
+  //   available: [
+  //     {
+  //       item: "bandana bra",
+  //       price: 8,
+  //       count: 4,
+  //     },
      
-    ],
-  },
+  //   ],
+  // },
   {
     name: "Black Sequin Bra",
     category: "clothing",
@@ -1724,32 +1699,32 @@ const allData = [
      
     ],
   },
-  {
-    name: "Camo Bra with Gold Spikes",
-    category: "clothing",
-    image: camo_bra_gold,
-    available: [
-      {
-        item: "camo bra with gold spikes",
-        price: 8,
-        count: 3,
-      },
+  // {
+  //   name: "Camo Bra with Gold Spikes",
+  //   category: "clothing",
+  //   image: camo_bra_gold,
+  //   available: [
+  //     {
+  //       item: "camo bra with gold spikes",
+  //       price: 8,
+  //       count: 3,
+  //     },
      
-    ],
-  },
-  {
-    name: "Camo Bra with silver Spikes",
-    category: "clothing",
-    image: camo_bra_silver,
-    available: [
-      {
-        item: "camo bra with silver spikes",
-        price: 8,
-        count: 3,
-      },
+  //   ],
+  // },
+  // {
+  //   name: "Camo Bra with silver Spikes",
+  //   category: "clothing",
+  //   image: camo_bra_silver,
+  //   available: [
+  //     {
+  //       item: "camo bra with silver spikes",
+  //       price: 8,
+  //       count: 3,
+  //     },
      
-    ],
-  },
+  //   ],
+  // },
   {
     name: "neon colorful bra",
     category: "clothing",
@@ -1810,7 +1785,7 @@ const allData = [
       {
         item: "Silver Sequin bra",
         price: 10,
-        count: 2,
+        count: 1,
       },
      
     ],
@@ -1938,18 +1913,18 @@ const allData = [
   //   ],
   // },
 
-  {
-    name: "White Fringe Epaulette",
-    category: "accessories",
-    image: white_fringe_epaulette,
-    available: [
-      {
-        item: "white fringe shoulder pads",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "White Fringe Epaulette",
+  //   category: "accessories",
+  //   image: white_fringe_epaulette,
+  //   available: [
+  //     {
+  //       item: "white fringe shoulder pads",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Red and Gold Leopard Epaulette",
     category: "accessories",
