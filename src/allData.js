@@ -1407,23 +1407,23 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Shark",
-    category: "clothing",
-    image: shark,
-    available: [
-      {
-        item: "silver shark top with hood and arm bands",
-        price: 20,
-        count: 3,
-      },
-      {
-        item: "silver bottoms",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Shark",
+  //   category: "clothing",
+  //   image: shark,
+  //   available: [
+  //     {
+  //       item: "silver shark top with hood and arm bands",
+  //       price: 20,
+  //       count: 3,
+  //     },
+  //     {
+  //       item: "silver bottoms",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Racing Leotard",
     category: "clothing",
