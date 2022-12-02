@@ -11,8 +11,8 @@ import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
 import rose_headpiece from "./assets/rose_headpiece.jpeg";
 import white_fringe_epaulette from "./assets/white_fringe_epaulette.jpeg";
 import reindeer_led from "./assets/reindeer_led.jpeg";
-import pink_feather_tutu_outfit from './assets/pink_feather_tutu_outfit.png'
-import pink_camo from './assets/pink_camo.png'
+import pink_feather_tutu_outfit from "./assets/pink_feather_tutu_outfit.png";
+import pink_camo from "./assets/pink_camo.png";
 import popsicles from "./assets/popsicles.jpeg";
 import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
 import apocalypse_gold from "./assets/apocalypse_gold.jpeg";
@@ -130,40 +130,40 @@ import neon_blue from "./assets/neon_blue.jpeg";
 import orange_wig from "./assets/orange_wig.png";
 import red_queen from "./assets/red_queen.jpeg";
 import red_wig from "./assets/red_wig.png";
-import short_white_wig from './assets/short_white_wig.jpeg'
+import short_white_wig from "./assets/short_white_wig.jpeg";
 import white_wigs from "./assets/white_wigs.png";
 import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
-import rock_wig from './assets/80s_rock_wig.jpeg'
-import blonde_curly_wig from './assets/80s_blonde_curly_wig.jpeg'
+import rock_wig from "./assets/80s_rock_wig.jpeg";
+import blonde_curly_wig from "./assets/80s_blonde_curly_wig.jpeg";
 import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
 // import hooded_cape from './assets/hooded_cape.jpeg';
-import black_filigree_side from './assets/black_filigree_side.jpeg'
-import feather_hat_front from './assets/feather_hat_front.jpeg'
-import feather_mask_front from './assets/feather_mask_front.jpeg'
-import gold_filigree_front from './assets/gold_filigree_front.jpeg'
-import male_mask_front from './assets/male_mask_front.jpeg'
-import poinsettia_fronttop from './assets/poinsettia_fronttop.jpeg'
-import white_filigree_side from './assets/white_filigree_side.jpeg'
-import black_straight from './assets/black_straight.png'
-import blonde_fluffy2 from './assets/blonde_fluffy2.png'
-import ice_crown from './assets/icecrown_frontLEDclose.jpeg'
-import bandana_bra from './assets/bandana_bra.jpeg'
-import black_sequin_bra from './assets/black_sequin_bra.jpeg'
-import camo_bra_gold from './assets/camo_bra_gold.jpeg'
-import camo_bra_silver from './assets/camo_bra_silver.jpeg'
-import neon_orange_bra from './assets/neon_orange_bra.jpeg'
-import polka_dot_bra from './assets/polka_dot_bra.jpeg'
-import red_fringe_bra from './assets/red_fringe_bra.jpeg'
-import red_plaid_bra from './assets/red_plaid_bra.jpeg'
-import silver_sequin_bra from './assets/silver_sequin_bra.jpeg'
-import silver_spike_bra from './assets/silver_spike_bra.jpeg'
-import skeleton_bra from './assets/skeleton_bra.jpeg'
+import black_filigree_side from "./assets/black_filigree_side.jpeg";
+import feather_hat_front from "./assets/feather_hat_front.jpeg";
+import feather_mask_front from "./assets/feather_mask_front.jpeg";
+import gold_filigree_front from "./assets/gold_filigree_front.jpeg";
+import male_mask_front from "./assets/male_mask_front.jpeg";
+import poinsettia_fronttop from "./assets/poinsettia_fronttop.jpeg";
+import white_filigree_side from "./assets/white_filigree_side.jpeg";
+import black_straight from "./assets/black_straight.png";
+import blonde_fluffy2 from "./assets/blonde_fluffy2.png";
+import ice_crown from "./assets/icecrown_frontLEDclose.jpeg";
+import bandana_bra from "./assets/bandana_bra.jpeg";
+import black_sequin_bra from "./assets/black_sequin_bra.jpeg";
+import camo_bra_gold from "./assets/camo_bra_gold.jpeg";
+import camo_bra_silver from "./assets/camo_bra_silver.jpeg";
+import neon_orange_bra from "./assets/neon_orange_bra.jpeg";
+import polka_dot_bra from "./assets/polka_dot_bra.jpeg";
+import red_fringe_bra from "./assets/red_fringe_bra.jpeg";
+import red_plaid_bra from "./assets/red_plaid_bra.jpeg";
+import silver_sequin_bra from "./assets/silver_sequin_bra.jpeg";
+import silver_spike_bra from "./assets/silver_spike_bra.jpeg";
+import skeleton_bra from "./assets/skeleton_bra.jpeg";
 import blue_stars_bottoms from "./assets/blue_stars_bottoms.jpeg";
-import metal_silver_bottoms from './assets/metal_silver_bottoms.jpeg'
-import neon_skirts from './assets/neon_skirts.jpeg'
-import red_iridescent_bottoms from './assets/red_iridescent_bottoms.jpeg'
-import red_sequin_bottoms from './assets/red_sequin_bottoms.jpeg'
-import silver_iridescent_bottoms from './assets/silver_iridescent_bottoms.jpeg'
+import metal_silver_bottoms from "./assets/metal_silver_bottoms.jpeg";
+import neon_skirts from "./assets/neon_skirts.jpeg";
+import red_iridescent_bottoms from "./assets/red_iridescent_bottoms.jpeg";
+import red_sequin_bottoms from "./assets/red_sequin_bottoms.jpeg";
+import silver_iridescent_bottoms from "./assets/silver_iridescent_bottoms.jpeg";
 
 const allData = [
   {
@@ -370,7 +370,7 @@ const allData = [
   },
   {
     name: "Short White Wig",
-    category: 'wigs',
+    category: "wigs",
     image: short_white_wig,
     available: [
       {
@@ -665,7 +665,7 @@ const allData = [
         item: "LED ice crown",
         price: 75,
         count: 2,
-      }
+      },
     ],
   },
   // {
@@ -790,7 +790,7 @@ const allData = [
         item: "pink feather tutu outfit",
         price: 40,
         count: 1,
-      }
+      },
     ],
   },
   // {
@@ -898,6 +898,11 @@ const allData = [
       {
         item: "robe",
         price: 10,
+        count: 2,
+      },
+      {
+        item: "black bob wig",
+        price: 12,
         count: 2,
       },
     ],
@@ -1201,7 +1206,6 @@ const allData = [
     category: "clothing",
     image: green_school_girl_golf,
     available: [
-     
       {
         item: "black strappy bra",
         price: 5,
@@ -1274,8 +1278,13 @@ const allData = [
     available: [
       {
         item: "pink camo leotard and gloves",
+        price: 10,
+        count: 3,
+      },
+      {
+        item: "grey wavy wig",
         price: 15,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1683,7 +1692,7 @@ const allData = [
   //       price: 8,
   //       count: 4,
   //     },
-     
+
   //   ],
   // },
   {
@@ -1696,7 +1705,6 @@ const allData = [
         price: 10,
         count: 2,
       },
-     
     ],
   },
   // {
@@ -1709,7 +1717,7 @@ const allData = [
   //       price: 8,
   //       count: 3,
   //     },
-     
+
   //   ],
   // },
   // {
@@ -1722,7 +1730,7 @@ const allData = [
   //       price: 8,
   //       count: 3,
   //     },
-     
+
   //   ],
   // },
   {
@@ -1735,7 +1743,6 @@ const allData = [
         price: 5,
         count: 3,
       },
-     
     ],
   },
   {
@@ -1748,7 +1755,6 @@ const allData = [
         price: 5,
         count: 2,
       },
-     
     ],
   },
   {
@@ -1761,7 +1767,6 @@ const allData = [
         price: 8,
         count: 3,
       },
-     
     ],
   },
   {
@@ -1774,7 +1779,6 @@ const allData = [
         price: 8,
         count: 3,
       },
-     
     ],
   },
   {
@@ -1787,7 +1791,6 @@ const allData = [
         price: 10,
         count: 1,
       },
-     
     ],
   },
   {
@@ -1800,7 +1803,6 @@ const allData = [
         price: 8,
         count: 2,
       },
-     
     ],
   },
   {
@@ -1813,7 +1815,6 @@ const allData = [
         price: 5,
         count: 2,
       },
-     
     ],
   },
   {
@@ -1826,7 +1827,6 @@ const allData = [
         price: 5,
         count: 3,
       },
-     
     ],
   },
   {
@@ -1839,7 +1839,6 @@ const allData = [
         price: 5,
         count: 2,
       },
-     
     ],
   },
   {
@@ -1852,7 +1851,6 @@ const allData = [
         price: 8,
         count: 4,
       },
-     
     ],
   },
   // {
@@ -1865,7 +1863,7 @@ const allData = [
   //       price: 8,
   //       count: 3,
   //     },
-     
+
   //   ],
   // },
   {
@@ -1878,7 +1876,6 @@ const allData = [
         price: 10,
         count: 3,
       },
-     
     ],
   },
   {
@@ -1891,7 +1888,6 @@ const allData = [
         price: 5,
         count: 2,
       },
-     
     ],
   },
 
