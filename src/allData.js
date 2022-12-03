@@ -869,7 +869,7 @@ const allData = [
       {
         item: "floral dress",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1513,11 +1513,6 @@ const allData = [
         price: 28,
         count: 3,
       },
-      {
-        item: "short white satin gloves",
-        price: 5,
-        count: 3,
-      },
     ],
   },
   {
@@ -1583,7 +1578,7 @@ const allData = [
     image: samba_girls_purple_blue,
     available: [
       {
-        item: "bra (purple or blue) with bottoms and arm bands",
+        item: "purple bra with bottoms and arm bands",
         price: 20,
         count: 1,
       },
@@ -1600,7 +1595,7 @@ const allData = [
     image: samba_girls_purple_blue2,
     available: [
       {
-        item: "bra (purple or blue) with bottoms and arm bands",
+        item: "purple bra with bottoms and arm bands",
         price: 20,
         count: 1,
       },
@@ -1627,7 +1622,7 @@ const allData = [
     image: samba_girls,
     available: [
       {
-        item: "bra (purple or blue) with bottoms and arm bands",
+        item: "purple bra with bottoms and arm bands",
         price: 20,
         count: 1,
       },
@@ -1921,18 +1916,18 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "Red and Gold Leopard Epaulette",
-    category: "accessories",
-    image: red_gold_epaulette,
-    available: [
-      {
-        item: "red and gold leopard shoulder pads",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Red and Gold Leopard Epaulette",
+  //   category: "accessories",
+  //   image: red_gold_epaulette,
+  //   available: [
+  //     {
+  //       item: "red and gold leopard shoulder pads",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Gold Fringe Strappy Epaulette",
     category: "accessories",
