@@ -7,20 +7,20 @@ import feather_headpieces from "./assets/feather_headpieces.jpeg";
 import gold_fringe_epaulette from "./assets/gold_fringe_epaulette.jpeg";
 import palm_tree_hair from "./assets/palm_tree_hair.jpeg";
 import pink_fringe_for_bra from "./assets/pink_fringe_for_bra.jpeg";
-import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
+// import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
 import rose_headpiece from "./assets/rose_headpiece.jpeg";
-import white_fringe_epaulette from "./assets/white_fringe_epaulette.jpeg";
+// import white_fringe_epaulette from "./assets/white_fringe_epaulette.jpeg";
 import reindeer_led from "./assets/reindeer_led.jpeg";
 import pink_feather_tutu_outfit from "./assets/pink_feather_tutu_outfit.png";
 import pink_camo from "./assets/pink_camo.png";
 import popsicles from "./assets/popsicles.jpeg";
-import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
+// import apocalypse_gold_2 from "./assets/apocalypse_gold_2.jpeg";
 import apocalypse_gold from "./assets/apocalypse_gold.jpeg";
 import audrey_hepburn from "./assets/audrey_hepburn.jpeg";
 // import autumn_babes from "./assets/autumn_babes.jpeg";
 // import autumn_full_piece from "./assets/autumn_full_piece.jpeg";
 import white_lace_suit from "./assets/white_lace_suit.jpeg";
-import black_lacey_leo from "./assets/black_lacey_leo.jpeg";
+// import black_lacey_leo from "./assets/black_lacey_leo.jpeg";
 import bloody_bunnies from "./assets/bloody_bunnies.jpeg";
 import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
 import blue_sequin from "./assets/blue_sequin.jpeg";
@@ -28,11 +28,11 @@ import bride_frankenstein from "./assets/bride_frankenstein.jpeg";
 import camo_2pc from "./assets/camo_2pc.jpeg";
 // import christmas_tartan from "./assets/christmas_tartan.jpeg";
 import comic_book from "./assets/comic_book.jpeg";
-import cute_sailor_retro from "./assets/cute_sailor_retro.jpeg";
+// import cute_sailor_retro from "./assets/cute_sailor_retro.jpeg";
 import dancetronauts from "./assets/dancetronauts.jpeg";
 import fembots from "./assets/fembots.jpeg";
 import futuristic_silver from "./assets/futuristic_silver.jpeg";
-import german_oktoberfest_2 from "./assets/german_oktoberfest_2.jpeg";
+// import german_oktoberfest_2 from "./assets/german_oktoberfest_2.jpeg";
 import gold_retro from "./assets/gold_retro.jpeg";
 // import green_mesh from "./assets/green_mesh.jpeg";
 import green_robe from "./assets/green_robe.jpeg";
@@ -46,8 +46,8 @@ import hot_pink_strappy from "./assets/hot_pink_strappy.jpeg";
 import hula_girl from "./assets/hula_girl.jpeg";
 import incredibles from "./assets/incredibles.jpeg";
 import james_bond from "./assets/james_bond.jpeg";
-import latina_fluff_3 from "./assets/latina_fluff_3.jpeg";
-import latina_mariachi from "./assets/latina_mariachi.jpeg";
+// import latina_fluff_3 from "./assets/latina_fluff_3.jpeg";
+// import latina_mariachi from "./assets/latina_mariachi.jpeg";
 import lisa_frank from "./assets/lisa_frank.jpeg";
 import lisa_frank2 from "./assets/lisa_frank2.jpeg";
 // import mardi_gras from "./assets/mardi_gras.jpeg";
@@ -59,13 +59,13 @@ import pirate_captain from "./assets/pirate_captain.jpeg";
 import pirates from "./assets/pirates.jpeg";
 // import popsicles from "./assets/popsicles.jpeg";
 import race_car from "./assets/race_car.jpeg";
-import red_black_lace_leo from "./assets/red_black_lace_leo.jpeg";
+// import red_black_lace_leo from "./assets/red_black_lace_leo.jpeg";
 // import red_feather_tutu from "./assets/red_feather_tutu.png";
 import red_mesh from "./assets/red_mesh.jpeg";
 import red_ninaj from "./assets/red_ninaj.jpeg";
 import retro_leopard from "./assets/retro_leopard.jpeg";
 import ring_leader from "./assets/ring_leader.jpeg";
-import rose_gold_leo from "./assets/rose_gold_leo.png";
+// import rose_gold_leo from "./assets/rose_gold_leo.png";
 import salsa_latina from "./assets/salsa_latina.jpeg";
 import samba_girls_purple_blue from "./assets/samba_girls_purple_blue.jpeg";
 import samba_girls_purple_blue2 from "./assets/samba_girls_purple_blue2.jpeg";
@@ -75,14 +75,14 @@ import santa_hoodie from "./assets/santa_hoodie.jpeg";
 import shark from "./assets/shark.jpeg";
 import silver_black_raw_fashion from "./assets/silver_black_raw_fasion.jpeg";
 // import silver_disco_leo from "./assets/silver_disco_leo.jpeg";
-import silver_fringe_belt from "./assets/silver_fringe_belt.jpeg";
-import sporty_football from "./assets/sporty_football.jpeg";
+// import silver_fringe_belt from "./assets/silver_fringe_belt.jpeg";
+// import sporty_football from "./assets/sporty_football.jpeg";
 import st_patricks from "./assets/st_patricks.jpeg";
-import tmnt from "./assets/tmnt.jpeg";
+// import tmnt from "./assets/tmnt.jpeg";
 import trapfest_cute from "./assets/trapfest_cute.jpeg";
 import white_crisscross from "./assets/white_crisscross.jpeg";
-import white_lace_fashion from "./assets/white_lace_fashion.jpeg";
-import white_mesh from "./assets/white_mesh.jpeg";
+// import white_lace_fashion from "./assets/white_lace_fashion.jpeg";
+// import white_mesh from "./assets/white_mesh.jpeg";
 import winter_white_leo from "./assets/winter_white_leo.jpeg";
 // import xmas_winter_silver_skirt from "./assets/xmas_winter_silver_skirt.jpeg";
 import yellow_school_girl from "./assets/yellow_school_girl.jpeg";
@@ -101,7 +101,7 @@ import captain_hat_front from "./assets/captain_hat_front.jpeg";
 import greenbowlerhat_side from "./assets/greenbowlerhat_side.jpeg";
 import greentophat_side from "./assets/greentophat_side.jpeg";
 import leopard_fur_front2 from "./assets/leopard_fur_front2.jpeg";
-import mariachi_front from "./assets/mariachi_front.jpeg";
+// import mariachi_front from "./assets/mariachi_front.jpeg";
 import patriotic_summer_front from "./assets/patriotic_summer_front.jpeg";
 import patriotic_tophat_front from "./assets/patriotic_tophat_front.jpeg";
 import patriotic_visor_side from "./assets/patriotic_visor_side.jpeg";
@@ -109,18 +109,18 @@ import sailor_front from "./assets/sailor_front.jpeg";
 import sailor_stripe_front from "./assets/sailor_stripe_front.jpeg";
 import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
 // import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
-import white_fur_hat from "./assets/white_fur_hat.jpeg";
+// import white_fur_hat from "./assets/white_fur_hat.jpeg";
 import white_sailor_side from "./assets/white_sailor_side.jpeg";
 import red_military from "./assets/red_military.jpeg";
 import leather_hat from "./assets/leather_hat.jpeg";
-import gold_spiked_side from "./assets/gold_spiked_side.jpeg";
+// import gold_spiked_side from "./assets/gold_spiked_side.jpeg";
 import bluered_beanie from "./assets/bluered_beanie.png";
 import boss_hats from "./assets/boss_hats.jpeg";
 import marching_band_hat from "./assets/marching_band_hat.png";
 import pink_ski_mask from "./assets/pink_ski_mask.jpeg";
 import black_curly_betty_boop from "./assets/black_curly_betty_boop.png";
 import black_curly from "./assets/black_curly.png";
-import blonde_betty_boop from "./assets/blonde_betty_boop.jpeg";
+// import blonde_betty_boop from "./assets/blonde_betty_boop.jpeg";
 import blonde_curly from "./assets/blonde_curly.jpeg";
 import blonde_wig from "./assets/blonde_wig.png";
 import cindy_lauper from "./assets/cindy_lauper.jpeg";
@@ -131,11 +131,11 @@ import orange_wig from "./assets/orange_wig.png";
 import red_queen from "./assets/red_queen.jpeg";
 import red_wig from "./assets/red_wig.png";
 import short_white_wig from "./assets/short_white_wig.jpeg";
-import white_wigs from "./assets/white_wigs.png";
-import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
+// import white_wigs from "./assets/white_wigs.png";
+// import yellow_blue_wig from "./assets/yellow_blue_wig.jpeg";
 import rock_wig from "./assets/80s_rock_wig.jpeg";
 import blonde_curly_wig from "./assets/80s_blonde_curly_wig.jpeg";
-import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
+// import black_sequin_jacket_front from "./assets/black_sequin_jacket_front.jpeg";
 // import hooded_cape from './assets/hooded_cape.jpeg';
 import black_filigree_side from "./assets/black_filigree_side.jpeg";
 import feather_hat_front from "./assets/feather_hat_front.jpeg";
@@ -145,12 +145,12 @@ import male_mask_front from "./assets/male_mask_front.jpeg";
 import poinsettia_fronttop from "./assets/poinsettia_fronttop.jpeg";
 import white_filigree_side from "./assets/white_filigree_side.jpeg";
 import black_straight from "./assets/black_straight.png";
-import blonde_fluffy2 from "./assets/blonde_fluffy2.png";
+// import blonde_fluffy2 from "./assets/blonde_fluffy2.png";
 import ice_crown from "./assets/icecrown_frontLEDclose.jpeg";
-import bandana_bra from "./assets/bandana_bra.jpeg";
+// import bandana_bra from "./assets/bandana_bra.jpeg";
 import black_sequin_bra from "./assets/black_sequin_bra.jpeg";
-import camo_bra_gold from "./assets/camo_bra_gold.jpeg";
-import camo_bra_silver from "./assets/camo_bra_silver.jpeg";
+// import camo_bra_gold from "./assets/camo_bra_gold.jpeg";
+// import camo_bra_silver from "./assets/camo_bra_silver.jpeg";
 import neon_orange_bra from "./assets/neon_orange_bra.jpeg";
 import polka_dot_bra from "./assets/polka_dot_bra.jpeg";
 import red_fringe_bra from "./assets/red_fringe_bra.jpeg";
@@ -161,9 +161,13 @@ import skeleton_bra from "./assets/skeleton_bra.jpeg";
 import blue_stars_bottoms from "./assets/blue_stars_bottoms.jpeg";
 import metal_silver_bottoms from "./assets/metal_silver_bottoms.jpeg";
 import neon_skirts from "./assets/neon_skirts.jpeg";
-import red_iridescent_bottoms from "./assets/red_iridescent_bottoms.jpeg";
+// import red_iridescent_bottoms from "./assets/red_iridescent_bottoms.jpeg";
 import red_sequin_bottoms from "./assets/red_sequin_bottoms.jpeg";
 import silver_iridescent_bottoms from "./assets/silver_iridescent_bottoms.jpeg";
+import BOSS_leo from './assets/BOSS_leo.jpeg'
+import colorful_leopard from './assets/colorful_leopard.jpeg'
+import comicbook from './assets/comicbook.jpeg'
+import lisa_frank_2 from './assets/lisa_frank_2.jpeg'
 
 const allData = [
   {
@@ -1173,6 +1177,18 @@ const allData = [
     ],
   },
   {
+    name: "Colorful Neon Lisa Frank Leotard",
+    category: "clothing",
+    image: lisa_frank_2,
+    available: [
+      {
+        item: "colorful tube leotard and half top",
+        price: 25,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "Olive Gold Spikey 2 piece",
     category: "clothing",
     image: olive_gold_spikes,
@@ -1690,6 +1706,42 @@ const allData = [
 
   //   ],
   // },
+  {
+    name: "BOSS Leotard",
+    category: "clothing",
+    image: BOSS_leo,
+    available: [
+      {
+        item: "BOSS Leotard",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Colorful Leopard Leotard Swimsuit",
+    category: "clothing",
+    image: colorful_leopard,
+    available: [
+      {
+        item: "Colorful Leopard Leotard Swimsuit",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "comicbook Leotard Swimsuit",
+    category: "clothing",
+    image: comicbook,
+    available: [
+      {
+        item: "comicbook Leotard Swimsuit",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
   {
     name: "Black Sequin Bra",
     category: "clothing",
