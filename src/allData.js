@@ -1123,6 +1123,18 @@ const allData = [
     ],
   },
   {
+    name: "comicbook Leotard Swimsuit",
+    category: "clothing",
+    image: comicbook,
+    available: [
+      {
+        item: "comicbook Leotard Swimsuit",
+        price: 10,
+        count: 2,
+      },
+    ],
+  },
+  {
     name: "Lisa Frank Inspired",
     category: "clothing",
     image: lisa_frank,
@@ -1725,18 +1737,6 @@ const allData = [
     available: [
       {
         item: "Colorful Leopard Leotard Swimsuit",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "comicbook Leotard Swimsuit",
-    category: "clothing",
-    image: comicbook,
-    available: [
-      {
-        item: "comicbook Leotard Swimsuit",
         price: 10,
         count: 2,
       },
