@@ -1707,12 +1707,12 @@ const allData = [
   //   ],
   // },
   {
-    name: "BOSS Leotard",
+    name: "BOSS Leotard Swimsuit",
     category: "clothing",
     image: BOSS_leo,
     available: [
       {
-        item: "BOSS Leotard",
+        item: "BOSS Leotard Swimsuit",
         price: 10,
         count: 2,
       },
