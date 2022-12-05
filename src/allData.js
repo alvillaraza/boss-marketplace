@@ -983,7 +983,7 @@ const allData = [
   // },
   {
     name: "St Patricks Outfit",
-    category: "clothing",
+    category: "accessories",
     image: st_patricks,
     available: [
       {
@@ -1568,7 +1568,7 @@ const allData = [
   // },
   {
     name: "Pieces of Ruffley Rose Ensemble",
-    category: "clothing",
+    category: "accessories",
     image: salsa_latina,
     available: [
       {
