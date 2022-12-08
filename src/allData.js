@@ -124,7 +124,7 @@ import black_curly from "./assets/black_curly.png";
 import blonde_curly from "./assets/blonde_curly.jpeg";
 import blonde_wig from "./assets/blonde_wig.png";
 import cindy_lauper from "./assets/cindy_lauper.jpeg";
-import grey_curly from "./assets/grey_curly.png";
+// import grey_curly from "./assets/grey_curly.png";
 import long_red_wig from "./assets/long_red_wig.jpeg";
 import neon_blue from "./assets/neon_blue.jpeg";
 import orange_wig from "./assets/orange_wig.png";
@@ -235,18 +235,18 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "Grey Wavy Wig",
-    category: "wigs",
-    image: grey_curly,
-    available: [
-      {
-        item: "grey wavy wig",
-        price: 15,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Grey Wavy Wig",
+  //   category: "wigs",
+  //   image: grey_curly,
+  //   available: [
+  //     {
+  //       item: "grey wavy wig",
+  //       price: 15,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Black Bob Wig",
     category: "wigs",
@@ -632,7 +632,7 @@ const allData = [
       {
         item: "crisscross top, bottoms, and arm gloves",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -1308,12 +1308,7 @@ const allData = [
         item: "pink camo leotard and gloves",
         price: 10,
         count: 3,
-      },
-      {
-        item: "grey wavy wig",
-        price: 15,
-        count: 1,
-      },
+      }
     ],
   },
   {
