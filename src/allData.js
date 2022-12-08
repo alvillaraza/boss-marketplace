@@ -2077,18 +2077,6 @@ const allData = [
     ],
   },
   {
-    name: "Short Black Cape",
-    category: "accessories",
-    image: count_dracula,
-    available: [
-      {
-        item: "short black count dracula cape",
-        price: 8,
-        count: 2,
-      },
-    ],
-  },
-  {
     name: "Neck and Wrist Clown Accessories",
     category: "accessories",
     image: clown_stuff,
