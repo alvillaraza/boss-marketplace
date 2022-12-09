@@ -72,8 +72,8 @@ import samba_girls_purple_blue2 from "./assets/samba_girls_purple_blue2.jpeg";
 import samba_girls from "./assets/samba_girls.jpeg";
 import samba_girls2 from "./assets/samba_girls2.jpeg";
 import santa_hoodie from "./assets/santa_hoodie.jpeg";
-import shark from "./assets/shark.jpeg";
-import silver_black_raw_fashion from "./assets/silver_black_raw_fasion.jpeg";
+// import shark from "./assets/shark.jpeg";
+// import silver_black_raw_fashion from "./assets/silver_black_raw_fasion.jpeg";
 // import silver_disco_leo from "./assets/silver_disco_leo.jpeg";
 // import silver_fringe_belt from "./assets/silver_fringe_belt.jpeg";
 // import sporty_football from "./assets/sporty_football.jpeg";
@@ -106,7 +106,7 @@ import patriotic_summer_front from "./assets/patriotic_summer_front.jpeg";
 import patriotic_tophat_front from "./assets/patriotic_tophat_front.jpeg";
 import patriotic_visor_side from "./assets/patriotic_visor_side.jpeg";
 import sailor_front from "./assets/sailor_front.jpeg";
-import sailor_stripe_front from "./assets/sailor_stripe_front.jpeg";
+// import sailor_stripe_front from "./assets/sailor_stripe_front.jpeg";
 import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
 // import white_fur_ears_front from "./assets/white_fur_ears_front.jpeg";
 // import white_fur_hat from "./assets/white_fur_hat.jpeg";
@@ -168,6 +168,7 @@ import BOSS_leo from './assets/BOSS_leo.jpeg'
 import colorful_leopard from './assets/colorful_leopard.jpeg'
 import comicbook from './assets/comicbook.jpeg'
 import lisa_frank_2 from './assets/lisa_frank_2.jpeg'
+import redwhitebluefringe from './assets/redwhitebluefringe.jpeg'
 
 const allData = [
   {
@@ -1800,14 +1801,19 @@ const allData = [
     ],
   },
   {
-    name: "Red and White Fringe bra",
+    name: "Red White Blue Fringe bra",
     category: "clothing",
-    image: red_fringe_bra,
+    image: redwhitebluefringe,
     available: [
       {
         item: "Red and White Fringe bra",
         price: 8,
-        count: 3,
+        count: 1,
+      },
+      {
+        item: "Blue Stars Bottoms",
+        price: 5,
+        count: 1,
       },
     ],
   },
@@ -1859,18 +1865,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "blue stars bottoms",
-    category: "clothing",
-    image: blue_stars_bottoms,
-    available: [
-      {
-        item: "blue stars bottoms",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "blue stars bottoms",
+  //   category: "clothing",
+  //   image: blue_stars_bottoms,
+  //   available: [
+  //     {
+  //       item: "blue stars bottoms",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "metallic silver bottoms",
     category: "clothing",
