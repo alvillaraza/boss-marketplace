@@ -169,6 +169,7 @@ import colorful_leopard from './assets/colorful_leopard.jpeg'
 import comicbook from './assets/comicbook.jpeg'
 import lisa_frank_2 from './assets/lisa_frank_2.jpeg'
 import redwhitebluefringe from './assets/redwhitebluefringe.jpeg'
+import white_showgirl from './assets/white_showgirl.jpeg'
 
 const allData = [
   {
@@ -268,7 +269,7 @@ const allData = [
       {
         item: "short blonde wigs",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -770,17 +771,22 @@ const allData = [
     ],
   },
   {
-    name: "Showgirl Feather Headpiece",
+    name: "Showgirl",
     category: "clothing",
-    image: feather_headpieces,
+    image: white_showgirl,
     available: [
       {
-        item: "feather headpieces (black or white)",
+        item: "white feather headpiece",
         price: 30,
-        count: 2,
+        count: 1,
       },
       {
-        item: "bra (black or white)",
+        item: "bra (white)",
+        price: 10,
+        count: 1,
+      },
+      {
+        item: "short blonde bob",
         price: 10,
         count: 2,
       },
@@ -1309,7 +1315,7 @@ const allData = [
         item: "pink camo leotard and gloves",
         price: 10,
         count: 3,
-      }
+      },
     ],
   },
   {
@@ -1596,77 +1602,77 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Purple and Blue Samba Girls",
-    category: "clothing",
-    image: samba_girls_purple_blue,
-    available: [
-      {
-        item: "purple bra with bottoms and arm bands",
-        price: 20,
-        count: 1,
-      },
+  // {
+  //   name: "Purple and Blue Samba Girls",
+  //   category: "clothing",
+  //   image: samba_girls_purple_blue,
+  //   available: [
+  //     {
+  //       item: "purple bra with bottoms and arm bands",
+  //       price: 20,
+  //       count: 1,
+  //     },
       // {
       //   item: "peacock feather shoulder pieces",
       //   price: 35,
       //   count: 1,
       // },
-    ],
-  },
-  {
-    name: "Purple and Blue Samba Girls",
-    category: "clothing",
-    image: samba_girls_purple_blue2,
-    available: [
-      {
-        item: "purple bra with bottoms and arm bands",
-        price: 20,
-        count: 1,
-      },
+  //   ],
+  // },
+  // {
+  //   name: "Purple and Blue Samba Girls",
+  //   category: "clothing",
+  //   image: samba_girls_purple_blue2,
+  //   available: [
+  //     {
+  //       item: "purple bra with bottoms and arm bands",
+  //       price: 20,
+  //       count: 1,
+  //     },
       // {
       //   item: "peacock feather shoulder pieces",
       //   price: 35,
       //   count: 1,
       // },
-      {
-        item: "silver necklace",
-        price: 5,
-        count: 2,
-      },
-      {
-        item: "silver head decor",
-        price: 5,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Samba Girls",
-    category: "clothing",
-    image: samba_girls,
-    available: [
-      {
-        item: "purple bra with bottoms and arm bands",
-        price: 20,
-        count: 1,
-      },
+  //     {
+  //       item: "silver necklace",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "silver head decor",
+  //       price: 5,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Samba Girls",
+  //   category: "clothing",
+  //   image: samba_girls,
+  //   available: [
+      // {
+      //   item: "purple bra with bottoms and arm bands",
+      //   price: 20,
+      //   count: 1,
+      // },
       // {
       //   item: "peacock feather shoulder pieces",
       //   price: 35,
       //   count: 1,
       // },
-      {
-        item: "neon green leotard",
-        price: 10,
-        count: 2,
-      },
+      // {
+      //   item: "neon green leotard",
+      //   price: 10,
+      //   count: 2,
+      // },
       // {
       //   item: "green, pink, yellow shoulder piece with matching leg feather bands",
       //   price: 35,
       //   count: 1,
       // },
-    ],
-  },
+  //   ],
+  // },
   {
     name: "Green and Pink Samba Girls",
     category: "clothing",
@@ -1800,23 +1806,23 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Red White Blue Fringe bra",
-    category: "clothing",
-    image: redwhitebluefringe,
-    available: [
-      {
-        item: "Red and White Fringe bra",
-        price: 8,
-        count: 1,
-      },
-      {
-        item: "Blue Stars Bottoms",
-        price: 5,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "Red White Blue Fringe bra",
+  //   category: "clothing",
+  //   image: redwhitebluefringe,
+  //   available: [
+  //     {
+  //       item: "Red and White Fringe bra",
+  //       price: 8,
+  //       count: 1,
+  //     },
+  //     {
+  //       item: "Blue Stars Bottoms",
+  //       price: 5,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Red Plaid bra",
     category: "clothing",
@@ -2047,12 +2053,17 @@ const allData = [
     image: feather_headpieces,
     available: [
       {
-        item: "feather headpieces (black or white)",
+        item: "feather headpieces (white)",
         price: 25,
-        count: 2,
+        count: 1,
       },
       {
-        item: "bra (black or white)",
+        item: "bra (white)",
+        price: 10,
+        count: 1,
+      },
+      {
+        item: "short blonde bob",
         price: 10,
         count: 2,
       },
