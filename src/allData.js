@@ -506,30 +506,30 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Blue and Red Poof Beanie",
-    category: "hats",
-    image: bluered_beanie,
-    available: [
-      {
-        item: "blue and red poof beanie",
-        price: 10,
-        count: 3,
-      },
-    ],
-  },
-  {
-    name: "Pink Studded Ski Mask",
-    category: "hats",
-    image: pink_ski_mask,
-    available: [
-      {
-        item: "Pink Ski Mask",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Blue and Red Poof Beanie",
+  //   category: "hats",
+  //   image: bluered_beanie,
+  //   available: [
+  //     {
+  //       item: "blue and red poof beanie",
+  //       price: 10,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Pink Studded Ski Mask",
+  //   category: "hats",
+  //   image: pink_ski_mask,
+  //   available: [
+  //     {
+  //       item: "Pink Ski Mask",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Sailor Captain Hat",
     category: "hats",
@@ -2203,7 +2203,7 @@ const allData = [
   },
   {
     name: "Mini Top Hat with Feathers",
-    category: "accessories",
+    category: "hats",
     image: feather_hat_front,
     available: [
       {
