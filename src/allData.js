@@ -128,6 +128,7 @@ import cindy_lauper from "./assets/cindy_lauper.jpeg";
 import long_red_wig from "./assets/long_red_wig.jpeg";
 import neon_blue from "./assets/neon_blue.jpeg";
 import orange_wig from "./assets/orange_wig.png";
+import yellow_trapfest from './assets/yellow_trapfest.jpeg'
 import red_queen from "./assets/red_queen.jpeg";
 import red_wig from "./assets/red_wig.png";
 import short_white_wig from "./assets/short_white_wig.jpeg";
@@ -430,7 +431,7 @@ const allData = [
       {
         item: "black leather biker hat with silver chain",
         price: 8,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -996,7 +997,7 @@ const allData = [
       {
         item: "gold high waist bottoms",
         price: 5,
-        count: 3,
+        count: 1,
       },
       { item: "green hat with gold shamrocks", price: 15, count: 3 },
       { item: "gold sequin baton", price: 5, count: 3 },
@@ -1256,27 +1257,45 @@ const allData = [
       {
         item: "yellow visor",
         price: 5,
-        count: 3,
+        count: 1,
       },
     ],
   },
   {
-    name: "Trapfest 2 Pieces",
+    name: "Yellow Trapfest 2pc",
     category: "clothing",
-    image: trapfest_cute,
+    image: yellow_trapfest,
     available: [
       {
-        item: "top and bottom (yellow or red)",
+        item: "yellow visor",
+        price: 5,
+        count: 1,
+      },
+      {
+        item: "yellow top and bottom",
         price: 5,
         count: 2,
       },
-      {
-        item: "visor (yellow or red)",
-        price: 5,
-        count: 4,
-      },
     ],
   },
+
+  // {
+  //   name: "Trapfest 2 Pieces",
+  //   category: "clothing",
+  //   image: trapfest_cute,
+  //   available: [
+  //     {
+  //       item: "top and bottom (yellow or red)",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "visor (yellow or red)",
+  //       price: 5,
+  //       count: 4,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "White Tops",
   //   category: "clothing",
@@ -1314,7 +1333,7 @@ const allData = [
       {
         item: "pink camo leotard and gloves",
         price: 10,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -1794,18 +1813,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "polka dot bikini bra",
-    category: "clothing",
-    image: polka_dot_bra,
-    available: [
-      {
-        item: "polka dot bikini bra",
-        price: 5,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "polka dot bikini bra",
+  //   category: "clothing",
+  //   image: polka_dot_bra,
+  //   available: [
+  //     {
+  //       item: "polka dot bikini bra",
+  //       price: 5,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Red White Blue Fringe bra",
   //   category: "clothing",
@@ -1831,7 +1850,7 @@ const allData = [
       {
         item: "Red Plaid bra",
         price: 8,
-        count: 3,
+        count: 1,
       },
     ],
   },
@@ -1987,18 +2006,18 @@ const allData = [
   //     },
   //   ],
   // },
-  {
-    name: "Gold Fringe Strappy Epaulette",
-    category: "accessories",
-    image: gold_fringe_epaulette,
-    available: [
-      {
-        item: "gold fringe strappy shoulder pads",
-        price: 15,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Gold Fringe Strappy Epaulette",
+  //   category: "accessories",
+  //   image: gold_fringe_epaulette,
+  //   available: [
+  //     {
+  //       item: "gold fringe strappy shoulder pads",
+  //       price: 15,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
   {
     name: "Rose Headpiece",
     category: "accessories",
@@ -2117,18 +2136,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Leather Shoulder Piece",
-    category: "accessories",
-    image: camo_2pc_2,
-    available: [
-      {
-        item: "leather shoulder half jacket look",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Leather Shoulder Piece",
+  //   category: "accessories",
+  //   image: camo_2pc_2,
+  //   available: [
+  //     {
+  //       item: "leather shoulder half jacket look",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Black Filigree Mask",
     category: "accessories",
