@@ -1525,28 +1525,28 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Retro Leopard Leotard",
-    category: "clothing",
-    image: retro_leopard,
-    available: [
-      {
-        item: "leopard leotard and a pair of fur leg garters",
-        price: 10,
-        count: 2,
-      },
-      {
-        item: "red retro sunglasses",
-        price: 8,
-        count: 2,
-      },
-      {
-        item: "short red satin gloves",
-        price: 5,
-        count: 3,
-      },
-    ],
-  },
+  // {
+  //   name: "Retro Leopard Leotard",
+  //   category: "clothing",
+  //   image: retro_leopard,
+  //   available: [
+  //     {
+  //       item: "leopard leotard and a pair of fur leg garters",
+  //       price: 10,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "red retro sunglasses",
+  //       price: 8,
+  //       count: 2,
+  //     },
+  //     {
+  //       item: "short red satin gloves",
+  //       price: 5,
+  //       count: 3,
+  //     },
+  //   ],
+  // },
   {
     name: "Marching Band",
     category: "clothing",
@@ -2220,18 +2220,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "Mini Top Hat with Feathers",
-    category: "hats",
-    image: feather_hat_front,
-    available: [
-      {
-        item: "mini tophat with feathers",
-        price: 35,
-        count: 2,
-      },
-    ],
-  },
+  // {
+  //   name: "Mini Top Hat with Feathers",
+  //   category: "hats",
+  //   image: feather_hat_front,
+  //   available: [
+  //     {
+  //       item: "mini tophat with feathers",
+  //       price: 35,
+  //       count: 2,
+  //     },
+  //   ],
+  // },
 ];
 
 export default allData;
