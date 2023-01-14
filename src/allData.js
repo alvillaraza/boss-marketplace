@@ -117,7 +117,7 @@ import leather_hat from "./assets/leather_hat.jpeg";
 import bluered_beanie from "./assets/bluered_beanie.png";
 import boss_hats from "./assets/boss_hats.jpeg";
 import marching_band_hat from "./assets/marching_band_hat.png";
-import pink_ski_mask from "./assets/pink_ski_mask.jpeg";
+// import pink_ski_mask from "./assets/pink_ski_mask.jpeg";
 import black_curly_betty_boop from "./assets/black_curly_betty_boop.png";
 import black_curly from "./assets/black_curly.png";
 // import blonde_betty_boop from "./assets/blonde_betty_boop.jpeg";
@@ -144,7 +144,7 @@ import feather_mask_front from "./assets/feather_mask_front.jpeg";
 import gold_filigree_front from "./assets/gold_filigree_front.jpeg";
 import male_mask_front from "./assets/male_mask_front.jpeg";
 import poinsettia_fronttop from "./assets/poinsettia_fronttop.jpeg";
-import white_filigree_side from "./assets/white_filigree_side.jpeg";
+// import white_filigree_side from "./assets/white_filigree_side.jpeg";
 import black_straight from "./assets/black_straight.png";
 // import blonde_fluffy2 from "./assets/blonde_fluffy2.png";
 import ice_crown from "./assets/icecrown_frontLEDclose.jpeg";
@@ -2160,18 +2160,18 @@ const allData = [
       },
     ],
   },
-  {
-    name: "White Filigree Mask",
-    category: "accessories",
-    image: white_filigree_side,
-    available: [
-      {
-        item: "white filigree mask",
-        price: 15,
-        count: 1,
-      },
-    ],
-  },
+  // {
+  //   name: "White Filigree Mask",
+  //   category: "accessories",
+  //   image: white_filigree_side,
+  //   available: [
+  //     {
+  //       item: "white filigree mask",
+  //       price: 15,
+  //       count: 1,
+  //     },
+  //   ],
+  // },
   {
     name: "Gold Filigree Mask",
     category: "accessories",
