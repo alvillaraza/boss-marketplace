@@ -1,10 +1,8 @@
 import camo_2pc_2 from "./assets/camo_2pc_2.jpeg";
 import clown_neck from "./assets/clown_neck.jpeg";
 import clown_stuff from "./assets/clown_stuff.jpeg";
-import count_dracula from "./assets/count_dracula.jpeg";
 import cupids from "./assets/cupids.jpeg";
 import feather_headpieces from "./assets/feather_headpieces.jpeg";
-import gold_fringe_epaulette from "./assets/gold_fringe_epaulette.jpeg";
 import palm_tree_hair from "./assets/palm_tree_hair.jpeg";
 import pink_fringe_for_bra from "./assets/pink_fringe_for_bra.jpeg";
 // import red_gold_epaulette from "./assets/red_gold_epaulette.jpeg";
@@ -169,8 +167,9 @@ import BOSS_leo from './assets/BOSS_leo.jpeg'
 import colorful_leopard from './assets/colorful_leopard.jpeg'
 import comicbook from './assets/comicbook.jpeg'
 import lisa_frank_2 from './assets/lisa_frank_2.jpeg'
-import redwhitebluefringe from './assets/redwhitebluefringe.jpeg'
 import white_showgirl from './assets/white_showgirl.jpeg'
+import cupid_side from './assets/cupid_side.JPG'
+import mardi_gras_boa from './assets/mardi_gras_boa.jpeg'
 
 const allData = [
   {
@@ -663,6 +662,30 @@ const allData = [
   //     },
   //   ],
   // },
+  {
+    name: "Cupid Headband",
+    category: "accessories",
+    image: cupid_side,
+    available: [
+      {
+        item: "Cupid Headband",
+        price: 8,
+        count: 2,
+      },
+    ],
+  },
+  {
+    name: "Mardi Gras Feather Boa",
+    category: "accessories",
+    image: mardi_gras_boa,
+    available: [
+      {
+        item: "72 inch feather boa",
+        price: 8,
+        count: 3,
+      },
+    ],
+  },
   {
     name: "LED ice crown",
     category: "accessories",
