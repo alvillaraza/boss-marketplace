@@ -1280,7 +1280,7 @@ const allData = [
       {
         item: "yellow visor",
         price: 5,
-        count: 1,
+        count: 2,
       },
     ],
   },
