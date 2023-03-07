@@ -96,7 +96,7 @@ const allData = [
     available: [
       {
         item: "green bowler hat with shamrock",
-        price: 15,
+        price: 10,
         count: 3,
       },
     ],
@@ -108,7 +108,7 @@ const allData = [
     available: [
       {
         item: "green tophat",
-        price: 12,
+        price: 10,
         count: 3,
       },
     ],
@@ -120,7 +120,7 @@ const allData = [
     available: [
       {
         item: "green tophat with buckle",
-        price: 15,
+        price: 10,
         count: 2,
       },
     ],
