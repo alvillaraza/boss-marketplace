@@ -1,5 +1,4 @@
 
-import feather_headpieces from "./assets/feather_headpieces.jpeg";
 import palm_tree_hair from "./assets/palm_tree_hair.jpeg";
 import rose_headpiece from "./assets/rose_headpiece.jpeg";
 import reindeer_led from "./assets/reindeer_led.jpeg";
@@ -8,7 +7,6 @@ import popsicles from "./assets/popsicles.jpeg";
 import bloody_bunnies from "./assets/bloody_bunnies.jpeg";
 import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
 import james_bond from "./assets/james_bond.jpeg";
-import pirate_captain from "./assets/pirate_captain.jpeg";
 import princess_leia from "./assets/princess_leia.jpeg";
 import white_bunny from "./assets/white_bunny.jpeg";
 import marching_band from "./assets/marching_band.jpeg";
@@ -61,7 +59,7 @@ const allData = [
     available: [
       {
         item: "red military hat",
-        price: 15,
+        price: 10,
         count: 2,
       },
     ],
@@ -157,7 +155,7 @@ const allData = [
     available: [
       {
         item: "white hat with wig",
-        price: 15,
+        price: 10,
         count: 1,
       },
     ],
@@ -169,7 +167,7 @@ const allData = [
     available: [
       {
         item: "white feather headpiece",
-        price: 30,
+        price: 25,
         count: 1,
       },
       {
@@ -186,7 +184,7 @@ const allData = [
     available: [
       {
         item: "pink feather tutu outfit",
-        price: 40,
+        price: 30,
         count: 1,
       },
     ],
@@ -215,20 +213,8 @@ const allData = [
     available: [
       {
         item: "bra, necklace, arm bands, skirt",
-        price: 15,
+        price: 10,
         count: 2,
-      },
-    ],
-  },
-  {
-    name: "Pirate Captain",
-    category: "hats",
-    image: pirate_captain,
-    available: [
-      {
-        item: "pirate captain hat",
-        price: 8,
-        count: 1,
       },
     ],
   },
@@ -287,7 +273,7 @@ const allData = [
     available: [
       {
         item: "Palm Tree Headpiece",
-        price: 8,
+        price: 5,
         count: 3,
       },
     ],
@@ -299,24 +285,7 @@ const allData = [
     available: [
       {
         item: "Light-up Reindeer Headband",
-        price: 40,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Showgirl Feather Headpiece",
-    category: "accessories",
-    image: feather_headpieces,
-    available: [
-      {
-        item: "feather headpieces (white)",
-        price: 25,
-        count: 1,
-      },
-      {
-        item: "bra (white)",
-        price: 10,
+        price: 35,
         count: 1,
       },
     ],
@@ -388,7 +357,7 @@ const allData = [
     available: [
       {
         item: "poinsettia headband",
-        price: 20,
+        price: 10,
         count: 10,
       },
     ],
