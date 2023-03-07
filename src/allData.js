@@ -26,6 +26,7 @@ import male_mask_front from "./assets/male_mask_front.jpeg";
 import poinsettia_fronttop from "./assets/poinsettia_fronttop.jpeg";
 import ice_crown from "./assets/icecrown_frontLEDclose.jpeg";
 import white_showgirl from './assets/white_showgirl.jpeg'
+import captain_america from './assets/captain_america.jpeg'
 
 const allData = [
   {
@@ -359,6 +360,18 @@ const allData = [
         item: "poinsettia headband",
         price: 10,
         count: 10,
+      },
+    ],
+  },
+  {
+    name: "Captain America",
+    category: "accessories",
+    image: captain_america,
+    available: [
+      {
+        item: "Captain America Shield",
+        price: 10,
+        count: 3,
       },
     ],
   },
