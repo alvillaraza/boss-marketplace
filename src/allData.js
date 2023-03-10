@@ -6,7 +6,7 @@ import pink_feather_tutu_outfit from "./assets/pink_feather_tutu_outfit.png";
 import popsicles from "./assets/popsicles.jpeg";
 import bloody_bunnies from "./assets/bloody_bunnies.jpeg";
 import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
-import james_bond from "./assets/james_bond.jpeg";
+import headform from "./assets/headform.jpeg";
 import princess_leia from "./assets/princess_leia.jpeg";
 import white_bunny from "./assets/white_bunny.jpeg";
 import marching_band from "./assets/marching_band.jpeg";
@@ -15,8 +15,6 @@ import greentophat_side from "./assets/greentophat_side.jpeg";
 import leopard_fur_front2 from "./assets/leopard_fur_front2.jpeg";
 import patriotic_tophat_front from "./assets/patriotic_tophat_front.jpeg";
 import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
-import red_military from "./assets/red_military.jpeg";
-import leather_hat from "./assets/leather_hat.jpeg";
 import marching_band_hat from "./assets/marching_band_hat.png";
 import red_queen from "./assets/red_queen.jpeg";
 import black_filigree_side from "./assets/black_filigree_side.jpeg";
@@ -38,30 +36,6 @@ const allData = [
         item: "Red queen wig with crown",
         price: 10,
         count: 1,
-      },
-    ],
-  },
-  {
-    name: "Black Leather Hat",
-    category: "hats",
-    image: leather_hat,
-    available: [
-      {
-        item: "black leather biker hat with silver chain",
-        price: 8,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Red Military Hat",
-    category: "hats",
-    image: red_military,
-    available: [
-      {
-        item: "red military hat",
-        price: 10,
-        count: 2,
       },
     ],
   },
@@ -186,23 +160,6 @@ const allData = [
       {
         item: "pink feather tutu outfit",
         price: 30,
-        count: 1,
-      },
-    ],
-  },
-  {
-    name: "Bond Girls",
-    category: "clothing",
-    image: james_bond,
-    available: [
-      {
-        item: "red dress",
-        price: 15,
-        count: 1,
-      },
-      {
-        item: "nude dress",
-        price: 15,
         count: 1,
       },
     ],
@@ -372,6 +329,18 @@ const allData = [
         item: "Captain America Shield",
         price: 10,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Mannequin Headform Wig Stand",
+    category: "accessories",
+    image: headform,
+    available: [
+      {
+        item: "Headform",
+        price: 2,
+        count: 5,
       },
     ],
   },
