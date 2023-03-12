@@ -71,7 +71,7 @@ const allData = [
       {
         item: "green bowler hat with shamrock",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -83,7 +83,7 @@ const allData = [
       {
         item: "green tophat",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -197,18 +197,6 @@ const allData = [
         item: "Straight-up ears hoodie, bra, bottoms, half top, gloves, and bunny tail",
         price: 20,
         count: 2,
-      },
-    ],
-  },
-  {
-    name: "Marching Band",
-    category: "clothing",
-    image: marching_band,
-    available: [
-      {
-        item: "marching band hat",
-        price: 28,
-        count: 3,
       },
     ],
   },
