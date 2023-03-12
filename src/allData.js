@@ -9,7 +9,7 @@ import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
 import headform from "./assets/headform.jpeg";
 import princess_leia from "./assets/princess_leia.jpeg";
 import white_bunny from "./assets/white_bunny.jpeg";
-import marching_band from "./assets/marching_band.jpeg";
+import cowboy_hat from "./assets/cowboy_hat.jpeg";
 import greenbowlerhat_side from "./assets/greenbowlerhat_side.jpeg";
 import greentophat_side from "./assets/greentophat_side.jpeg";
 import leopard_fur_front2 from "./assets/leopard_fur_front2.jpeg";
@@ -245,6 +245,18 @@ const allData = [
         item: "bomb popsicle headband",
         price: 8,
         count: 3,
+      },
+    ],
+  },
+  {
+    name: "Black Cowboy/Cowgirl Hat",
+    category: "accessories",
+    image: cowboy_hat,
+    available: [
+      {
+        item: "black cowboy/cowgirl hat",
+        price: 8,
+        count: 2,
       },
     ],
   },
