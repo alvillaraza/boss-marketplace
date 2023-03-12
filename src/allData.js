@@ -208,7 +208,7 @@ const allData = [
       {
         item: "rose headpiece",
         price: 25,
-        count: 3,
+        count: 2,
       },
     ],
   },
