@@ -83,7 +83,7 @@ const allData = [
       {
         item: "green tophat",
         price: 10,
-        count: 3,
+        count: 2,
       },
     ],
   },
@@ -95,7 +95,7 @@ const allData = [
       {
         item: "green tophat with buckle",
         price: 10,
-        count: 2,
+        count: 1,
       },
     ],
   },
