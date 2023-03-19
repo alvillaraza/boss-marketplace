@@ -7,16 +7,11 @@ import popsicles from "./assets/popsicles.jpeg";
 import bloody_bunnies from "./assets/bloody_bunnies.jpeg";
 import bloody_bunnies2 from "./assets/bloody_bunnies2.jpeg";
 import headform from "./assets/headform.jpeg";
-import princess_leia from "./assets/princess_leia.jpeg";
 import white_bunny from "./assets/white_bunny.jpeg";
 import cowboy_hat from "./assets/cowboy_hat.jpeg";
-import greenbowlerhat_side from "./assets/greenbowlerhat_side.jpeg";
-import greentophat_side from "./assets/greentophat_side.jpeg";
 import leopard_fur_front2 from "./assets/leopard_fur_front2.jpeg";
 import patriotic_tophat_front from "./assets/patriotic_tophat_front.jpeg";
-import tophatwithbuckle from "./assets/tophatwithbuckle.jpeg";
 import marching_band_hat from "./assets/marching_band_hat.png";
-import red_queen from "./assets/red_queen.jpeg";
 import black_filigree_side from "./assets/black_filigree_side.jpeg";
 import feather_mask_front from "./assets/feather_mask_front.jpeg";
 import gold_filigree_front from "./assets/gold_filigree_front.jpeg";
@@ -28,25 +23,13 @@ import captain_america from './assets/captain_america.jpeg'
 
 const allData = [
   {
-    name: "Red Queen Wig",
-    category: "wigs",
-    image: red_queen,
-    available: [
-      {
-        item: "Red queen wig with crown",
-        price: 10,
-        count: 1,
-      },
-    ],
-  },
-  {
     name: "Marching Band Hat",
     category: "hats",
     image: marching_band_hat,
     available: [
       {
         item: "marching band hat",
-        price: 20,
+        price: 10,
         count: 3,
       },
     ],
@@ -60,42 +43,6 @@ const allData = [
         item: "red, white, and blue tophat",
         price: 10,
         count: 3,
-      },
-    ],
-  },
-  {
-    name: "Green Shamrock Bowler Hat",
-    category: "hats",
-    image: greenbowlerhat_side,
-    available: [
-      {
-        item: "green bowler hat with shamrock",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Green Tophat",
-    category: "hats",
-    image: greentophat_side,
-    available: [
-      {
-        item: "green tophat",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
-    name: "Green Tophat with Buckle",
-    category: "hats",
-    image: tophatwithbuckle,
-    available: [
-      {
-        item: "green tophat with buckle",
-        price: 10,
-        count: 1,
       },
     ],
   },
@@ -118,7 +65,7 @@ const allData = [
     available: [
       {
         item: "LED ice crown",
-        price: 75,
+        price: 'make an offer',
         count: 2,
       },
     ],
@@ -130,7 +77,7 @@ const allData = [
     available: [
       {
         item: "white hat with wig",
-        price: 10,
+        price: 8,
         count: 1,
       },
     ],
@@ -165,18 +112,6 @@ const allData = [
     ],
   },
   {
-    name: "Princess Leia",
-    category: "clothing",
-    image: princess_leia,
-    available: [
-      {
-        item: "bra, necklace, arm bands, skirt",
-        price: 10,
-        count: 2,
-      },
-    ],
-  },
-  {
     name: "bloody bunnies outfit",
     category: "clothing",
     image: bloody_bunnies,
@@ -207,7 +142,7 @@ const allData = [
     available: [
       {
         item: "rose headpiece",
-        price: 25,
+        price: 20,
         count: 2,
       },
     ],
@@ -231,7 +166,7 @@ const allData = [
     available: [
       {
         item: "Light-up Reindeer Headband",
-        price: 35,
+        price: 30,
         count: 1,
       },
     ],
@@ -256,7 +191,7 @@ const allData = [
       {
         item: "black cowboy/cowgirl hat",
         price: 8,
-        count: 2,
+        count: 1,
       },
     ],
   },
@@ -267,7 +202,7 @@ const allData = [
     available: [
       {
         item: "black filigree mask",
-        price: 15,
+        price: 10,
         count: 1,
       },
     ],
@@ -279,7 +214,7 @@ const allData = [
     available: [
       {
         item: "gold filigree mask",
-        price: 15,
+        price: 10,
         count: 1,
       },
     ],
@@ -291,7 +226,7 @@ const allData = [
     available: [
       {
         item: "feather venitian mask",
-        price: 15,
+        price: 10,
         count: 1,
       },
     ],
@@ -303,7 +238,7 @@ const allData = [
     available: [
       {
         item: "male venetian mask",
-        price: 15,
+        price: 10,
         count: 1,
       },
     ],
@@ -327,7 +262,7 @@ const allData = [
     available: [
       {
         item: "Captain America Shield",
-        price: 10,
+        price: 8,
         count: 3,
       },
     ],
